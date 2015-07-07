@@ -65,7 +65,7 @@ def to_word_int(number):
         return 'ZERO '
         
     if not (0 < number < 999999999):
-        return 'Non è possibile convertire il numero in lettere'
+        return 'Non possibile convertire il numero in lettere'
  
     number_str = str(number).zfill(9)
     millions = number_str[:3]
