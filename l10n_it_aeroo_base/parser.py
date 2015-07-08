@@ -2,7 +2,7 @@
 
 import time
 import re
-from report import report_sxw
+from openerp.report import report_sxw
 from openerp.tools import DEFAULT_SERVER_DATE_FORMAT
 from datetime import datetime
 from core_extended.ordereddict import OrderedDict
