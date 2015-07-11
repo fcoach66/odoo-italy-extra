@@ -19,7 +19,10 @@ Parameters requirements:
     'depends': [
         'report_extended_sale',
         'l10n_it_aeroo_base',
-    ],
+		'l10n_it_ddt',
+		'sale_validity',
+		'l10n_it_fiscalcode',
+	],
     'data': [
         'report_configuration_defaults_data.xml',
         'sale_order_report.xml',
