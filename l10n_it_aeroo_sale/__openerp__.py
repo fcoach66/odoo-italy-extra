@@ -1,16 +1,12 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Italian Like Sale Order Aeroo Report',
+    'name': 'Italian Sale Order Aeroo Report',
     'version': '1.0',
     'category': 'Localization/Italy',
     'sequence': 14,
     'summary': '',
     'description': """
-Italian Like Sale Order / Quotation Aeroo Report
-====================================================
-Parameters requirements:
-* total_discount: require module "sale_pricelist_discount"
-* print_validity: require module "sale_order_validity"
+Italian Sale Order / Quotation and DDT Aeroo Report
     """,
     'author':  'fcoach66',
     'website': 'www.cocciari.com',
@@ -27,6 +23,7 @@ Parameters requirements:
         'report_configuration_defaults_data.xml',
         'sale_order_report.xml',
         'sale_order_template.xml',
+		'ddt_report.xml',
     ],
     'demo': [
     ],
