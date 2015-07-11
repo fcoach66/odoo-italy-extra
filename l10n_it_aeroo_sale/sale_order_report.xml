@@ -19,6 +19,22 @@
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
         </record>
 
+		<record id="view_order_form_aeroo_print" model="ir.ui.view">
+			<field name="name">sale.order.form.aeroo.print</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.order.form"/>
+			<field name="arch" type="xml">
+				<form string="Sales Order">
+					<header>
+						<button string="Print" position="replace">
+						<button name="print_quotation_aeroo" string="Print" type="object" states="draft" class="oe_highlight" groups="base.group_user"/>
+						</button>
+					</header>
+				</form>
+            </field>
+        </record>
+		
+		
         <function
             eval="([ref('action_aeroo_report_it_sale_order')])"
             id="update_lines_it_receipt"
