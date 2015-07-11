@@ -28,6 +28,11 @@
 					<header>
 						<button string="Print" position="replace">
 						<button name="print_quotation_aeroo" string="Print" type="object" states="draft" class="oe_highlight" groups="base.group_user"/>
+						<button name="print_quotation_aeroo" string="Print" type="object" states="sent,progress,manual" groups="base.group_user"/>
+						</button>
+						<button string="Send by Email" position="replace">
+						<button name="action_quotation_send_aeroo" string="Send by Email" type="object" states="draft" class="oe_highlight" groups="base.group_user"/>
+                        <button name="action_quotation_send_aeroo" string="Send by Email" type="object" states="sent,progress,manual" groups="base.group_user"/>
 						</button>
 					</header>
 				</form>
