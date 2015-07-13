@@ -24,7 +24,7 @@
 			<field name="model">stock.ddt</field>
 			<field name="inherit_id" ref="l10n_it_ddt.stock_ddt_form"/>
 			<field name="arch" type="xml">
-				<form string="DDT">
+				<form string="DdT">
 					<header>
 						<button string="Cancel" position="before">
 						<button name="print_ddt__aeroo" string="Print" type="object" states="confirmed" class="oe_highlight" groups="base.group_user"/>
