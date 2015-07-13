@@ -4,9 +4,9 @@
         <record id="action_aeroo_report_it_ddt" model="ir.actions.report.xml">
             <field name="name">Italian Aeroo DDT</field>
             <field name="type">ir.actions.report.xml</field>
-            <field name="model">stock.picking</field>
+            <field name="model">stock.ddt</field>
             <field name="sequence" eval="7"/>            
-            <field name="report_name">sale.report_ddt_aeroo</field>
+            <field name="report_name">stock.report_ddt_aeroo</field>
             <field name="report_type">aeroo</field>
             <field name="in_format">oo-odt</field>
             <field name="parser_loc">l10n_it_aeroo_base/parser.py</field>
@@ -18,5 +18,21 @@
             <field name="use_background_image" eval="True"/>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
         </record>
+		
+		<record id="view_ddt_form_aeroo_print" model="ir.ui.view">
+			<field name="name">stock.ddt.form.aeroo.print</field>
+			<field name="model">stock.ddt</field>
+			<field name="inherit_id" ref="l10n_it_ddt.stock_ddt_form"/>
+			<field name="arch" type="xml">
+				<form string="DDT">
+					<header>
+						<button string="Cancel" position="before">
+						<button name="print_ddt__aeroo" string="Print" type="object" states="confirmed" class="oe_highlight" groups="base.group_user"/>
+						</button>
+					</header>
+				</form>
+            </field>
+        </record>
+
     </data>
 </openerp>
