@@ -27,7 +27,7 @@ from openerp.tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FO
 import openerp.addons.decimal_precision as dp
 from openerp import workflow
 
-def print_quotation_aeroo(self, cr, uid, ids, context=None):
+def print_ddt_aeroo(self, cr, uid, ids, context=None):
         '''
         This function prints the sales order and mark it as sent, so that we can see more easily the next step of the workflow
         '''
