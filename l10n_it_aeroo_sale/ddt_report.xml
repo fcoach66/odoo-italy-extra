@@ -26,9 +26,7 @@
 			<field name="arch" type="xml">
 				<form string="DdT">
 					<header>
-						<button string="Cancel" position="before">
 						<button name="print_ddt_aeroo" string="Print" type="object" states="confirmed" class="oe_highlight" groups="base.group_user"/>
-						</button>
 					</header>
 				</form>
             </field>
