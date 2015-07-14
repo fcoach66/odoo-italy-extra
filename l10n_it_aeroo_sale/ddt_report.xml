@@ -2,7 +2,7 @@
 <openerp>
     <data noupdate="1">
         <record id="action_aeroo_report_it_ddt" model="ir.actions.report.xml">
-            <field name="name">Italian Aeroo DDT</field>
+            <field name="name">DdT Aeroo</field>
             <field name="type">ir.actions.report.xml</field>
             <field name="model">stock.ddt</field>
             <field name="sequence" eval="7"/>            
@@ -19,18 +19,15 @@
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
         </record>
 		
-		<record id="view_ddt_form_aeroo_print" model="ir.ui.view">
-			<field name="name">stock.ddt.form.aeroo.print</field>
-			<field name="model">stock.ddt</field>
-			<field name="inherit_id" ref="l10n_it_ddt.stock_ddt_form"/>
-			<field name="arch" type="xml">
-				<form string="DdT">
-					<header>
-						<button name="print_ddt_aeroo" string="Print" type="object" states="confirmed" class="oe_highlight" groups="base.group_user"/>
-					</header>
-				</form>
-            </field>
-        </record>
+		<ir_set>
+            <field eval="'action'" name="key"/>
+            <field eval="'client_print_multi'" name="key2"/>
+            <field eval="['stock.ddt']" name="models"/>
+            <field name="name">DdT Aeroo</field>
+            <field eval="'ir.actions.report.xml,'+str(action_aeroo_report_it_ddt)" name="value"/>
+            <field eval="True" name="isobject"/>
+            <field eval="True" name="replace"/>
+        </ir_set>
 
     </data>
 </openerp>

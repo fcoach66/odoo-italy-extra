@@ -2,7 +2,7 @@
 <openerp>
     <data noupdate="1">
         <record id="action_aeroo_report_it_sale_order" model="ir.actions.report.xml">
-            <field name="name">Italian Aeroo Sale Order</field>
+            <field name="name">Preventivo/Ordine di Vendita Aeroo</field>
             <field name="type">ir.actions.report.xml</field>
             <field name="model">sale.order</field>
             <field name="sequence" eval="7"/>            
