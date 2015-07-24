@@ -28,7 +28,7 @@
        &nbsp;&nbsp;Vs. riferimento: ${object.client_order_ref}<br />
        % endif
        % if object.user_id:
-       &nbsp;&nbsp;Vs. contatto di riferimento: <a href="mailto:${object.user_id.email or ''}?subject=Order%20${object.name}">${object.user_id.name}</a>
+       &nbsp;&nbsp;Ns. contatto di riferimento: <a href="mailto:${object.user_id.email or ''}?subject=${object.state in ('draft', 'sent') and 'Preventivo' or 'Ordine'}%20${object.name}">${object.user_id.name}</a>
        % endif
     </p>
     <br/>
@@ -103,7 +103,7 @@
        &nbsp;&nbsp;Vs. riferimento: ${object.client_order_ref}<br />
        % endif
        % if object.user_id:
-	   &nbsp;&nbsp;Vs. contatto di riferimento: <a href="mailto:${object.user_id.email or ''}?subject=Order%20${object.name}">${object.user_id.name}</a>
+	   &nbsp;&nbsp;Ns. contatto di riferimento: <a href="mailto:${object.user_id.email or ''}?subject=${object.state in ('draft', 'sent') and 'Preventivo' or 'Ordine'}%20${object.name}">${object.user_id.name}</a>
        % endif
     </p>
 
