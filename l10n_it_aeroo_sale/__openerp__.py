@@ -13,7 +13,8 @@ Italian Sale Order / Quotation and DDT Aeroo Report
     'images': [
     ],
     'depends': [
-        'report_extended_sale',
+		'portal_sale',
+		'report_extended_sale',
         'l10n_it_aeroo_base',
 		'l10n_it_ddt',
 		'sale_validity',
