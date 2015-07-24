@@ -17,7 +17,7 @@
     
     <p>in allegato alla presente comunicazione trova il suo ${object.state in ('draft', 'sent') and 'preventivo' or 'ordine'} da ${object.company_id.name}: </p>
     <p style="border-left: 1px solid #8e0000; margin-left: 30px;">
-       &nbsp;&nbsp;<strong>REFERENCES</strong><br />
+       &nbsp;&nbsp;<strong>INFORMAZIONI PRINCIPALI</strong><br />
        &nbsp;&nbsp;Numero ${object.state in ('draft', 'sent') and 'preventivo' or 'ordine'}: <strong>${object.name}</strong><br />
        &nbsp;&nbsp;Totale ${object.state in ('draft', 'sent') and 'preventivo' or 'ordine'}: <strong>${object.amount_total} ${object.pricelist_id.currency_id.name}</strong><br />
        &nbsp;&nbsp;Data ${object.state in ('draft', 'sent') and 'preventivo' or 'ordine'}:  ${format_tz(object.date_order, tz=user.tz, context={'lang':object.partner_id.lang})} <br />
@@ -92,7 +92,7 @@
     <p>in allegato alla presente comunicazione trova il suo ${object.state in ('draft', 'sent') and 'preventivo' or 'ordine'} da ${object.company_id.name}: </p>
 
     <p style="border-left: 1px solid #8e0000; margin-left: 30px;">
-       &nbsp;&nbsp;<strong>REFERENCES</strong><br />
+       &nbsp;&nbsp;<strong>INFORMAZIONI PRINCIPALI</strong><br />
 	   &nbsp;&nbsp;Numero ${object.state in ('draft', 'sent') and 'preventivo' or 'ordine'}: <strong>${object.name}</strong><br />
        &nbsp;&nbsp;Totale ${object.state in ('draft', 'sent') and 'preventivo' or 'ordine'}: <strong>${object.amount_total} ${object.pricelist_id.currency_id.name}</strong><br />
        &nbsp;&nbsp;Data ${object.state in ('draft', 'sent') and 'preventivo' or 'ordine'}:  ${format_tz(object.date_order, tz=user.tz, context={'lang':object.partner_id.lang})} <br />
