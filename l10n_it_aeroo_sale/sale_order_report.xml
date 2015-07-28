@@ -26,19 +26,19 @@
 			<field name="arch" type="xml">
 				<xpath expr="//button[@name='print_quotation']"
 					 position="attributes">
-					 <attribute name="name">l10n_it_aeroo_sale.print_quotation_aeroo</attribute>
+					 <attribute name="name">print_quotation_aeroo</attribute>
 				</xpath>
 				<xpath expr="//button[@name='print_quotation']"
 					 position="attributes">
-					 <attribute name="name">l10n_it_aeroo_sale.print_quotation_aeroo</attribute>
+					 <attribute name="name">print_quotation_aeroo</attribute>
 				</xpath>				
 				<xpath expr="//button[@name='action_quotation_send']"
 					 position="attributes">
-					 <attribute name="name">l10n_it_aeroo_sale.action_quotation_send_aeroo</attribute>
+					 <attribute name="name">action_quotation_send_aeroo</attribute>
 				</xpath>				
 				<xpath expr="//button[@name='action_quotation_send']"
 					 position="attributes">
-					 <attribute name="name">l10n_it_aeroo_sale.action_quotation_send_aeroo</attribute>
+					 <attribute name="name">action_quotation_send_aeroo</attribute>
 				</xpath>				
 			</field>
         </record>
