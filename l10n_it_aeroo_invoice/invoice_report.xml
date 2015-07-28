@@ -18,5 +18,23 @@
             <field name="use_background_image" eval="True"/>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
         </record>
-    </data>
+		
+		
+		<record id="view_invoice_form_aeroo_print" model="ir.ui.view">
+			<field name="name">account.invoice.form.aeroo.print</field>
+			<field name="model">account.invoice</field>
+			<field name="inherit_id" ref="account.invoice_form"/>
+			<field name="arch" type="xml">
+				<form string="Invoice">
+					<header>
+						<button string="Print" position="replace">
+						<button name="print_invoice_aeroo" string="Print" type="object" states="open" class="oe_highlight" groups="base.group_user"/>
+						<button name="print_invoice_aeroo" string="Print" type="object" states="draft,paid" groups="base.group_user"/>
+						</button>
+					</header>
+				</form>
+            </field>
+        </record>
+		
+	</data>
 </openerp>
