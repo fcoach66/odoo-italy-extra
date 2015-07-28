@@ -20,6 +20,7 @@ Italian Invoice Aeroo Report
 	],
     'data': [
         'invoice_report.xml',
+		'invoice_template.xml',
     ],
     'demo': [
     ],
