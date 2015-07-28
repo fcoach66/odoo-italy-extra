@@ -25,18 +25,22 @@
 			<field name="inherit_id" ref="sale.view_order_form"/>
 			<field name="arch" type="xml">
 				<xpath expr="//button[@string='Print']"
-					 position="replace" />
+					 position="attributes">
+					 <attribute name="name">l10n_it_aeroo_sale.print_quotation_aeroo</attribute>
+				</xpath>
 				<xpath expr="//button[@string='Print']"
-					 position="replace" />
-				<button name="l10n_it_aeroo_sale.print_quotation_aeroo" string="Print" type="object" states="draft" class="oe_highlight" groups="base.group_user"/>
-				<button name="l10n_it_aeroo_sale.print_quotation_aeroo" string="Print" type="object" states="sent,progress,manual" groups="base.group_user"/>
+					 position="attributes">
+					 <attribute name="name">l10n_it_aeroo_sale.print_quotation_aeroo</attribute>
+				</xpath>				
 				<xpath expr="//button[@string='Send by Email']"
-					 position="replace" />
+					 position="attributes">
+					 <attribute name="name">l10n_it_aeroo_sale.action_quotation_send_aeroo</attribute>
+				</xpath>				
 				<xpath expr="//button[@string='Send by Email']"
-					 position="replace" />
-				<button name="l10n_it_aeroo_sale.action_quotation_send_aeroo" string="Send by Email" type="object" states="draft" class="oe_highlight" groups="base.group_user"/>
-                <button name="l10n_it_aeroo_sale.action_quotation_send_aeroo" string="Send by Email" type="object" states="sent,progress,manual" groups="base.group_user"/>
-            </field>
+					 position="attributes">
+					 <attribute name="name">l10n_it_aeroo_sale.action_quotation_send_aeroo</attribute>
+				</xpath>				
+			</field>
         </record>
 		
 		
