@@ -19,13 +19,11 @@
 #
 ##############################################################################
 
-from datetime import datetime, timedelta
-import time
-from openerp.osv import fields, osv
-from openerp.tools.translate import _
-from openerp.tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FORMAT
-import openerp.addons.decimal_precision as dp
-from openerp import workflow
+from openerp import fields
+from openerp import models
+from openerp import api
+from openerp import _
+from openerp.exceptions import Warning
 
 class StockDdT(models.Model):
         _inherit = 'stock.ddt'
