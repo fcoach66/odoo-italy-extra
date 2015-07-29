@@ -26,7 +26,7 @@
 			<field name="arch" type="xml">
 				<xpath expr="//button[@name='ddt_confirmed_cancel']"
 					 position="before">
-					 <button name="print_ddt" states="confirmed" string="Print" class="oe_highlight"/>
+					 <button name="print_ddt_aeroo" states="confirmed" string="Print" class="oe_highlight"/>
 				</xpath>
 			</field>
         </record>
