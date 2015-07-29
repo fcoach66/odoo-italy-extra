@@ -25,8 +25,8 @@
 			<field name="inherit_id" ref="l10n_it_ddt.stock_ddt_form"/>
 			<field name="arch" type="xml">
 				<xpath expr="//button[@name='ddt_confirmed_cancel']"
-					 position="after">
-					 <button name="print_ddt" states="confirmed" string="Print"/>
+					 position="before">
+					 <button name="print_ddt" states="confirmed" string="Print" class="oe_highlight"/>
 				</xpath>
 			</field>
         </record>
