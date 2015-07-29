@@ -13,7 +13,10 @@
             <field name="lang">${object.partner_id.lang}</field>
             <field name="body_html"><![CDATA[
 <div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; ">
-    <p>Spett.le ${object.partner_id.name},</p>
+    
+	% if object.company_id.parent_id:
+	<p>Spett.le ${object.company_id.parent_id.display_name},</p>
+	% endif
     
     <p>in allegato alla presente comunicazione trova il suo ${object.state in ('draft', 'sent') and 'preventivo' or 'ordine'} da ${object.company_id.name}: </p>
     <p style="border-left: 1px solid #8e0000; margin-left: 30px;">
@@ -86,6 +89,10 @@
             <field name="user_signature" eval="True"/>
             <field name="body_html"><![CDATA[
 <div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); ">
+
+	% if object.company_id.parent_id:
+	<p>Spett.le ${object.company_id.parent_id.display_name},</p>
+	% endif
 
     <p>Spett.le ${object.partner_id.name},</p>
     

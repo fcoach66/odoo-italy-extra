@@ -12,36 +12,27 @@
            <field name="report_name">Invoice_${(object.number or '').replace('/','_')}_${object.state == 'draft' and 'draft' or ''}</field>
            <field name="lang">${object.partner_id.lang}</field>
            <field name="body_html"><![CDATA[
-div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; ">
+<div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; ">
 
     <p>Spett.le ${object.partner_id.name},</p>
 
-    <p>A new invoice is available for you: </p>
+    <p>in allegato alla presente comunicazione trova la sua fattura.</p>
     
     <p style="border-left: 1px solid #8e0000; margin-left: 30px;">
-       &nbsp;&nbsp;<strong>REFERENCES</strong><br />
+       &nbsp;&nbsp;<strong>INFORMAZIONI PRINCIPALI</strong><br />
        &nbsp;&nbsp;Numero fattura: <strong>${object.number}</strong><br />
        &nbsp;&nbsp;Totale fattura: <strong>${object.amount_total} ${object.currency_id.name}</strong><br />
        &nbsp;&nbsp;Data fattura: ${object.date_invoice}<br />
        % if object.origin:
-       &nbsp;&nbsp;Order reference: ${object.origin}<br />
+       &nbsp;&nbsp;Riferimenti ordine: ${object.origin}<br />
        % endif
        % if object.user_id:
-       &nbsp;&nbsp;Your contact: <a href="mailto:${object.user_id.email or ''}?subject=Invoice%20${object.number}">${object.user_id.name}</a>
+       &nbsp;&nbsp;Ns. contatto di riferimento: <a href="mailto:${object.user_id.email or ''}?subject=Fattura%20${object.number}">${object.user_id.name}</a>
        % endif
     </p>  
-    
-    % if object.paypal_url:
     <br/>
-    <p>It is also possible to directly pay with Paypal:</p>
-        <a style="margin-left: 120px;" href="${object.paypal_url}">
-            <img class="oe_edi_paypal_button" src="/account/static/src/img/btn_paynowcc_lg.gif"/>
-        </a>
-    % endif
-    
-    <br/>
-    <p>If you have any question, do not hesitate to contact us.</p>
-    <p>Thank you for choosing ${object.company_id.name or 'us'}!</p>
+    <p>Per qualsiasi richiesta e/o informazione non esiti a contattarci.</p>
+    <p>Grazie per avere scelto ${object.company_id.name or 'us'}!</p>
     <br/>
     <br/>
     <div style="width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;">
@@ -90,45 +81,37 @@ div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; fon
             <field name="report_name">Invoice_${(object.number or '').replace('/','_')}_${object.state == 'draft' and 'draft' or ''}</field>
             <field name="lang">${object.partner_id.lang}</field>
             <field name="body_html"><![CDATA[
-<div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); ">
+<div style="font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: #FFF; ">
 
     <p>Spett.le ${object.partner_id.name},</p>
 
-    <p>A new invoice is available for you: </p>
+    <p>in allegato alla presente comunicazione trova la sua fattura.</p>
     
     <p style="border-left: 1px solid #8e0000; margin-left: 30px;">
-       &nbsp;&nbsp;<strong>REFERENCES</strong><br />
+       &nbsp;&nbsp;<strong>INFORMAZIONI PRINCIPALI</strong><br />
        &nbsp;&nbsp;Fattura numero: <strong>${object.number}</strong><br />
        &nbsp;&nbsp;Totale fattura: <strong>${object.amount_total} ${object.currency_id.name}</strong><br />
        &nbsp;&nbsp;Data fattura: ${object.date_invoice}<br />
        % if object.origin:
-       &nbsp;&nbsp;Order reference: ${object.origin}<br />
+       &nbsp;&nbsp;Riferimenti ordine: ${object.origin}<br />
        % endif
        % if object.user_id:
-       &nbsp;&nbsp;Your contact: <a href="mailto:${object.user_id.email or ''}?subject=Invoice%20${object.number}">${object.user_id.name}</a>
+       &nbsp;&nbsp;Ns. contatto di riferimento: <a href="mailto:${object.user_id.email or ''}?subject=Invoice%20${object.number}">${object.user_id.name}</a>
        % endif
     </p>  
 
     <% set signup_url = object.get_signup_url() %>
     % if signup_url:
     <p>
-    You can access the invoice document and pay online via our Customer Portal:
+    E' possibile visualizzare online questo documento sul nostro Portale Clienti:
     </p>
         <a style="display:block; width: 150px; height:20px; margin-left: 120px; color: #DDD; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; text-align: center; text-decoration: none !important; line-height: 1; padding: 5px 0px 0px 0px; background-color: #8E0000; border-radius: 5px 5px; background-repeat: repeat no-repeat;"
-           href="${signup_url}">View Invoice</a>
-    % endif
-    
-    % if object.paypal_url:
-    <br/>
-    <p>It is also possible to directly pay with Paypal:</p>
-        <a style="margin-left: 120px;" href="${object.paypal_url}">
-            <img class="oe_edi_paypal_button" src="/sale/static/img/btn_paynowcc_lg.gif"/>
-        </a>
+           href="${signup_url}">Visualizza Fattura</a>
     % endif
     
     <br/>
-    <p>If you have any question, do not hesitate to contact us.</p>
-    <p>Thank you for choosing ${object.company_id.name or 'us'}!</p>
+    <p>Per qualsiasi richiesta e/o informazione non esiti a contattarci.</p>
+    <p>Grazie per avere scelto ${object.company_id.name or 'us'}!</p>
     <br/>
     <br/>
     <div style="width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;">
