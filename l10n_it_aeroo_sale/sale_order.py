@@ -33,7 +33,7 @@ class sale_order(osv.osv):
     _description = 'Sale Order'
 
 
-    def print_quotation_aeroo(self, cr, uid, ids, context=None):
+    def print_quotation(self, cr, uid, ids, context=None):
         '''
             This function prints the sales order and mark it as sent, so that we can see more easily the next step of the workflow
             '''
@@ -42,7 +42,7 @@ class sale_order(osv.osv):
         return self.pool['report'].get_action(cr, uid, ids, 'sale.report_saleorder_aeroo', context=context)
 
 
-    def action_quotation_send_aeroo(self, cr, uid, ids, context=None):
+    def action_quotation_send(self, cr, uid, ids, context=None):
         '''
             This function opens a window to compose an email, with the edi sale template message loaded by default
             '''
