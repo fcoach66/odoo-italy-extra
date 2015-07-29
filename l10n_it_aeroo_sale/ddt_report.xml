@@ -18,7 +18,19 @@
             <field name="use_background_image" eval="True"/>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
         </record>
-		
+
+		<record id="view_ddt_form_aeroo_print" model="ir.ui.view">
+			<field name="name">stock.ddt.form.aeroo.print</field>
+			<field name="model">stock.ddt</field>
+			<field name="inherit_id" ref="l10n_it_ddt.stock_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//button[@name='ddt_confirmed_cancel']"
+					 position="after">
+					 <button name="print_ddt" states="confirmed" string="Print"/>
+				</xpath>
+			</field>
+        </record>
+	
 		<ir_set>
             <field eval="'action'" name="key"/>
             <field eval="'client_print_multi'" name="key2"/>

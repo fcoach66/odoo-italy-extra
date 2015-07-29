@@ -27,10 +27,14 @@ from openerp.tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FO
 import openerp.addons.decimal_precision as dp
 from openerp import workflow
 
-def print_ddt_aeroo(self, cr, uid, ids, context=None):
-        '''
-        This function prints the sales order and mark it as sent, so that we can see more easily the next step of the workflow
-        '''
-        assert len(ids) == 1, 'This option should only be used for a single id at a time'
-        return self.pool['report'].get_action(cr, uid, ids, 'stock.report_ddt_aeroo', context=context)
+class StockDdT(models.Model):
+        _inherit = 'stock.ddt'
+        _description = 'DdT'
+
+        def print_ddt(self, cr, uid, ids, context=None):
+                '''
+                This function prints the ddt and mark it as sent, so that we can see more easily the next step of the workflow
+                '''
+                assert len(ids) == 1, 'This option should only be used for a single id at a time'
+                return self.pool['report'].get_action(cr, uid, ids, 'stock.report_ddt_aeroo', context=context)
 
