@@ -19,53 +19,47 @@
 #
 ##############################################################################
 
-from datetime import datetime, timedelta
-import time
-from openerp.osv import fields, osv
-from openerp.tools.translate import _
-from openerp.tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FORMAT
-import openerp.addons.decimal_precision as dp
-from openerp import workflow
+from openerp import models, fields, api, _
+from openerp.exceptions import except_orm, Warning, RedirectWarning
+from openerp.tools import float_compare
 
+class account_invoice(models.Model):
+    _inherit = ['account.invoice']
+    _description = "Invoice"
 
-def print_invoice_aeroo(self, cr, uid, ids, context=None):
-    '''
-        This function prints the invoice and mark it as sent, so that we can see more easily the next step of the workflow
-        '''
-    assert len(ids) == 1, 'This option should only be used for a single id at a time'
-    self.signal_workflow(cr, uid, ids, 'quotation_sent')
-    return self.pool['report'].get_action(cr, uid, ids, 'account.report_invoice_aeroo', context=context)
+    @api.multi
+    def invoice_print(self):
+        """ Print the invoice and mark it as sent, so that we can see more
+            easily the next step of the workflow
+        """
+        assert len(self) == 1, 'This option should only be used for a single id at a time.'
+        self.sent = True
+        return self.env['report'].get_action(self, 'account.report_invoice_aeroo')
 
-def action_invoice_send_aeroo(self, cr, uid, ids, context=None):
-        '''
-        This function opens a window to compose an email, with the edi invoice template message loaded by default
-        '''
-        assert len(ids) == 1, 'This option should only be used for a single id at a time.'
-        ir_model_data = self.pool.get('ir.model.data')
-        try:
-            template_id = ir_model_data.get_object_reference(cr, uid, 'account', 'email_template_edi_invoice_aeroo')[1]
-        except ValueError:
-            template_id = False
-        try:
-            compose_form_id = ir_model_data.get_object_reference(cr, uid, 'mail', 'email_compose_message_wizard_form')[1]
-        except ValueError:
-            compose_form_id = False
-        ctx = dict()
-        ctx.update({
-            'default_model': 'account.invoice',
-            'default_res_id': ids[0],
-            'default_use_template': bool(template_id),
-            'default_template_id': template_id,
-            'default_composition_mode': 'comment',
-            'mark_so_as_sent': True
-        })
+    @api.multi
+    def action_invoice_sent(self):
+        """ Open a window to compose an email, with the edi invoice template
+            message loaded by default
+        """
+        assert len(self) == 1, 'This option should only be used for a single id at a time.'
+        template = self.env.ref('account.email_template_edi_invoice_aeroo', False)
+        compose_form = self.env.ref('mail.email_compose_message_wizard_form', False)
+        ctx = dict(
+            default_model='account.invoice',
+            default_res_id=self.id,
+            default_use_template=bool(template),
+            default_template_id=template.id,
+            default_composition_mode='comment',
+            mark_invoice_as_sent=True,
+        )
         return {
+            'name': _('Compose Email'),
             'type': 'ir.actions.act_window',
             'view_type': 'form',
             'view_mode': 'form',
             'res_model': 'mail.compose.message',
-            'views': [(compose_form_id, 'form')],
-            'view_id': compose_form_id,
+            'views': [(compose_form.id, 'form')],
+            'view_id': compose_form.id,
             'target': 'new',
             'context': ctx,
         }

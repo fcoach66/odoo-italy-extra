@@ -18,27 +18,30 @@
             <field name="use_background_image" eval="True"/>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
         </record>
-		
-		
+	
 		<record id="view_invoice_form_aeroo_print" model="ir.ui.view">
 			<field name="name">account.invoice.form.aeroo.print</field>
 			<field name="model">account.invoice</field>
 			<field name="inherit_id" ref="account.invoice_form"/>
+
 			<field name="arch" type="xml">
-				<form string="Invoice">
-					<header>
-						<button string="Print" position="replace">
-						<button name="print_invoice_aeroo" string="Print" type="object" states="open" class="oe_highlight" groups="base.group_user"/>
-						<button name="print_invoice_aeroo" string="Print" type="object" states="draft,paid" groups="base.group_user"/>
-						</button>
-						<button string="Send by Email" position="replace">
-						<button name="action_invoice_send_aeroo" string="Send by Email" type="object" states="open" class="oe_highlight" groups="base.group_user"/>
-                        <button name="action_invoice_send_aeroo" string="Send by Email" type="object" states="draft,paid" groups="base.group_user"/>
-						</button>
-					</header>
-				</form>
-            </field>
+				<xpath expr="//button[@name='invoice_print']"
+					 position="attributes">
+					 <attribute name="name">invoice_print</attribute>
+				</xpath>
+				<xpath expr="//button[@name='invoice_print']"
+					 position="attributes">
+					 <attribute name="name">invoice_print</attribute>
+				</xpath>				
+				<xpath expr="//button[@name='action_invoice_sent']"
+					 position="attributes">
+					 <attribute name="name">action_invoice_sent</attribute>
+				</xpath>				
+				<xpath expr="//button[@name='action_invoice_sent']"
+					 position="attributes">
+					 <attribute name="name">action_invoice_sent</attribute>
+				</xpath>				
+			</field>
         </record>
-		
 	</data>
 </openerp>
