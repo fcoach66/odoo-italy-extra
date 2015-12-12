@@ -4,7 +4,7 @@
         <record id="action_aeroo_report_it_ddt" model="ir.actions.report.xml">
             <field name="name">DdT Aeroo</field>
             <field name="type">ir.actions.report.xml</field>
-            <field name="model">stock.ddt</field>
+            <field name="model">stock.picking.package.preparation</field>
             <field name="sequence" eval="7"/>            
             <field name="report_name">stock.report_ddt_aeroo</field>
             <field name="report_type">aeroo</field>

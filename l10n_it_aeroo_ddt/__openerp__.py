@@ -1,28 +1,24 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Italian Sale Order Aeroo Report',
+    'name': 'Italian Ddt Aeroo Report',
     'version': '1.0',
     'category': 'Localization/Italy',
     'sequence': 14,
     'summary': '',
     'description': """
-Italian Sale Order / Quotation Aeroo Report
+Italian Ddt Aeroo Report
     """,
     'author':  'fcoach66',
     'website': 'www.cocciari.com',
     'images': [
     ],
     'depends': [
-		'portal_sale',
-		'report_extended_sale',
         'l10n_it_aeroo_base',
-		'sale_validity',
-		'l10n_it_fiscalcode',
+		'l10n_it_ddt',
 	],
     'data': [
         'report_configuration_defaults_data.xml',
-        'sale_order_report.xml',
-        'sale_order_template.xml',
+		'ddt_report.xml',
     ],
     'demo': [
     ],
