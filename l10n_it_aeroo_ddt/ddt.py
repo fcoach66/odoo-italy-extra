@@ -26,7 +26,7 @@ from openerp import _
 from openerp.exceptions import Warning
 
 class StockDdT(models.Model):
-        _inherit = 'stock.ddt'
+        _inherit = 'stock.picking.package.preparation'
         _description = 'DdT'
 
         def print_ddt(self, cr, uid, ids, context=None):
