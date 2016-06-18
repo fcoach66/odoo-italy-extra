@@ -24,10 +24,7 @@
 			<field name="model">stock.picking.package.preparation</field>
 			<field name="inherit_id" ref="l10n_it_ddt.ddt_stock_picking_package_preparation_form"/>
 			<field name="arch" type="xml">
-				<xpath expr="//button[@name='create_invoice']"
-					 position="before">
-					 <button name="print_ddt" type="object" states="done" string="Print" class="oe_highlight"/>
-				</xpath>
+				 <button name="print_ddt" type="object" states="done" string="Print" class="oe_highlight"/>
 			</field>
         </record>
     
