@@ -26,7 +26,7 @@
 			<field name="arch" type="xml">
 				<xpath expr="//button[@name='action_draft']"
 					 position="before">
-					 <button name="print_ddt" type="object" states="confirmed" string="Print" class="oe_highlight"/>
+					 <button name="print_ddt" type="object" string="Print DDT" class="oe_highlight" attrs="{'invisible':['|', ('state', '!=', 'done'), ('ddt_type_id', '=', False)]}"/>
 				</xpath>
 			</field>
         </record>
