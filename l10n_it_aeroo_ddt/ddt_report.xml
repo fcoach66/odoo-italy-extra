@@ -30,6 +30,16 @@
 				</xpath>
 			</field>
         </record>
-    
+    	
+    	<report
+            string="DDT"
+            id="action_report_ddt"
+            model="stock.picking.package.preparation"
+            report_type="qweb-pdf"
+            name="l10n_it_ddt.report_ddt_main"
+            file="l10n_it_ddt.report_ddt_main"
+            menu="False"
+        />
+            
     </data>
 </openerp>
