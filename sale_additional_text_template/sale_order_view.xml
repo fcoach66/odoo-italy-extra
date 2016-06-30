@@ -24,8 +24,6 @@
                 on_change="set_additional_text_2(additional_text_template2_id, partner_id)"/>
               <field name="additional_text_2" nolabel="1" colspan="2"/>
             </group>
-			
-			</group>
             <group string="Limitation">
               <field name="additional_text_template3_id"
                 string="Load a template"
@@ -34,7 +32,6 @@
                 on_change="set_additional_text_3(additional_text_template3_id, partner_id)"/>
               <field name="additional_text_3" nolabel="1" colspan="2"/>
             </group>
-			
           </page>
         </xpath>
       </field>
