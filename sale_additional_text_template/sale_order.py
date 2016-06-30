@@ -42,7 +42,7 @@ class SaleOrder(orm.Model):
 	}
 
 	
-	def set_comment(self, cr, uid, cond_id, field_name, partner_id):
+	def set_additional_text(self, cr, uid, cond_id, field_name, partner_id):
 		if not cond_id:
 			return {'value': {field_name: ''}}
 		cond_obj = self.pool['sale.additional_text.template']
@@ -50,11 +50,11 @@ class SaleOrder(orm.Model):
 		return {'value': {field_name: text}}
 
 	def set_additional_text_1(self, cr, uid, so_id, cond_id, partner_id):
-		return self.set_comment(cr, uid, cond_id, 'additional_text_1', partner_id)
+		return self.set_additional_text(cr, uid, cond_id, 'additional_text_1', partner_id)
 
 	def set_additional_text_2(self, cr, uid, so_id, cond_id, partner_id):
-		return self.set_comment(cr, uid, cond_id, 'additional_text_2', partner_id)
+		return self.set_additional_text(cr, uid, cond_id, 'additional_text_2', partner_id)
 
 	def set_additional_text_3(self, cr, uid, so_id, cond_id, partner_id):
-		return self.set_comment(cr, uid, cond_id, 'additional_text_3', partner_id)
+		return self.set_additional_text(cr, uid, cond_id, 'additional_text_3', partner_id)
 
