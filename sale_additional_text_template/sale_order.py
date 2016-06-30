@@ -22,22 +22,21 @@ from openerp.osv import orm, fields
 
 
 class SaleOrder(orm.Model):
-    """Add text comment"""
 
-    _inherit = "sale.order"
-    _columns = {
-        'additional_text_template1_id': fields.many2one(
-            'sale.additional_text.template',
-            'Subject'),
-        'additional_text_template2_id': fields.many2one(
-            'sale.additional_text.template',
-            'Description'),
+	_inherit = "sale.order"
+	_columns = {
+		'additional_text_template1_id': fields.many2one(
+			'sale.additional_text.template',
+			'Subject'),
+		'additional_text_template2_id': fields.many2one(
+			'sale.additional_text.template',
+			'Description'),
 		'additional_text_template3_id': fields.many2one(
-            'sale.additional_text.template',
-            'Limitation'),
+			'sale.additional_text.template',
+			'Limitation'),
 		
-        'additional_text_1': fields.text('Subject'),
-        'additional_text_2': fields.text('Description'),
+		'additional_text_1': fields.text('Subject'),
+		'additional_text_2': fields.text('Description'),
 		'additional_text_3': fields.text('Limitation'),
 		
 	}
@@ -59,13 +58,3 @@ class SaleOrder(orm.Model):
 	def set_additional_text_3(self, cr, uid, so_id, cond_id, partner_id):
 		return self.set_comment(cr, uid, cond_id, 'additional_text_3', partner_id)
 
-		values.update({
-			'additional_text_template1_id': order.additional_text_template1_id.id,
-			'additional_text_template2_id': order.additional_text_template2_id.id,
-			'additional_text_template3_id': order.additional_text_template3_id.id,
-    
-			'additional_text_1': order.additional_text_1,
-			'additional_text_2': order.additional_text_2,
-			'additional_text_3': order.additional_text_3,
-		})
-		return values
