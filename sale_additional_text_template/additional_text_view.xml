@@ -7,7 +7,7 @@
       <field name="arch" type="xml">
         <search string="Additional Text Templates">
           <field name="name"/>
-          <field name="position"/>
+          <field name="type"/>
         </search>
       </field>
     </record>
@@ -19,7 +19,7 @@
         <form string="Additional Text Templates">
           <group>
             <field name="name"/>
-            <field name="position"/>
+            <field name="type"/>
             <field name="text" colspan="4"/>
           </group>
         </form>
@@ -33,7 +33,7 @@
       <field name="arch" type="xml">
         <tree string="Additional Text Templates">
           <field name="name"/>
-          <field name="position"/>
+          <field name="type"/>
         </tree>
       </field>
     </record>
