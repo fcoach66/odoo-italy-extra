@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+  <data>
+    <record model="ir.ui.view" id="view_sale_additional_text_template_search">
+      <field name="name">base.sale.additional_text.template.search</field>
+      <field name="model">base.sale.additional_text.template</field>
+      <field name="arch" type="xml">
+        <search string="Additional Text Templates">
+          <field name="name"/>
+          <field name="position"/>
+        </search>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_sale_additional_text_template_form">
+      <field name="name">base.sale.additional_text.template.form</field>
+      <field name="model">base.sale.additional_text.template</field>
+      <field name="arch" type="xml">
+        <form string="Additional Text Templates">
+          <group>
+            <field name="name"/>
+            <field name="position"/>
+            <field name="text" colspan="4"/>
+          </group>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_sale_additional_text_template_tree">
+      <field name="name">account.sale.additional_text.template.list</field>
+      <field name="model">base.sale.additional_text.template</field>
+      <field name="priority" eval="6"/>
+      <field name="arch" type="xml">
+        <tree string="Additional Text Templates">
+          <field name="name"/>
+          <field name="position"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sale_additional_text_template">
+      <field name="name">Additional Text Templates</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="res_model">base.sale.additional_text.template</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+      <field name="view_id" ref="view_sale_additional_text_template_tree"/>
+    </record>
+
+  </data>
+</openerp>
