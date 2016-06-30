@@ -16,7 +16,7 @@ class SaleAdditionalTextTemplate(models.Model):
                                 required=True,
                                 default='subject',
                                 help="Type of additional text")
-    text = fields.text('Text', translate=True, required=True)
+    text = fields.Text('Text', translate=True, required=True)
 
     @api.multi
     def get_value(self, partner_id=False):
