@@ -59,11 +59,15 @@
 					 position="attributes">
 					 <attribute name="name">action_quotation_send</attribute>
 				</xpath>				
+				<xpath expr="//button[@name='print_quotation']"
+					 position="after">
+					 <button name="print_quotation_pdf" type="object" string="Print PDF"/>
+				</xpath>
 			</field>
         </record>
 		
 		
-        <function
+		<function
             eval="([ref('action_aeroo_report_it_sale_order')])"
             id="update_lines_it_receipt"
             model="ir.actions.report.xml"

@@ -41,7 +41,15 @@ class sale_order(osv.osv):
         self.signal_workflow(cr, uid, ids, 'quotation_sent')
         return self.pool['report'].get_action(cr, uid, ids, 'sale.report_saleorder_aeroo', context=context)
 
-
+    def print_quotation_pdf(self, cr, uid, ids, context=None):
+        '''
+            This function prints the sales order and mark it as sent, so that we can see more easily the next step of the workflow
+            '''
+        assert len(ids) == 1, 'This option should only be used for a single id at a time'
+        self.signal_workflow(cr, uid, ids, 'quotation_sent')
+        return self.pool['report'].get_action(cr, uid, ids, 'sale.report_saleorder_aeroo_pdf', context=context)
+		
+	
     def action_quotation_send(self, cr, uid, ids, context=None):
         '''
             This function opens a window to compose an email, with the edi sale template message loaded by default
