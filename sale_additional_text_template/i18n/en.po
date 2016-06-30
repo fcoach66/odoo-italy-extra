@@ -1,0 +1,114 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* sale_additional_text_template
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-30 14:16+0000\n"
+"PO-Revision-Date: 2016-06-30 14:16+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_additional_text_template
+#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
+msgid "Additional Text"
+msgstr "Additional Text"
+
+#. module: sale_additional_text_template
+#: model:ir.actions.act_window,name:sale_additional_text_template.action_sale_additional_text_template
+#: model:ir.ui.menu,name:sale_additional_text_template.menu_sale_additional_text_template
+#: view:sale.additional_text.template:sale_additional_text_template.view_sale_additional_text_template_form
+#: view:sale.additional_text.template:sale_additional_text_template.view_sale_additional_text_template_search
+#: view:sale.additional_text.template:sale_additional_text_template.view_sale_additional_text_template_tree
+msgid "Additional Text Templates"
+msgstr "Additional Text Templates"
+
+#. module: sale_additional_text_template
+#: field:sale.additional_text.template,name:0
+msgid "Additional text name"
+msgstr "Additional text name"
+
+#. module: sale_additional_text_template
+#: field:sale.additional_text.template,create_uid:0
+msgid "Created by"
+msgstr "Created by"
+
+#. module: sale_additional_text_template
+#: field:sale.additional_text.template,create_date:0
+msgid "Created on"
+msgstr "Created on"
+
+#. module: sale_additional_text_template
+#: selection:sale.additional_text.template,type:0
+#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
+msgid "Description"
+msgstr "Description"
+
+#. module: sale_additional_text_template
+#: field:sale.additional_text.template,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_additional_text_template
+#: field:sale.additional_text.template,write_uid:0
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: sale_additional_text_template
+#: field:sale.additional_text.template,write_date:0
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: sale_additional_text_template
+#: selection:sale.additional_text.template,type:0
+#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
+msgid "Limitation"
+msgstr "Limitation"
+
+#. module: sale_additional_text_template
+#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
+msgid "Load a template"
+msgstr "Load a template"
+
+#. module: sale_additional_text_template
+#: model:ir.model,name:sale_additional_text_template.model_sale_additional_text_template
+msgid "Sale Additional Text template"
+msgstr "Sale Additional Text template"
+
+#. module: sale_additional_text_template
+#: model:ir.model,name:sale_additional_text_template.model_sale_order
+msgid "Sales Order"
+msgstr "Ordine di vendita"
+
+#. module: sale_additional_text_template
+#: selection:sale.additional_text.template,type:0
+#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
+msgid "Subject"
+msgstr "Subject"
+
+#. module: sale_additional_text_template
+#: field:sale.additional_text.template,text:0
+msgid "Text"
+msgstr "Text"
+
+#. module: sale_additional_text_template
+#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
+msgid "The additional text will be displayed on the printed document. You can load a predefined template, write your own text or load a template and then modify it only for this document."
+msgstr "The additional text will be displayed on the printed document. You can load a predefined template, write your own text or load a template and then modify it only for this document."
+
+#. module: sale_additional_text_template
+#: field:sale.additional_text.template,type:0
+msgid "Type"
+msgstr "Type"
+
+#. module: sale_additional_text_template
+#: help:sale.additional_text.template,type:0
+msgid "Type of additional text"
+msgstr "Type of additional text"
+
