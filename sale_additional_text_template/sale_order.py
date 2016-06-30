@@ -62,7 +62,7 @@ class SaleOrder(orm.Model):
         values.update({
             'additional_text_template1_id': order.additional_text_template1_id.id,
             'additional_text_template2_id': order.additional_text_template2_id.id,
-			'additional_text_template3_id': order.additional_text_template2_id.id,
+			'additional_text_template3_id': order.additional_text_template3_id.id,
     
 			'additional_text_1': order.additional_text_1,
             'additional_text_2': order.additional_text_2,
