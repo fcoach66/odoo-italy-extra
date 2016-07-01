@@ -61,7 +61,7 @@
 				</xpath>				
 				<xpath expr="//button[@name='print_quotation']"
 					 position="after">
-					 <button name="print_quotation_pdf" type="object" string="Print PDF"/>
+					 <button name="print_quotation_pdf" type="object" string="Print PDF" states="draft,sent"/>
 				</xpath>
 			</field>
         </record>
