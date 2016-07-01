@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Italian Sale Order Aeroo Report',
-    'version': '1.4',
+    'version': '1.5',
     'category': 'Localization/Italy',
     'sequence': 14,
     'summary': '',
