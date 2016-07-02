@@ -19,6 +19,7 @@ Italian Sale Order / Quotation Aeroo Report
 		'sale_validity',
 		'l10n_it_fiscalcode',
 		'sale_additional_text_template',
+        'report_custom_filename',
 	],
     'data': [
         'report_configuration_defaults_data.xml',
