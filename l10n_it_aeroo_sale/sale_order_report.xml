@@ -64,6 +64,9 @@
 				<xpath expr="//button[@name='print_quotation']"
 					 position="after">
 					 <button name="print_quotation_pdf" type="object" string="Print PDF" class="oe_highlight" states="draft" groups="base.group_user"/>
+				</xpath>
+				<xpath expr="//button[@name='print_quotation']"
+					 position="after">
 					 <button name="print_quotation_pdf" type="object" string="Print PDF" states="sent,progress,manual" groups="base.group_user"/>
 				</xpath>
 			</field>
