@@ -8,7 +8,6 @@
  "depends": ["base","sale"],
  "author": "fcoach66",
  "data": ["sale_mandatory_fields_view.xml",
-			'security/ir.model.access.csv',
           ],
  "category": "Sale",
  "installable": True,
