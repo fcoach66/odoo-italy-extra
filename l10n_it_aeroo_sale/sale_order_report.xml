@@ -17,7 +17,7 @@
             <field name="background_image" type="base64" file="l10n_it_aeroo_sale/sale_order.png"/>
             <field name="use_background_image" eval="True"/>
             <field name="out_format" ref="report_aeroo.report_mimetypes_odt_odt"/>
-            <field name="download_filename">${(object.name '').replace('/','_')}</field>
+            <field name="download_filename">${(object.name or '').replace('/','_')}</field>
         </record>
 		
 		<record id="action_aeroo_report_it_sale_order_pdf" model="ir.actions.report.xml">
@@ -36,7 +36,7 @@
             <field name="background_image" type="base64" file="l10n_it_aeroo_sale/sale_order.png"/>
             <field name="use_background_image" eval="True"/>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-            <field name="download_filename">${(object.name '').replace('/','_')}</field>
+            <field name="download_filename">${(object.name or '').replace('/','_')}</field>
         </record>
 		
 
