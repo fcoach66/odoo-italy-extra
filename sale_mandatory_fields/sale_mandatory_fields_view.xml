@@ -5,9 +5,11 @@
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale.view_order_form"/>
       <field name="arch" type="xml">
-          <field name="payment_term" position="attributes">
-              <attribute name="required">True</attribute>
-          </field>
+          <data>
+              <field name="payment_term" position="attributes">
+                  <attribute name="required">True</attribute>
+              </field>
+          </data>
       </field>
     </record>
   </data>
