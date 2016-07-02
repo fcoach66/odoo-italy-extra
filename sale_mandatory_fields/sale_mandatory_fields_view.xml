@@ -9,6 +9,9 @@
               <field name="payment_term" position="attributes">
                   <attribute name="required">True</attribute>
               </field>
+              <field name="date_validity" position="attributes">
+                  <attribute name="required">True</attribute>
+              </field>
           </data>
       </field>
     </record>
