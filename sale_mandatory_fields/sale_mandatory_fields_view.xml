@@ -1,5 +1,5 @@
 <openerp>
-  <data noupdate="1">
+  <data>
     <record model="ir.ui.view" id="sale_order_form_mandatory_fields_payment_term">
       <field name="name">mandatory_payment_term.sale.order.form</field>
       <field name="model">sale.order</field>
@@ -10,18 +10,5 @@
               </field>
       </field>
     </record>
-  
-    <record model="ir.ui.view" id="sale_order_form_mandatory_fields_date_validity">
-      <field name="name">mandatory_date_validity.sale.order.form</field>
-      <field name="model">sale.order</field>
-      <field name="inherit_id" ref="sale_validity.view_order_form_validity"/>
-      <field name="sequence"10</field>
-      <field name="arch" type="xml">
-              <field name="date_validity" position="attributes">
-                  <attribute name="required">True</attribute>
-              </field>
-      </field>
-    </record>
-    
   </data>
 </openerp>
