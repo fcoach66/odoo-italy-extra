@@ -15,6 +15,7 @@
       <field name="name">mandatory_date_validity.sale.order.form</field>
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale_validity.view_order_form_validity"/>
+      <field name="sequence"10</field>
       <field name="arch" type="xml">
               <field name="date_validity" position="attributes">
                   <attribute name="required">True</attribute>
