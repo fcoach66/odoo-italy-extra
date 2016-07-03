@@ -5,12 +5,10 @@
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale.view_order_form"/>
       <field name="arch" type="xml">
-          <data>
               <field name="payment_term" position="attributes">
                   <attribute name="required">True</attribute>
               </field>
-          </data>
-      </field>
+          eld>
     </record>
   
     <record model="ir.ui.view" id="sale_order_form_mandatory_fields_date_validity">
@@ -18,12 +16,10 @@
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale_validity.view_order_form_validity"/>
       <field name="arch" type="xml">
-          <data>
               <field name="date_validity" position="attributes">
                   <attribute name="required">True</attribute>
               </field>
-          </data>
-      </field>
+          eld>
     </record>
     
   </data>
