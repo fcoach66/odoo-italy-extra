@@ -8,7 +8,7 @@
               <field name="payment_term" position="attributes">
                   <attribute name="required">True</attribute>
               </field>
-          eld>
+      <field>
     </record>
   
     <record model="ir.ui.view" id="sale_order_form_mandatory_fields_date_validity">
@@ -19,7 +19,7 @@
               <field name="date_validity" position="attributes">
                   <attribute name="required">True</attribute>
               </field>
-          eld>
+      <field>
     </record>
     
   </data>
