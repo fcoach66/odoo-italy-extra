@@ -15,6 +15,7 @@ Italian Invoice Aeroo Report
     'depends': [
 		'account',
 		'portal_sale',
+        'report_custom_filename',
         'l10n_it_aeroo_base',
 		'l10n_it_fiscalcode',
 	],

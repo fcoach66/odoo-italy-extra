@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import conversor
+# import conversor
 from openerp.report.report_sxw import rml_parse
 
 
@@ -69,7 +69,6 @@ class Parser(rml_parse):
             self.localcontext.update({'background_image': False})
 
         self.localcontext.update({
-            'number_to_string': self.number_to_string,
             'partner_address': self.partner_address,
             'net_price': self.net_price,
             'context': context,
@@ -78,9 +77,6 @@ class Parser(rml_parse):
 
     def net_price(self, gross_price, discount):
         return gross_price * (1 - (discount / 100))
-
-    def number_to_string(self, val):
-        return conversor.to_word(val)
 
     # Partner
     def partner_address(self, partner, context=None):

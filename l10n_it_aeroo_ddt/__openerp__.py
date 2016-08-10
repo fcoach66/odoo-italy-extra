@@ -15,6 +15,7 @@ Italian Ddt Aeroo Report
     'depends': [
         'l10n_it_aeroo_base',
 		'l10n_it_ddt',
+        'report_custom_filename',
 	],
     'data': [
         'report_configuration_defaults_data.xml',
