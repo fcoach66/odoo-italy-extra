@@ -20,9 +20,9 @@
 ##############################################################################
 {
     'name': 'Report Configurator for italian reports - Account',
-    'version': '8.0.1.1.0',
+    'version': '1.0.0',
     'category': 'Reporting Subsystem',
-    'sequence': 14,
+    'sequence': 20,
     'summary': '',
     'description': """
 Report Configurator for italian reports - Account
@@ -40,7 +40,7 @@ Report Configurator for italian reports - Account
     'data': [
         'views/report_view.xml',
         'views/account_invoice_view.xml',
-        'report_extended_invoice.xml',
+
     ],
     'demo': [
     ],

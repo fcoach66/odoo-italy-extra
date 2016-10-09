@@ -20,9 +20,9 @@
 ##############################################################################
 {
     'name': 'Report Configurator for italian reports',
-    'version': '8.0.1.0.0',
+    'version': '1.0.0',
     'category': 'Reporting Subsystem',
-    'sequence': 14,
+    'sequence': 20,
     'summary': '',
     'description': """
 Report Configurator
