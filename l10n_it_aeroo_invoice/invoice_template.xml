@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-		<record id="account.email_template_edi_invoice_aeroo" model="email.template">
+		<record id="account.mail_template_edi_invoice_aeroo" model="mail.template">
            <field name="name">Invoice Aeroo - Send by Email</field>
            <field name="email_from">${(object.user_id.email or object.company_id.email or 'noreply@localhost')|safe}</field>
            <field name="subject">${object.company_id.name|safe} Invoice (Ref ${object.number or 'n/a'})</field>
@@ -70,7 +70,7 @@
             ]]></field>
         </record>
 
-		<record id="account.email_template_edi_invoice_aeroo_portal" model="email.template">
+		<record id="account.email_template_edi_invoice_aeroo_portal" model="mail.template">
             <field name="name">Invoice Aeroo - Send by Email (Portal)</field>
             <field name="email_from">${(object.user_id.email or object.company_id.email or 'noreply@localhost')|safe}</field>
             <field name="subject">${object.company_id.name|safe} Invoice (Ref ${object.number or 'n/a' })</field>
