@@ -20,6 +20,26 @@
 			<field name="attachment">(object.state in ('open','paid')) and ('Invoice_'+(object.number or '').replace('/','_')+'.pdf')</field>
 			<field name="download_filename">Invoice_${(object.number or '').replace('/','_')}${object.state == 'draft' and '_draft' or '' +'.pdf'}</field>
         </record>
+		
+		<record id="action_aeroo_report_it_invoice" model="ir.actions.report.xml">
+            <field name="name">Fattura Aeroo ODT</field>
+            <field name="type">ir.actions.report.xml</field>
+            <field name="model">account.invoice</field>
+            <field name="sequence" eval="7"/>            
+            <field name="report_name">account.report_invoice_aeroo_odt</field>
+            <field name="report_type">aeroo</field>
+            <field name="in_format">oo-odt</field>
+            <field name="parser_loc">l10n_it_aeroo_base/parser.py</field>
+            <field name="parser_state">loc</field>
+            <field name="report_rml">l10n_it_aeroo_invoice/invoice.odt</field>
+            <field name="tml_source">file</field>
+            <field name="print_logo">company_logo</field> <!-- Or 'company_logo' or ''  -->
+            <field name="use_background_image" eval="False"/>
+            <field name="out_format" ref="report_aeroo.report_mimetypes_odt_odt"/>
+			<field name="attachment_use" eval="True"/>
+			<field name="attachment">(object.state in ('open','paid')) and ('Invoice_'+(object.number or '').replace('/','_')+'.odt')</field>
+			<field name="download_filename">Invoice_${(object.number or '').replace('/','_')}${object.state == 'draft' and '_draft' or '' +'.odt'}</field>
+        </record>
 	
 		<record id="view_invoice_form_aeroo_print" model="ir.ui.view">
 			<field name="name">account.invoice.form.aeroo.print</field>
