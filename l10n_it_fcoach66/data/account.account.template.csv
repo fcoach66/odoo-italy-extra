@@ -1,663 +1,663 @@
-id,code,name,user_type_id:id,reconcile,chart_template_id:id
-101000,101000,"Crediti verso soci per versamenti ancora dovuti, parte richiamata",account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-101001,101001,Crediti richiamati verso socio A?,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-102000,102000,"Crediti verso soci per versamenti ancora dovuti, parte da richiamare",account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-102001,102001,Crediti non richiamati verso socio A?,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121100,121100,Spese di Impianto e di Ampliamento,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121110,121110,Costituzione Società,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121120,121120,Modifica Statuto Sociale,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121130,121130,Avviamento impianti e Produzione,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121140,121140,Trasformazione Società,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121150,121150,Spese Ristrutturaz. in Economia,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121200,121200,Ricerca Sviluppo e Pubblicità,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121210,121210,Spese di ricerca e sviluppo,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121220,121220,Spese di Pubblicità,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121300,121300,Spese di brevetto industriale e diritti su opere dell'ingegno,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121310,121310,Brevetti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121320,121320,Diritti su Opere dell'Ingegno,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121330,121330,Diritti su Programmi Software,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121400,121400,"Concessione licenze, marchi e simili",account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121410,121410,Concessioni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121420,121420,Licenze,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121430,121430,Marchi di fabbrica,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121440,121440,Programmi Software e Licenze,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121500,121500,Spese di Avviamento,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121510,121510,Avviamento ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121600,121600,Immobilizzazioni imm.li in corso e acconti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121620,121620,Acconti a Fornitori su Immobilizzazioni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121630,121630,Caparre su Immobilizzazioni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121640,121640,Altre immobilizzazioni immateriali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121700,121700,Altre Immobilizzazioni ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121710,121710,Indennità Perdita Avviamento,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121720,121720,Spese Plur.li su Beni di Terzi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121730,121730,Altre spese  Pluriennali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121740,121740,Spese Manut.da Ammortiz.su Beni di Proprietà,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-121750,121750,Spese di Manutenzione su beni di Terzi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122100,122100,FA Costi di Impianto e di Ampliamento,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122110,122110,FA Costituzione Società,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122120,122120,FA Modifica Statuto Sociale,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122130,122130,FA Avviamento impianti e Produzione,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122140,122140,FA Trasformazione Società,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122150,122150,FA Spese Ristrutturaz. in Economia,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122200,122200,FA Ricerca Sviluppo e Pubblicità,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122210,122210,FA Costi di ricerca e sviluppo,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122220,122220,FA Costi di Pubblicità,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122300,122300,FA Costi di brevetto industriale e diritti su opere dell'ingegno,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122310,122310,FA Brevetti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122320,122320,FA Diritti su Opere dell'Ingegno,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122330,122330,FA Diritti su Programmi Software,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122400,122400,"FA Concessione licenze, marchi e simili",account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122410,122410,FA Concessioni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122420,122420,FA Licenze,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122430,122430,FA Marchi di fabbrica,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122440,122440,FA Programmi Software e Licenze,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122500,122500,FA Costi di Avviamento,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122510,122510,FA Avviamento ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122600,122600,FA Immobilizzazioni imm.li in corso e acconti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122620,122620,FA Acconti a Fornitori su Immobilizzazioni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122630,122630,FA Caparre su Immobilizzazioni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122640,122640,FA Altre immobilizzazioni immateriali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122700,122700,FA Altre Immobilizzazioni ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122710,122710,FA Indennità Perdita Avviamento,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122720,122720,FA Costi Plur.li su Beni di Terzi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122730,122730,FA Altri costi  Pluriennali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122740,122740,FA Spese Manut.da Ammortiz.su Beni di Proprietà,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-122750,122750,FA Spese di Manutenzione su beni di Terzi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123100,123100,Terreni e Fabbricati,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123110,123110,Terreni senza Costruzioni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123120,123120,Terreni ad Util.ne Industriale,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123130,123130,Terreni ad Util.ne Agricola,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123140,123140,Terreni da Costruzione,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123150,123150,Altri terreni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123160,123160,Fabbricati  ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123170,123170,Fabb.ti Indust.li e Infrastrutture,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123180,123180,Fabbricati Industriali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123200,123200,Impianti  e Macchinari,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123210,123210,Impianti generici vari,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123220,123220,Impianti Specifici,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123230,123230,Macchinari Operatori e Impianti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123240,123240,Impianti Generali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123300,123300,Attrezzature Industriali e Commerciali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123310,123310,Attrezzatura,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123320,123320,Attrezzature Varie e Minute ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123330,123330,Autovetture,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123340,123340,Automezzi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123350,123350,Mezzi di Trasporto Interni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123360,123360,Imballaggi durevoli da riutilizzare,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123370,123370,Macchine Ufficio Ordinarie,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123380,123380,Macchine Ufficio Elettroniche,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123382,123382,Telefono Cellulare,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123390,123390,Mobili e Arredi Ufficio,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123400,123400,Altri Beni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123410,123410,Beni in Concessione,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123420,123420,Beni Gratuitamente Devolvibili,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123430,123430,Altri Beni Materiali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123500,123500,Immoliz.ni Materiali in Corso e Acconti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123510,123510,Immobil. Materiali in Corso,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-123520,123520,Acconti a Fornitori su Acquisti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124100,124100,FA Terreni e Fabbricati,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124110,124110,FA Terreni senza Costruzioni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124120,124120,FA Terreni ad Util.ne Industriale,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124130,124130,FA Terreni ad Util.ne Agricola,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124140,124140,FA Terreni da Costruzione,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124150,124150,FA Altri terreni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124160,124160,FA Fabbricati  ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124170,124170,FA Fabb.ti Indust.li e Infrastrutture,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124180,124180,FA Fabbricati Industriali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124200,124200,FA Impianti  e Macchinari,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124210,124210,FA Impianti generici vari,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124220,124220,FA Impianti Specifici,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124230,124230,FA Macchinari Operatori e Impianti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124240,124240,FA Impianti Generali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124300,124300,FA Attrezzature Industriali e Commerciali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124310,124310,FA Attrezzatura,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124320,124320,FA Attrezzature Varie e Minute ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124330,124330,FA Autovetture,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124340,124340,FA Automezzi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124350,124350,FA Mezzi di Trasporto Interni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124360,124360,FA Imballaggi durevoli da riutilizzare,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124370,124370,FA Macchine Ufficio Ordinarie,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124380,124380,FA Macchine Ufficio Elettroniche,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124382,124382,FA Telefono Cellulare,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124390,124390,FA Mobili e Arredi Uffcio,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124400,124400,FA Altri Beni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124410,124410,FA Beni in Concessione,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124420,124420,FA Beni Gratuitamente Devolvibili,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124430,124430,FA Altri Beni Materiali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124500,124500,FA Immoliz.ni Materiali in Corso e Acconti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124510,124510,FA Immobil. Materiali in Corso,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-124520,124520,FA Acconti a Fornitori su Acquisti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125100,125100,Partecipazioni in Imprese Controllate,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125200,125200,Partecipazioni in Imprese Collegate,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125300,125300,Partecipazioni in Controllanti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125400,125400,Partecipazioni in Altre Imprese,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125500,125500,Crediti Finanziari in Imprese Controllate ( a breve ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125550,125550,Crediti Finanziari in Imprese Controllate (+12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125600,125600,Crediti fin. in Imprese Collegate ( a breve),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125650,125650,Crediti fin. in Imprese Collegate (+ 12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125700,125700,Crediti fin. v/Controllanti ( a breve ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125750,125750,Crediti fin. v/Controllanti (+ 12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125800,125800,Crediti fin. v/Altre Imprese ( a breve ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125850,125850,Crediti fin. v/Altre Imprese (+12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125900,125900,Altri Crediti Finanziari ( Entro 12 Mesi ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-125950,125950,Altri Crediti Finanziari (+ 12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-126000,126000,Titoli,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-126100,126100,Titoli di Stato,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-126200,126200,Titoli diversi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-126300,126300,Azioni sociali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151100,151100,Materie prime e di consumo,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151110,151110,Mat.di Consumo per Officina e Stab.,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151120,151120,Materie Sussidiarie,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151130,151130,Altri Materiali di Consumo,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151140,151140,Imballaggi  ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151150,151150,Merci in esposizione,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151170,151170,Combustibili,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151180,151180,Materiali per Manutenz.ne e Riparaz.ne,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151190,151190,Cancelleria e Stampati da utilizzare,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151200,151200,Prodotti in  Lavorazione,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151210,151210,Prodotti in Corso di Lavorazione  ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151250,151250,Semilavorati,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151300,151300,Lavori in corso su ordinazione,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151320,151320,Lav. in corso su ordin.  a breve termine,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151340,151340,Studi in corso,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151360,151360,Prestaz. di servizi in corso,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151380,151380,Commesse a lungo termine,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151400,151400,Prodotti finiti e Merci,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151410,151410,Beni per produzione servizi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151420,151420,Prodotti intermedi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151430,151430,Cascami e sottoprodotti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151440,151440,Merci da vendere,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151500,151500,Fornitori c/acconti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151510,151510,Acconti fornit. su materie prime,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151520,151520,Acconti fornit. su materie sussidiarie,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-151530,151530,Acconti fornit. su materiali di consumo,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152100,152100,Crediti v/clienti Italia,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152110,152110,Crediti v/clienti UE,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152120,152120,Clienti v/clienti Extra-UE,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152130,152130,Clienti corrispettivi giornalieri,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152140,152140,Clienti c/spese anticipate,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152150,152150,Clienti fatture da emettere,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152160,152160,Crediti inesigibili o in sofferenza,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152170,152170,Clienti c/corrispettivi da emettere,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152180,152180,Crediti commerciali diversi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152200,152200,Effetti attivi commerciali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152210,152210,Effetti all'incasso,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152220,152220,Effetti allo sconto,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152230,152230,Effetti insoluti e protestati,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152300,152300,Crediti v/clienti Italia (+12M),account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152310,152310,Crediti v/clienti UE (+12M),account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152320,152320,Crediti v/clienti Extra-UE (+!12M),account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-152400,152400,Cambiali attive (+12M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152410,152410,Effetti all'incasso (+12M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152420,152420,Effetti allo sconto (+12M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152430,152430,Effetti insoluti o protestati( credito +12M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152500,152500,Crediti v/Imprese Controllate ( a breve ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152550,152550,Crediti v/Imprese Controllate (+12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152600,152600,Crediti v/Imprese Collegate ( a breve ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152650,152650,Crediti v/Imprese Collegate (+ 12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152700,152700,Crediti v/Controllanti ( a breve ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152750,152750,Crediti v/Controllanti (+ 12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152800,152800,Crediti v/Altre Imprese ( a breve ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152850,152850,Crediti v/Altre Imprese ( +12 M ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152900,152900,Altri Crediti ( Entro 12 Mesi ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-152950,152950,Altri Crediti (+ 12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153010,153010,IVA n/credito ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153020,153020,Crediti IVA c/erario,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153030,153030,IVA n/credito in sosp. ,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153040,153040,Crediti per rimborsi IVA,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153050,153050,Integr. IVA da c/acquisti UE (L.427/93),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153060,153060,Imposte c/acconto IVA,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153100,153100,Crediti tributari,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153110,153110,Crediti per ritenute subite,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153120,153120,Crediti per rit. Int.Attivi Bancari,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153140,153140,Crediti per rimborsi IRES/IRAP,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153150,153150,Imposte c/acconto  IRES/IRAP,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153200,153200,Crediti v/dipendenti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153250,153250,Personale c/acconti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153300,153300,Crediti verso INAIL,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153310,153310,Crediti v/istituti previdenziali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153330,153330,Crediti v/compagnie assicurative,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153340,153340,Crediti per rimborsi INAIL,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153400,153400,Crediti per depositi cauzionali,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153410,153410,Arrotondamenti a. su stipendi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153420,153420,Fondo rischi su crediti,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153450,153450,Obbligazionisti c/sottoscrizioni,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-153500,153500,Creditori diversi ,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-153510,153510,Crediti v/fornitori c/anticipi,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-153520,153520,Crediti v/Amministratori,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-153530,153530,Note Credito da ricevere,account.data_account_type_receivable,TRUE,l10n_it_chart_template_fcoach66
-154100,154100,Crediti tributari ( +12 M ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-154300,154300,Crediti verso INAIL (+ 12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-154310,154310,Crediti v/istituti previdenziali (+ 12 M ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-154330,154330,Crediti v/compagnie assicurative (+ 12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-154400,154400,Crediti per depositi cauzionali ( +  12 M ),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-154450,154450,Obbligazionisti c/sottoscrizioni (+ 12 M),account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-180010,180010,Denaro in Cassa,account.data_account_type_cash,TRUE,l10n_it_chart_template_fcoach66
-180020,180020,C/C Postali,account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-180030,180030,Assegni,account.data_account_type_cash,TRUE,l10n_it_chart_template_fcoach66
-180040,180040,Valori bollati in cassa,account.data_account_type_cash,TRUE,l10n_it_chart_template_fcoach66
-180100,180100,Banche e c/c locali,account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-180200,180200,Banche e c/c regionali,account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-180203,180203,C.R.Fossano (attivo),account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-180204,180204,C.R.Savigliano (attivo),account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-180300,180300,Banche e c/c nazionali,account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-180301,180301,Unicredit Banca (attivo),account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-180302,180302,Banca Intesa San Paolo (attivo),account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-180303,180303,Monte dei Paschi Siena (attivo),account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-180304,180304,BNL Paribas (attivo),account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-180400,180400,Banche e c/c on-line,account.data_account_type_bank,TRUE,l10n_it_chart_template_fcoach66
-190110,190110,Ratei attivi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-190120,190120,Risconti attivi,account.data_account_type_asset,TRUE,l10n_it_chart_template_fcoach66
-211010,211010,Capitale sociale,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-211020,211020,Patrimonio Netto ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-211030,211030,Quote sottoscritte,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-211040,211040,Azioni di Risparmio,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-212010,212010,Riserva da sovrapprezzo azioni,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-213010,213010,Riserva di rivalutazione,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-214010,214010,Riserva legale,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-215010,215010,Riserve statutarie,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-216010,216010,Riserva per azioni proprie in portafoglio,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217000,217000,Altre riserve,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217010,217010,Altre riserve: riserva straordinaria o facoltativa,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217020,217020,Altre riserve:  riserva per rinnovamento impianti e macchinari,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217030,217030,Altre riserve: riserva ammortamento anticipato,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217040,217040,Altre riserve: riserva per acquisto azioni proprie,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217050,217050,Altre riserve: riserva da deroghe ex art. 2423 cod. civ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217060,217060,Altre riserve: riserva azioni (quote) della societa controllante,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217070,217070,Altre riserve: riserva non distribuibile da rivalutazione delle partecipazioni,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217080,217080,Altre riserve: versamenti in conto aumento di capitale,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217090,217090,Altre riserve: versamenti in conto futuro aumento di capitale,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217100,217100,Altre riserve: versamenti in conto capitale,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217110,217110,Altre riserve: versamenti a copertura perdite,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217120,217120,Altre riserve: riserva per utili su cambi,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-217130,217130,"Altre riserve: Riserve da condono fiscale, ex L.289 del 27/12/2002",account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-218010,218010,Utili (perdite) portati a nuovo,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-219010,219010,Utile (perdita) d'esercizio ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-219020,219020,"Utile (perdita) d'esercizio, copertura parziale perdita d'esercizio ",account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-219030,219030,"Utile (perdita) d'esercizio, utile (perdita) residua",account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-220100,220100,Fondo per trattamento di quiescenza,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-220200,220200,Fondo imposte presunte,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-220300,220300,Fondo imposte differite,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-220400,220400,Fondo manutenzioni programmate,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-220510,220510,Fondo rischi su cambi,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-220520,220520,Fondo per concorsi a premio,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-220530,220530,Fondo di auto-assicurazione,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-220540,220540,Fondo rischi di collaudo,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-220550,220550,Fondo rischi di garanzia,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-220560,220560,Fondo per rischi e oneri futuri,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-230010,230010,Debiti per TFR,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240100,240100,Banche c/c passivi locali,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240200,240200,Banche c/c passivi regionali,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240203,240203,C.R.Fossano (passivo),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240204,240204,C.R.Savigliano (passivo),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240300,240300,Banche c/c passivi nazionali,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240301,240301,Unicredit Banca (passivo),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240302,240302,Banca Intesa San Paolo (passivo),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240303,240303,Monte dei Paschi Siena (passivo),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240304,240304,BNL Paribas (passivo),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240400,240400,Banche c/c passivi on-line,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-240500,240500,Banche c/sovvenzioni ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-241100,241100,Banche c/RIBA all'incasso ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-242100,242100,Banche c/cambiali all'incasso ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-243100,243100,Banche c/anticipi su fatture ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-245100,245100,Obbligazioni ordinarie,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-245110,245110,Obbligazioni ordinarie (+ 12 M),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-245120,245120,Obbligazioni indicizzate,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-245130,245130,Obbligazioni indicizzate (+ 12 M ),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-245140,245140,Altre obbligazioni,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-245150,245150,Altre obbligazioni (+ 12 M),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-246000,246000,Mutui passivi ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-246010,246010,Aperture di credito con garanzia reale,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-246020,246020,Altri debiti con garanzia reale ( a breve ),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-246030,246030,Altri debiti con garanzia reale (+ 12 M),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247100,247100,Debiti v/altri finanziatori ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247110,247110,Debiti v/soci,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247120,247120,Soci c/finanziamento infruttifero,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247130,247130,Debiti v/società finanziarie,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247140,247140,Depositi di dipendenti,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247500,247500,Debiti Finanziari in Imprese Controllate ( a breve ),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247550,247550,Debiti Finanziari in Imprese Controllate (+12 M),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247600,247600,Debiti fin. in Imprese Collegate ( a breve),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247650,247650,Debiti fin. in Imprese Collegate (+ 12 M),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247700,247700,Debiti fin. v/Controllanti ( a breve ),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247750,247750,Debiti fin. v/Controllanti (+ 12 M),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247800,247800,Debiti fin. v/Altre Imprese ( a breve ),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247850,247850,Debiti fin. v/Altre Imprese ( +12 M ),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247900,247900,Altri Debiti Finanziari ( Entro 12 Mesi ),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-247950,247950,Altri Debiti Finanziari (+ 12 M),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-250100,250100,Debiti v/fornitori Italia,account.data_account_type_payable,TRUE,l10n_it_chart_template_fcoach66
-250110,250110,Debiti v/fornitori UE,account.data_account_type_payable,TRUE,l10n_it_chart_template_fcoach66
-250120,250120,Debiti v/fornitori Extra-UE,account.data_account_type_payable,TRUE,l10n_it_chart_template_fcoach66
-250140,250140,Debiti per Carburanti,account.data_account_type_payable,TRUE,l10n_it_chart_template_fcoach66
-250150,250150,Fornitori Fatture da ricevere ,account.data_account_type_payable,TRUE,l10n_it_chart_template_fcoach66
-250180,250180,Debiti da liquidare ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-250190,250190,Bolla doganale,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-250200,250200,Cambiali passive ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-250300,250300,Debiti v/fornitori Italia (+12M),account.data_account_type_payable,TRUE,l10n_it_chart_template_fcoach66
-250310,250310,Debiti v/fornitori UE (+12M),account.data_account_type_payable,TRUE,l10n_it_chart_template_fcoach66
-250320,250320,Debiti v/fornitori Extra-UE (+12M),account.data_account_type_payable,TRUE,l10n_it_chart_template_fcoach66
-250400,250400,Cambiali passive (+12M),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260010,260010,IVA n/debito ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260020,260020,Erario c/IVA ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260030,260030,IVA n/deb. in sospensione,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260040,260040,IVA su corrispettivi,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260050,260050,IVA autofatture da c/acquisti UE,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260100,260100,Debiti per imposte ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260110,260110,Debiti per ritenute da versare ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260200,260200,Personale c/retribuzioni ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260210,260210,Personale c/liquidazioni ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260300,260300,Debiti verso INAIL,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260310,260310,Debiti v/istituti previdenziali ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260311,260311,Debiti v/INPS Dipendenti,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260312,260312,Debiti v/IRPEF Dipendenti,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260400,260400,Depositi cauzionali (da rendere),account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260410,260410,Debitori diversi,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260420,260420,Debiti v/clienti c/anticipi,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260430,260430,Debiti v/Amministratori,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260440,260440,Note Credito da Emettere,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-260450,260450,Arrotondamenti p. su stipendi,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-290010,290010,Ratei passivi ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-290020,290020,Risconti passivi ,account.data_account_type_liability,TRUE,l10n_it_chart_template_fcoach66
-410010,410010,"Rischi assunti dall'impresa, Fideiussioni",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-410020,410020,"Rischi assunti dall'impresa, Avalli",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-410030,410030,"Rischi assunti dall'impresa, Altre garanzie personali",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-410040,410040,"Rischi assunti dall'impresa, Garanzie reali",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-410050,410050,"Rischi assunti dall'impresa, Altri rischi, crediti ceduti pro solvendo",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-420010,420010,Totale impegni assunti dall'impresa,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-430010,430010,"Beni di terzi presso l'impresa, merci in conto lavorazione",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-430020,430020,"Beni di terzi presso l'impresa, a titolo di deposito o comodato",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-430030,430030,"Beni di terzi presso l'impresa, in pegno o cauzione",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-430210,430210,Costo Macchinari in leasing,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-430310,430310,Titoli di terzi ricevuti in garanzia,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-490010,490010,Stato patrimoniale iniziale,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-490020,490020,Stato patrimoniale finale,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-490030,490030,Stato patrimoniale (da risultato di esercizio),account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-510000,510000,Ricavi da merci e servizi,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-510100,510100,Merci c/vendita,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-510200,510200,Ricavi da prestazioni di servizio,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-510300,510300,Corrispettivi lordi da ventilare,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-510400,510400,Corrispettivi ripartiti,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-510500,510500,Ricavi da privati,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-511000,511000,Premi su vendite ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-512000,512000,Rimborsi spese c/clienti ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-513000,513000,Resi su vendite ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-519000,519000,"Rett.che per Resi,Sconti,Abbuoni su vendite",account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-520100,520100,Var.ne Materie Prime,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-520150,520150,Var.ne Merci Esposizione,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-520200,520200,Variazioni delle rimanenze,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-520250,520250,Var.ne Prodotti semilavorati,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-520400,520400,Var.ne Rimanenze finali merce,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-530310,530310,"Valore della produzione, variazioni dei lavori in corso su ordinazione",account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540130,540130,Incr. Val. avviamento impianti o produzione,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540210,540210,"Valori da studio,ricerca e progettazione",account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540220,540220,Valori da pubblicità e marketing,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540310,540310,Ricavi da Brevetti,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540320,540320,Diritti di utilizzazione opere dell'ingegno,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540330,540330,Diritti di utilizzazione programmi software,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540410,540410,Ricavi da concessioni,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540420,540420,Ricavi da Licenze,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540430,540430,Valore Marchi di fabbrica,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540600,540600,"Valore della produzione, incrementi di immobilizzazioni per lavori interni",account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540740,540740,"Incr. Val. da manuten.ne riparaz.ne, ammodernamento",account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-540750,540750,"Incr. Val. da manuten.ne riparaz.ne, su beni di terzi",account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-541100,541100,Rivalorizzazione Terreni e Fabbricati,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-541180,541180,Rivalorizzazione Fabbricati industriali,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-541200,541200,Rivalorizzazione Impianti  e Macchinari,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-541300,541300,Rival. Attrezzature Industriali e Commerciali,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-541320,541320,Rival. Attrezzature Varie e Minute ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-541340,541340,Rivalorizzazione Automezzi,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-541380,541380,Rival. Macchine Ufficio Elettroniche,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-541390,541390,Rival. Mobili e Arredi Uffcio,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-541510,541510,Inc.su immobili.ni materiali,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550070,550070,Autofatture,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550110,550110,Contributi statali,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550120,550120,Contributi regionali,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550210,550210,Prov. da partec. in imprese controllate,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550220,550220,Prov. da partec. in imprese collegate,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550230,550230,Prov. da partec. in altre imprese,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550510,550510,Fitti attivi ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550520,550520,Proventi vari ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550530,550530,Arrotondamenti attivi ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550540,550540,Plusvalenze ordinarie diverse ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550550,550550,Sopravvenienze attive ordinarie diverse ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-550560,550560,Insussistenze attive ordinarie diverse ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-610100,610100,Acq. Materie prime,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-610140,610140,Acq. Imballaggi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-610200,610200,Acq. Materiali di consumo,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-610250,610250,Acq. Semilavorati,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-610300,610300,Acq. Attrezzatura varia e minuta,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-610400,610400,Costi Merce c/apporti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-610500,610500,Resi su acquisti ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-620300,620300,Noleggi vari,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621110,621110,Spese accessorie su Acquisti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621130,621130,Costi per produzione beni e servizi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621140,621140,Acq. Merci e Oggettistica Esposizione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621200,621200,Lavorazioni esterne,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621210,621210,Costi per Prestazione di servizi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621220,621220,Costi Materiali per pulizie,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621250,621250,Costi Mat. per manutenzione e riparazione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621300,621300,Rimb.carburanti ded. 50%,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621310,621310,Acquisto carburanti e lubrificanti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621320,621320,Pedaggi autostradali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621330,621330,Pedaggi autostradali ded.50%,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621340,621340,Costi di trasporto e spedizione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621350,621350,Costi x servizi doganali e importazione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621400,621400,Costi per imballaggi e magazzinaggio,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621410,621410,Facchinaggio e manovalanza,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621500,621500,Spese per buoni pasto,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621510,621510,Prodotti mensa aziendale,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621520,621520,Acq. Indumenti di lavoro,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621530,621530,Rimb. Spese a Dipendenti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621550,621550,Servizi e consulenze paghe,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621600,621600,Provvigioni ad intermediari,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621610,621610,Provvigioni occasionali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621620,621620,Provvigioni passive e spese d'incasso,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621630,621630,Enasarco a ns. carico,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-621640,621640,F.I.R.R.,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-622100,622100,Sp. energia elettrica Prod.,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-622110,622110,Sp. per acquisto gas Prod.,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-622120,622120,Sp. di riscaldamento Prod.,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-622130,622130,Acq. Carb. Riscaldamento Prod.,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-622200,622200,Costi Utensileria e materiali di consumo,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-622210,622210,Costi per Analisi e Prove Laboratorio,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623100,623100,Spese condominiali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623110,623110,Manutenzione esterna fabbricati,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623120,623120,Canoni per servizi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623130,623130,Spese di assicurazione per veicoli,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623140,623140,Assicurazione auto ded. 20%,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623200,623200,Canoni di locazione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623210,623210,Servizi di Vigilanza,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623300,623300,"Manutenz. Macchine,impianti e attrezzature",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623310,623310,Manutenz. Macchine ufficio,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623320,623320,Canoni assistenza tecnica,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623330,623330,Manutenz. e riparazione veicoli,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623340,623340,Manutenz. e riparazione ded. 50%,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623350,623350,Costi di riparazione e manutenzione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623400,623400,Servizi commerciali e amministrative,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623410,623410,Royalties Diritti d'Autore e brevetti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623420,623420,Compensi per Onorari,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623430,623430,Rimborsi spese Professionisti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623440,623440,Compensi a terzi prof.sti sogg. R.A.,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623450,623450,Consulenze Amministrative e Contabili,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623460,623460,Spese legali e notarili,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623490,623490,Consulenze varie,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623500,623500,Consulenza Commerciali e Marketing,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623510,623510,Incentivi di vendita,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623520,623520,Spese per Omaggi Sup. 50 Euro,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623530,623530,Spese per Omaggi Inf. 50 Euro,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623550,623550,Costi Materiale pubblicitario,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623560,623560,Pubbliche relazioni,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623570,623570,Mostre e fiere,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623580,623580,Costi pubblicitari,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623590,623590,"Spese rappresentanza (alberghi,ristoranti,taxi)",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-623600,623600,Aggiornamenti e Programmi Software,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625010,625010,Spese telefoniche ded. 50%,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625020,625020,Spese telefoniche ded. 80%,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625030,625030,Costi assicurativi per ufficio,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625040,625040,Cancelleria e Stampati,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625050,625050,"Spese pulizia,acqua e manutenz.locali",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625060,625060,Spese postali ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625070,625070,Spese x valori bollati e francobolli,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625080,625080,Abbonamenti a giornali e riviste,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625100,625100,Energia Elettrica,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625120,625120,Riscaldamento Uffici,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625150,625150,Altre spese Giustificate,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625160,625160,Spese di contenzioso e recupero crediti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625170,625170,Altri costi giustificati,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625180,625180,"Beni non ammortizzabili < 516,45 €",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-625190,625190,Altri costi per servizi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-626000,626000,Emolumenti Amministratori,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-626010,626010,Contr. INPS Amministratore,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-626020,626020,Sconti e abbuoni passivi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-626030,626030,Rettifiche su costi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-630100,630100,Canoni di locazione passivi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-630200,630200,Canoni di locazione leasing,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-640910,640910,Salari e stipendi ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-640920,640920,Oneri sociali per il personale,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-640930,640930,TFR: trattamento di fine rapporto,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-640940,640940,Trattamento di quiescenza,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-640950,640950,Altri costi per il personale ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-640960,640960,Premio INAIL,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651100,651100,QA Costi di Impianto e di Ampliamento,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651110,651110,QA Costituzione Società,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651120,651120,QA Modifica Statuto Sociale,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651130,651130,QA Avviamento impianti e Produzione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651140,651140,QA Trasformazione Società,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651150,651150,QA Spese Ristrutturaz. in Economia,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651200,651200,QA Ricerca Sviluppo e Pubblicità,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651210,651210,QA Costi di ricerca e sviluppo,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651220,651220,QA Costi di Pubblicità,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651300,651300,QA Costi di brevetto industriale e diritti su opere dell'ingegno,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651310,651310,QA Brevetti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651320,651320,QA Diritti su Opere dell'Ingegno,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651330,651330,QA Diritti su Programmi Software,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651400,651400,"QA Concessione licenze, marchi e simili",account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651410,651410,QA Concessioni,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651420,651420,QA Licenze,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651430,651430,QA Marchi di fabbrica,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651440,651440,QA Programmi Software e Licenze,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651500,651500,QA Costi di Avviamento,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651510,651510,QA Avviamento ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651600,651600,QA Immobilizzazioni imm.li in corso e acconti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651620,651620,QA Acconti a Fornitori su Immobilizzazioni,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651630,651630,QA Caparre su Immobilizzazioni,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651640,651640,QA Altre immobilizzazioni immateriali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651700,651700,QA Altre Immobilizzazioni ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651710,651710,QA Indennità Perdita Avviamento,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651720,651720,QA Costi Plur.li su Beni di Terzi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651730,651730,QA Altri costi  Pluriennali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651740,651740,QA Spese Manut.da Ammortiz.su Beni di Proprietà,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-651750,651750,QA Spese di Manutenzione su beni di Terzi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652100,652100,QA Terreni e Fabbricati,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652110,652110,QA Terreni senza Costruzioni,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652120,652120,QA Terreni ad Util.ne Industriale,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652130,652130,QA Terreni ad Util.ne Agricola,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652140,652140,QA Terreni da Costruzione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652150,652150,QA Altri terreni,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652160,652160,QA Fabbricati  ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652170,652170,QA Fabb.ti Indust.li e Infrastrutture,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652180,652180,QA Fabbricati Industriali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652200,652200,QA Impianti  e Macchinari,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652210,652210,QA Impianti generici vari,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652220,652220,QA Impianti Specifici,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652230,652230,QA Macchinari Operatori e Impianti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652240,652240,QA Impianti Generali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652300,652300,QA Attrezzature Industriali e Commerciali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652310,652310,QA Attrezzatura,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652320,652320,QA Attrezzature Varie e Minute ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652330,652330,QA Autovetture,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652340,652340,QA Automezzi,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652350,652350,QA Mezzi di Trasporto Interni,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652360,652360,QA Imballaggi durevoli da riutilizzare,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652370,652370,QA Macchine Ufficio Ordinarie,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652380,652380,QA Macchine Ufficio Elettroniche,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652382,652382,QA Telefono Cellulare,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652390,652390,QA Mobili e Arredi Uffcio,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652400,652400,QA Altri Beni,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652410,652410,QA Beni in Concessione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652420,652420,QA Beni Gratuitamente Devolvibili,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652430,652430,QA Altri Beni Materiali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652500,652500,QA Immoliz.ni Materiali in Corso e Acconti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652510,652510,QA Immobil. Materiali in Corso,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-652520,652520,QA Acconti a Fornitori su Acquisti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-661010,661010,Svalutazioni immobilizzazioni immateriali ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-661020,661020,Svalutazioni immobilizzazioni materiali ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-661030,661030,Svalutazione crediti ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-671010,671010,Variazioni materie prime,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-671020,671020,Variazioni materiale di consumo,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-681010,681010,Accantonamento per responsabilità civile ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-682010,682010,Accantonamento per spese future ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-682020,682020,Accantonamento per manutenzioni programmate ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691000,691000,Imposte e tasse di esercizio,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691100,691100,Tassa Conc. Governativa,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691200,691200,Tasse comunali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691210,691210,Tassa sui rifiuti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691220,691220,Tassa occupazione suolo pubblico,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691230,691230,Tass partecipazione a fiere,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691300,691300,Oneri fiscali diversi ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691320,691320,Registraz. Contratti di locazione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691350,691350,Tassa di circolazione,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691360,691360,Imposta di registro,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691400,691400,Imposte e tasse diverse,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691500,691500,Valori bollati,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691510,691510,Vidimazione libri sociali,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691600,691600,Contributi associazioni,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691610,691610,Commissioni su Buoni Pasto,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691700,691700,Diritto annuale CCIAA,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691710,691710,Costo diritti SIAE,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691720,691720,Abbonamento RAI,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-691900,691900,Multe e ammende,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-698010,698010,Perdite su crediti ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-698020,698020,Arrotondamenti passivi ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-698030,698030,Minusvalenze ordinarie diverse ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-698040,698040,Sopravvenienze passive ordinarie diverse ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-698050,698050,Insussistenze passive ordinarie diverse ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-699000,699000,Oneri vari ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-710151,710151,Proventi da partecipazione ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-720161,720161,Crediti iscritti nelle immobilizzazioni,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-720162,720162,Crediti da tit. iscritti nelle  immobiliz. che non costituiscono partecipaz.,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-720163,720163,Crediti da tit. iscritti  nell'attivo circolante che non costituiscono partecipaz.,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-720164,720164,Crediti da proventi finanziari diversi,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-730100,730100,Interessi e altri oneri finanziari da imprese controllate,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-730200,730200,Interessi e altri oneri finanziari da imprese collegate,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-730300,730300,Interessi e altri oneri finanziari da imprese controllanti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-730400,730400,Interessi e altri oneri finanziari da altre imprese,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-731000,731000,Interessi e oneri finanziari su finanz. Clienti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-731010,731010,Interessi passivi verso fornitori o altri,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-731100,731100,Interessi e oneri finanziari bancari,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-731110,731110,Interessi passivi su Mutui Ipotecari,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-731120,731120,Interessi passivi verso banche,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-731130,731130,Interessi passivi c/c bancari,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-731140,731140,Spese e commissioni bancarie,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-831000,831000,Rivalutazioni da partecipazioni,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-832000,832000,Rivalutazioni di immobilizzazioni finanziarie,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-833000,833000,Rivalutaz. da titoli in att. Circ. senza partecipaz.,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-841000,841000,Svalutazioni da partecipazioni,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-842000,842000,Svalutazioni di immobilizzazioni finanziarie,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-843000,843000,Svalutazioni da titoli in att. Circ. senza partecipaz.,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-851000,851000,Plusvalenze da alienazioni ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-851010,851010,Plusvalenze da alienazioni eserc. precedenti,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-851020,851020,Plusvalenze straordinarie ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-851030,851030,Plusvalenze da terreni e fabbricati,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-851040,851040,Plusvalenze da attrezzature,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-851050,851050,Plusvalenze da cessione titoli,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-851060,851060,Plusvalenze da partecipazioni,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-851100,851100,"Sopravvenuta insussistenza di oneri,spese e passiv.",account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-851110,851110,Insussistenze attive straordinarie ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-851150,851150,Incasso da credito considerato inesigibile,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-852000,852000,Indennità di risarcimento assicurativo,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-852040,852040,Sopravvenienze attive straordinarie ,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-852050,852050,Fatture emesse > da accertare,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-852060,852060,Contributi in conto capitale,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-852090,852090,Altre liberalità,account.data_account_type_income,TRUE,l10n_it_chart_template_fcoach66
-860211,860211,Minusvalenze da alienazioni eserc. Precedenti,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-860212,860212,Minusvalenze straordinarie ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-860213,860213,Sopravvenienze passive straordinarie ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-860214,860214,Insussistenze passive straordinarie ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-860215,860215,Imposte esercizi precedenti ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-870220,870220,Imposte dell'esercizio ,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-870230,870230,Risultato economico di esercizio,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-870240,870240,Risultato economico di esercizio,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-880250,880250,Altri accantonamenti da norme tributarie,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-880260,880260,Utile da esercizio precedente,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
-880270,880270,Perdita da esercizio precedente,account.data_account_type_expense,TRUE,l10n_it_chart_template_fcoach66
+id,code,name,user_type_current_id:id,reconcile,chart_template_id:id
+101000,101000,"Crediti verso soci per versamenti ancora dovuti, parte richiamata",account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+101001,101001,Crediti richiamati verso socio A?,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+102000,102000,"Crediti verso soci per versamenti ancora dovuti, parte da richiamare",account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+102001,102001,Crediti non richiamati verso socio A?,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121100,121100,Spese di Impianto e di Ampliamento,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121110,121110,Costituzione Società,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121120,121120,Modifica Statuto Sociale,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121130,121130,Avviamento impianti e Produzione,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121140,121140,Trasformazione Società,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121150,121150,Spese Ristrutturaz. in Economia,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121200,121200,Ricerca Sviluppo e Pubblicità,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121210,121210,Spese di ricerca e sviluppo,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121220,121220,Spese di Pubblicità,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121300,121300,Spese di brevetto industriale e diritti su opere dell'ingegno,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121310,121310,Brevetti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121320,121320,Diritti su Opere dell'Ingegno,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121330,121330,Diritti su Programmi Software,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121400,121400,"Concessione licenze, marchi e simili",account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121410,121410,Concessioni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121420,121420,Licenze,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121430,121430,Marchi di fabbrica,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121440,121440,Programmi Software e Licenze,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121500,121500,Spese di Avviamento,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121510,121510,Avviamento ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121600,121600,Immobilizzazioni imm.li in corso e acconti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121620,121620,Acconti a Fornitori su Immobilizzazioni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121630,121630,Caparre su Immobilizzazioni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121640,121640,Altre immobilizzazioni immateriali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121700,121700,Altre Immobilizzazioni ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121710,121710,Indennità Perdita Avviamento,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121720,121720,Spese Plur.li su Beni di Terzi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121730,121730,Altre spese  Pluriennali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121740,121740,Spese Manut.da Ammortiz.su Beni di Proprietà,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+121750,121750,Spese di Manutenzione su beni di Terzi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122100,122100,FA Costi di Impianto e di Ampliamento,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122110,122110,FA Costituzione Società,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122120,122120,FA Modifica Statuto Sociale,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122130,122130,FA Avviamento impianti e Produzione,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122140,122140,FA Trasformazione Società,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122150,122150,FA Spese Ristrutturaz. in Economia,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122200,122200,FA Ricerca Sviluppo e Pubblicità,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122210,122210,FA Costi di ricerca e sviluppo,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122220,122220,FA Costi di Pubblicità,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122300,122300,FA Costi di brevetto industriale e diritti su opere dell'ingegno,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122310,122310,FA Brevetti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122320,122320,FA Diritti su Opere dell'Ingegno,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122330,122330,FA Diritti su Programmi Software,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122400,122400,"FA Concessione licenze, marchi e simili",account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122410,122410,FA Concessioni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122420,122420,FA Licenze,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122430,122430,FA Marchi di fabbrica,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122440,122440,FA Programmi Software e Licenze,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122500,122500,FA Costi di Avviamento,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122510,122510,FA Avviamento ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122600,122600,FA Immobilizzazioni imm.li in corso e acconti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122620,122620,FA Acconti a Fornitori su Immobilizzazioni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122630,122630,FA Caparre su Immobilizzazioni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122640,122640,FA Altre immobilizzazioni immateriali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122700,122700,FA Altre Immobilizzazioni ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122710,122710,FA Indennità Perdita Avviamento,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122720,122720,FA Costi Plur.li su Beni di Terzi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122730,122730,FA Altri costi  Pluriennali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122740,122740,FA Spese Manut.da Ammortiz.su Beni di Proprietà,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+122750,122750,FA Spese di Manutenzione su beni di Terzi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123100,123100,Terreni e Fabbricati,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123110,123110,Terreni senza Costruzioni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123120,123120,Terreni ad Util.ne Industriale,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123130,123130,Terreni ad Util.ne Agricola,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123140,123140,Terreni da Costruzione,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123150,123150,Altri terreni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123160,123160,Fabbricati  ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123170,123170,Fabb.ti Indust.li e Infrastrutture,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123180,123180,Fabbricati Industriali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123200,123200,Impianti  e Macchinari,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123210,123210,Impianti generici vari,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123220,123220,Impianti Specifici,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123230,123230,Macchinari Operatori e Impianti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123240,123240,Impianti Generali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123300,123300,Attrezzature Industriali e Commerciali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123310,123310,Attrezzatura,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123320,123320,Attrezzature Varie e Minute ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123330,123330,Autovetture,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123340,123340,Automezzi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123350,123350,Mezzi di Trasporto Interni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123360,123360,Imballaggi durevoli da riutilizzare,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123370,123370,Macchine Ufficio Ordinarie,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123380,123380,Macchine Ufficio Elettroniche,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123382,123382,Telefono Cellulare,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123390,123390,Mobili e Arredi Ufficio,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123400,123400,Altri Beni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123410,123410,Beni in Concessione,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123420,123420,Beni Gratuitamente Devolvibili,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123430,123430,Altri Beni Materiali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123500,123500,Immoliz.ni Materiali in Corso e Acconti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123510,123510,Immobil. Materiali in Corso,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+123520,123520,Acconti a Fornitori su Acquisti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124100,124100,FA Terreni e Fabbricati,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124110,124110,FA Terreni senza Costruzioni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124120,124120,FA Terreni ad Util.ne Industriale,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124130,124130,FA Terreni ad Util.ne Agricola,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124140,124140,FA Terreni da Costruzione,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124150,124150,FA Altri terreni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124160,124160,FA Fabbricati  ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124170,124170,FA Fabb.ti Indust.li e Infrastrutture,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124180,124180,FA Fabbricati Industriali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124200,124200,FA Impianti  e Macchinari,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124210,124210,FA Impianti generici vari,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124220,124220,FA Impianti Specifici,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124230,124230,FA Macchinari Operatori e Impianti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124240,124240,FA Impianti Generali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124300,124300,FA Attrezzature Industriali e Commerciali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124310,124310,FA Attrezzatura,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124320,124320,FA Attrezzature Varie e Minute ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124330,124330,FA Autovetture,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124340,124340,FA Automezzi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124350,124350,FA Mezzi di Trasporto Interni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124360,124360,FA Imballaggi durevoli da riutilizzare,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124370,124370,FA Macchine Ufficio Ordinarie,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124380,124380,FA Macchine Ufficio Elettroniche,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124382,124382,FA Telefono Cellulare,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124390,124390,FA Mobili e Arredi Uffcio,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124400,124400,FA Altri Beni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124410,124410,FA Beni in Concessione,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124420,124420,FA Beni Gratuitamente Devolvibili,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124430,124430,FA Altri Beni Materiali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124500,124500,FA Immoliz.ni Materiali in Corso e Acconti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124510,124510,FA Immobil. Materiali in Corso,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+124520,124520,FA Acconti a Fornitori su Acquisti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125100,125100,Partecipazioni in Imprese Controllate,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125200,125200,Partecipazioni in Imprese Collegate,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125300,125300,Partecipazioni in Controllanti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125400,125400,Partecipazioni in Altre Imprese,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125500,125500,Crediti Finanziari in Imprese Controllate ( a breve ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125550,125550,Crediti Finanziari in Imprese Controllate (+12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125600,125600,Crediti fin. in Imprese Collegate ( a breve),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125650,125650,Crediti fin. in Imprese Collegate (+ 12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125700,125700,Crediti fin. v/Controllanti ( a breve ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125750,125750,Crediti fin. v/Controllanti (+ 12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125800,125800,Crediti fin. v/Altre Imprese ( a breve ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125850,125850,Crediti fin. v/Altre Imprese (+12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125900,125900,Altri Crediti Finanziari ( Entro 12 Mesi ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+125950,125950,Altri Crediti Finanziari (+ 12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+126000,126000,Titoli,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+126100,126100,Titoli di Stato,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+126200,126200,Titoli diversi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+126300,126300,Azioni sociali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151100,151100,Materie prime e di consumo,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151110,151110,Mat.di Consumo per Officina e Stab.,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151120,151120,Materie Sussidiarie,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151130,151130,Altri Materiali di Consumo,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151140,151140,Imballaggi  ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151150,151150,Merci in esposizione,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151170,151170,Combustibili,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151180,151180,Materiali per Manutenz.ne e Riparaz.ne,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151190,151190,Cancelleria e Stampati da utilizzare,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151200,151200,Prodotti in  Lavorazione,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151210,151210,Prodotti in Corso di Lavorazione  ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151250,151250,Semilavorati,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151300,151300,Lavori in corso su ordinazione,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151320,151320,Lav. in corso su ordin.  a breve termine,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151340,151340,Studi in corso,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151360,151360,Prestaz. di servizi in corso,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151380,151380,Commesse a lungo termine,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151400,151400,Prodotti finiti e Merci,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151410,151410,Beni per produzione servizi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151420,151420,Prodotti intermedi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151430,151430,Cascami e sottoprodotti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151440,151440,Merci da vendere,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151500,151500,Fornitori c/acconti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151510,151510,Acconti fornit. su materie prime,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151520,151520,Acconti fornit. su materie sussidiarie,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+151530,151530,Acconti fornit. su materiali di consumo,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152100,152100,Crediti v/clienti Italia,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152110,152110,Crediti v/clienti UE,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152120,152120,Clienti v/clienti Extra-UE,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152130,152130,Clienti corrispettivi giornalieri,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152140,152140,Clienti c/spese anticipate,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152150,152150,Clienti fatture da emettere,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152160,152160,Crediti inesigibili o in sofferenza,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152170,152170,Clienti c/corrispettivi da emettere,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152180,152180,Crediti commerciali diversi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152200,152200,Effetti attivi commerciali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152210,152210,Effetti all'incasso,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152220,152220,Effetti allo sconto,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152230,152230,Effetti insoluti e protestati,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152300,152300,Crediti v/clienti Italia (+12M),account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152310,152310,Crediti v/clienti UE (+12M),account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152320,152320,Crediti v/clienti Extra-UE (+!12M),account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+152400,152400,Cambiali attive (+12M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152410,152410,Effetti all'incasso (+12M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152420,152420,Effetti allo sconto (+12M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152430,152430,Effetti insoluti o protestati( credito +12M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152500,152500,Crediti v/Imprese Controllate ( a breve ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152550,152550,Crediti v/Imprese Controllate (+12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152600,152600,Crediti v/Imprese Collegate ( a breve ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152650,152650,Crediti v/Imprese Collegate (+ 12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152700,152700,Crediti v/Controllanti ( a breve ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152750,152750,Crediti v/Controllanti (+ 12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152800,152800,Crediti v/Altre Imprese ( a breve ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152850,152850,Crediti v/Altre Imprese ( +12 M ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152900,152900,Altri Crediti ( Entro 12 Mesi ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+152950,152950,Altri Crediti (+ 12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153010,153010,IVA n/credito ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153020,153020,Crediti IVA c/erario,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153030,153030,IVA n/credito in sosp. ,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153040,153040,Crediti per rimborsi IVA,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153050,153050,Integr. IVA da c/acquisti UE (L.427/93),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153060,153060,Imposte c/acconto IVA,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153100,153100,Crediti tributari,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153110,153110,Crediti per ritenute subite,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153120,153120,Crediti per rit. Int.Attivi Bancari,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153140,153140,Crediti per rimborsi IRES/IRAP,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153150,153150,Imposte c/acconto  IRES/IRAP,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153200,153200,Crediti v/dipendenti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153250,153250,Personale c/acconti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153300,153300,Crediti verso INAIL,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153310,153310,Crediti v/istituti previdenziali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153330,153330,Crediti v/compagnie assicurative,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153340,153340,Crediti per rimborsi INAIL,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153400,153400,Crediti per depositi cauzionali,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153410,153410,Arrotondamenti a. su stipendi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153420,153420,Fondo rischi su crediti,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153450,153450,Obbligazionisti c/sottoscrizioni,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+153500,153500,Creditori diversi ,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+153510,153510,Crediti v/fornitori c/anticipi,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+153520,153520,Crediti v/Amministratori,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+153530,153530,Note Credito da ricevere,account.data_account_type_current_receivable,TRUE,l10n_it_chart_template_fcoach66
+154100,154100,Crediti tributari ( +12 M ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+154300,154300,Crediti verso INAIL (+ 12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+154310,154310,Crediti v/istituti previdenziali (+ 12 M ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+154330,154330,Crediti v/compagnie assicurative (+ 12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+154400,154400,Crediti per depositi cauzionali ( +  12 M ),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+154450,154450,Obbligazionisti c/sottoscrizioni (+ 12 M),account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+180010,180010,Denaro in Cassa,account.data_account_type_current_cash,TRUE,l10n_it_chart_template_fcoach66
+180020,180020,C/C Postali,account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+180030,180030,Assegni,account.data_account_type_current_cash,TRUE,l10n_it_chart_template_fcoach66
+180040,180040,Valori bollati in cassa,account.data_account_type_current_cash,TRUE,l10n_it_chart_template_fcoach66
+180100,180100,Banche e c/c locali,account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+180200,180200,Banche e c/c regionali,account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+180203,180203,C.R.Fossano (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+180204,180204,C.R.Savigliano (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+180300,180300,Banche e c/c nazionali,account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+180301,180301,Unicredit Banca (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+180302,180302,Banca Intesa San Paolo (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+180303,180303,Monte dei Paschi Siena (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+180304,180304,BNL Paribas (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+180400,180400,Banche e c/c on-line,account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
+190110,190110,Ratei attivi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+190120,190120,Risconti attivi,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
+211010,211010,Capitale sociale,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+211020,211020,Patrimonio Netto ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+211030,211030,Quote sottoscritte,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+211040,211040,Azioni di Risparmio,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+212010,212010,Riserva da sovrapprezzo azioni,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+213010,213010,Riserva di rivalutazione,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+214010,214010,Riserva legale,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+215010,215010,Riserve statutarie,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+216010,216010,Riserva per azioni proprie in portafoglio,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217000,217000,Altre riserve,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217010,217010,Altre riserve: riserva straordinaria o facoltativa,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217020,217020,Altre riserve:  riserva per rinnovamento impianti e macchinari,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217030,217030,Altre riserve: riserva ammortamento anticipato,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217040,217040,Altre riserve: riserva per acquisto azioni proprie,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217050,217050,Altre riserve: riserva da deroghe ex art. 2423 cod. civ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217060,217060,Altre riserve: riserva azioni (quote) della societa controllante,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217070,217070,Altre riserve: riserva non distribuibile da rivalutazione delle partecipazioni,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217080,217080,Altre riserve: versamenti in conto aumento di capitale,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217090,217090,Altre riserve: versamenti in conto futuro aumento di capitale,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217100,217100,Altre riserve: versamenti in conto capitale,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217110,217110,Altre riserve: versamenti a copertura perdite,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217120,217120,Altre riserve: riserva per utili su cambi,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+217130,217130,"Altre riserve: Riserve da condono fiscale, ex L.289 del 27/12/2002",account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+218010,218010,Utili (perdite) portati a nuovo,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+219010,219010,Utile (perdita) d'esercizio ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+219020,219020,"Utile (perdita) d'esercizio, copertura parziale perdita d'esercizio ",account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+219030,219030,"Utile (perdita) d'esercizio, utile (perdita) residua",account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+220100,220100,Fondo per trattamento di quiescenza,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+220200,220200,Fondo imposte presunte,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+220300,220300,Fondo imposte differite,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+220400,220400,Fondo manutenzioni programmate,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+220510,220510,Fondo rischi su cambi,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+220520,220520,Fondo per concorsi a premio,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+220530,220530,Fondo di auto-assicurazione,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+220540,220540,Fondo rischi di collaudo,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+220550,220550,Fondo rischi di garanzia,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+220560,220560,Fondo per rischi e oneri futuri,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+230010,230010,Debiti per TFR,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240100,240100,Banche c/c passivi locali,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240200,240200,Banche c/c passivi regionali,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240203,240203,C.R.Fossano (passivo),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240204,240204,C.R.Savigliano (passivo),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240300,240300,Banche c/c passivi nazionali,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240301,240301,Unicredit Banca (passivo),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240302,240302,Banca Intesa San Paolo (passivo),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240303,240303,Monte dei Paschi Siena (passivo),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240304,240304,BNL Paribas (passivo),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240400,240400,Banche c/c passivi on-line,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+240500,240500,Banche c/sovvenzioni ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+241100,241100,Banche c/RIBA all'incasso ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+242100,242100,Banche c/cambiali all'incasso ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+243100,243100,Banche c/anticipi su fatture ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+245100,245100,Obbligazioni ordinarie,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+245110,245110,Obbligazioni ordinarie (+ 12 M),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+245120,245120,Obbligazioni indicizzate,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+245130,245130,Obbligazioni indicizzate (+ 12 M ),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+245140,245140,Altre obbligazioni,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+245150,245150,Altre obbligazioni (+ 12 M),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+246000,246000,Mutui passivi ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+246010,246010,Aperture di credito con garanzia reale,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+246020,246020,Altri debiti con garanzia reale ( a breve ),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+246030,246030,Altri debiti con garanzia reale (+ 12 M),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247100,247100,Debiti v/altri finanziatori ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247110,247110,Debiti v/soci,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247120,247120,Soci c/finanziamento infruttifero,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247130,247130,Debiti v/società finanziarie,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247140,247140,Depositi di dipendenti,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247500,247500,Debiti Finanziari in Imprese Controllate ( a breve ),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247550,247550,Debiti Finanziari in Imprese Controllate (+12 M),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247600,247600,Debiti fin. in Imprese Collegate ( a breve),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247650,247650,Debiti fin. in Imprese Collegate (+ 12 M),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247700,247700,Debiti fin. v/Controllanti ( a breve ),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247750,247750,Debiti fin. v/Controllanti (+ 12 M),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247800,247800,Debiti fin. v/Altre Imprese ( a breve ),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247850,247850,Debiti fin. v/Altre Imprese ( +12 M ),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247900,247900,Altri Debiti Finanziari ( Entro 12 Mesi ),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+247950,247950,Altri Debiti Finanziari (+ 12 M),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+250100,250100,Debiti v/fornitori Italia,account.data_account_type_current_payable,TRUE,l10n_it_chart_template_fcoach66
+250110,250110,Debiti v/fornitori UE,account.data_account_type_current_payable,TRUE,l10n_it_chart_template_fcoach66
+250120,250120,Debiti v/fornitori Extra-UE,account.data_account_type_current_payable,TRUE,l10n_it_chart_template_fcoach66
+250140,250140,Debiti per Carburanti,account.data_account_type_current_payable,TRUE,l10n_it_chart_template_fcoach66
+250150,250150,Fornitori Fatture da ricevere ,account.data_account_type_current_payable,TRUE,l10n_it_chart_template_fcoach66
+250180,250180,Debiti da liquidare ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+250190,250190,Bolla doganale,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+250200,250200,Cambiali passive ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+250300,250300,Debiti v/fornitori Italia (+12M),account.data_account_type_current_payable,TRUE,l10n_it_chart_template_fcoach66
+250310,250310,Debiti v/fornitori UE (+12M),account.data_account_type_current_payable,TRUE,l10n_it_chart_template_fcoach66
+250320,250320,Debiti v/fornitori Extra-UE (+12M),account.data_account_type_current_payable,TRUE,l10n_it_chart_template_fcoach66
+250400,250400,Cambiali passive (+12M),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260010,260010,IVA n/debito ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260020,260020,Erario c/IVA ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260030,260030,IVA n/deb. in sospensione,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260040,260040,IVA su corrispettivi,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260050,260050,IVA autofatture da c/acquisti UE,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260100,260100,Debiti per imposte ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260110,260110,Debiti per ritenute da versare ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260200,260200,Personale c/retribuzioni ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260210,260210,Personale c/liquidazioni ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260300,260300,Debiti verso INAIL,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260310,260310,Debiti v/istituti previdenziali ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260311,260311,Debiti v/INPS Dipendenti,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260312,260312,Debiti v/IRPEF Dipendenti,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260400,260400,Depositi cauzionali (da rendere),account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260410,260410,Debitori diversi,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260420,260420,Debiti v/clienti c/anticipi,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260430,260430,Debiti v/Amministratori,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260440,260440,Note Credito da Emettere,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+260450,260450,Arrotondamenti p. su stipendi,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+290010,290010,Ratei passivi ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+290020,290020,Risconti passivi ,account.data_account_type_current_liability,TRUE,l10n_it_chart_template_fcoach66
+410010,410010,"Rischi assunti dall'impresa, Fideiussioni",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+410020,410020,"Rischi assunti dall'impresa, Avalli",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+410030,410030,"Rischi assunti dall'impresa, Altre garanzie personali",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+410040,410040,"Rischi assunti dall'impresa, Garanzie reali",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+410050,410050,"Rischi assunti dall'impresa, Altri rischi, crediti ceduti pro solvendo",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+420010,420010,Totale impegni assunti dall'impresa,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+430010,430010,"Beni di terzi presso l'impresa, merci in conto lavorazione",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+430020,430020,"Beni di terzi presso l'impresa, a titolo di deposito o comodato",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+430030,430030,"Beni di terzi presso l'impresa, in pegno o cauzione",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+430210,430210,Costo Macchinari in leasing,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+430310,430310,Titoli di terzi ricevuti in garanzia,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+490010,490010,Stato patrimoniale iniziale,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+490020,490020,Stato patrimoniale finale,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+490030,490030,Stato patrimoniale (da risultato di esercizio),account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+510000,510000,Ricavi da merci e servizi,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+510100,510100,Merci c/vendita,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+510200,510200,Ricavi da prestazioni di servizio,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+510300,510300,Corrispettivi lordi da ventilare,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+510400,510400,Corrispettivi ripartiti,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+510500,510500,Ricavi da privati,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+511000,511000,Premi su vendite ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+512000,512000,Rimborsi spese c/clienti ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+513000,513000,Resi su vendite ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+519000,519000,"Rett.che per Resi,Sconti,Abbuoni su vendite",account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+520100,520100,Var.ne Materie Prime,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+520150,520150,Var.ne Merci Esposizione,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+520200,520200,Variazioni delle rimanenze,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+520250,520250,Var.ne Prodotti semilavorati,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+520400,520400,Var.ne Rimanenze finali merce,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+530310,530310,"Valore della produzione, variazioni dei lavori in corso su ordinazione",account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540130,540130,Incr. Val. avviamento impianti o produzione,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540210,540210,"Valori da studio,ricerca e progettazione",account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540220,540220,Valori da pubblicità e marketing,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540310,540310,Ricavi da Brevetti,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540320,540320,Diritti di utilizzazione opere dell'ingegno,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540330,540330,Diritti di utilizzazione programmi software,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540410,540410,Ricavi da concessioni,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540420,540420,Ricavi da Licenze,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540430,540430,Valore Marchi di fabbrica,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540600,540600,"Valore della produzione, incrementi di immobilizzazioni per lavori interni",account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540740,540740,"Incr. Val. da manuten.ne riparaz.ne, ammodernamento",account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+540750,540750,"Incr. Val. da manuten.ne riparaz.ne, su beni di terzi",account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+541100,541100,Rivalorizzazione Terreni e Fabbricati,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+541180,541180,Rivalorizzazione Fabbricati industriali,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+541200,541200,Rivalorizzazione Impianti  e Macchinari,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+541300,541300,Rival. Attrezzature Industriali e Commerciali,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+541320,541320,Rival. Attrezzature Varie e Minute ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+541340,541340,Rivalorizzazione Automezzi,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+541380,541380,Rival. Macchine Ufficio Elettroniche,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+541390,541390,Rival. Mobili e Arredi Uffcio,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+541510,541510,Inc.su immobili.ni materiali,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550070,550070,Autofatture,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550110,550110,Contributi statali,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550120,550120,Contributi regionali,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550210,550210,Prov. da partec. in imprese controllate,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550220,550220,Prov. da partec. in imprese collegate,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550230,550230,Prov. da partec. in altre imprese,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550510,550510,Fitti attivi ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550520,550520,Proventi vari ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550530,550530,Arrotondamenti attivi ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550540,550540,Plusvalenze ordinarie diverse ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550550,550550,Sopravvenienze attive ordinarie diverse ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+550560,550560,Insussistenze attive ordinarie diverse ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+610100,610100,Acq. Materie prime,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+610140,610140,Acq. Imballaggi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+610200,610200,Acq. Materiali di consumo,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+610250,610250,Acq. Semilavorati,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+610300,610300,Acq. Attrezzatura varia e minuta,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+610400,610400,Costi Merce c/apporti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+610500,610500,Resi su acquisti ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+620300,620300,Noleggi vari,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621110,621110,Spese accessorie su Acquisti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621130,621130,Costi per produzione beni e servizi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621140,621140,Acq. Merci e Oggettistica Esposizione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621200,621200,Lavorazioni esterne,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621210,621210,Costi per Prestazione di servizi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621220,621220,Costi Materiali per pulizie,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621250,621250,Costi Mat. per manutenzione e riparazione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621300,621300,Rimb.carburanti ded. 50%,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621310,621310,Acquisto carburanti e lubrificanti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621320,621320,Pedaggi autostradali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621330,621330,Pedaggi autostradali ded.50%,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621340,621340,Costi di trasporto e spedizione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621350,621350,Costi x servizi doganali e importazione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621400,621400,Costi per imballaggi e magazzinaggio,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621410,621410,Facchinaggio e manovalanza,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621500,621500,Spese per buoni pasto,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621510,621510,Prodotti mensa aziendale,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621520,621520,Acq. Indumenti di lavoro,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621530,621530,Rimb. Spese a Dipendenti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621550,621550,Servizi e consulenze paghe,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621600,621600,Provvigioni ad intermediari,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621610,621610,Provvigioni occasionali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621620,621620,Provvigioni passive e spese d'incasso,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621630,621630,Enasarco a ns. carico,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+621640,621640,F.I.R.R.,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+622100,622100,Sp. energia elettrica Prod.,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+622110,622110,Sp. per acquisto gas Prod.,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+622120,622120,Sp. di riscaldamento Prod.,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+622130,622130,Acq. Carb. Riscaldamento Prod.,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+622200,622200,Costi Utensileria e materiali di consumo,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+622210,622210,Costi per Analisi e Prove Laboratorio,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623100,623100,Spese condominiali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623110,623110,Manutenzione esterna fabbricati,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623120,623120,Canoni per servizi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623130,623130,Spese di assicurazione per veicoli,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623140,623140,Assicurazione auto ded. 20%,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623200,623200,Canoni di locazione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623210,623210,Servizi di Vigilanza,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623300,623300,"Manutenz. Macchine,impianti e attrezzature",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623310,623310,Manutenz. Macchine ufficio,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623320,623320,Canoni assistenza tecnica,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623330,623330,Manutenz. e riparazione veicoli,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623340,623340,Manutenz. e riparazione ded. 50%,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623350,623350,Costi di riparazione e manutenzione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623400,623400,Servizi commerciali e amministrative,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623410,623410,Royalties Diritti d'Autore e brevetti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623420,623420,Compensi per Onorari,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623430,623430,Rimborsi spese Professionisti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623440,623440,Compensi a terzi prof.sti sogg. R.A.,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623450,623450,Consulenze Amministrative e Contabili,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623460,623460,Spese legali e notarili,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623490,623490,Consulenze varie,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623500,623500,Consulenza Commerciali e Marketing,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623510,623510,Incentivi di vendita,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623520,623520,Spese per Omaggi Sup. 50 Euro,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623530,623530,Spese per Omaggi Inf. 50 Euro,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623550,623550,Costi Materiale pubblicitario,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623560,623560,Pubbliche relazioni,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623570,623570,Mostre e fiere,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623580,623580,Costi pubblicitari,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623590,623590,"Spese rappresentanza (alberghi,ristoranti,taxi)",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+623600,623600,Aggiornamenti e Programmi Software,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625010,625010,Spese telefoniche ded. 50%,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625020,625020,Spese telefoniche ded. 80%,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625030,625030,Costi assicurativi per ufficio,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625040,625040,Cancelleria e Stampati,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625050,625050,"Spese pulizia,acqua e manutenz.locali",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625060,625060,Spese postali ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625070,625070,Spese x valori bollati e francobolli,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625080,625080,Abbonamenti a giornali e riviste,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625100,625100,Energia Elettrica,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625120,625120,Riscaldamento Uffici,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625150,625150,Altre spese Giustificate,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625160,625160,Spese di contenzioso e recupero crediti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625170,625170,Altri costi giustificati,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625180,625180,"Beni non ammortizzabili < 516,45 €",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+625190,625190,Altri costi per servizi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+626000,626000,Emolumenti Amministratori,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+626010,626010,Contr. INPS Amministratore,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+626020,626020,Sconti e abbuoni passivi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+626030,626030,Rettifiche su costi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+630100,630100,Canoni di locazione passivi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+630200,630200,Canoni di locazione leasing,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+640910,640910,Salari e stipendi ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+640920,640920,Oneri sociali per il personale,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+640930,640930,TFR: trattamento di fine rapporto,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+640940,640940,Trattamento di quiescenza,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+640950,640950,Altri costi per il personale ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+640960,640960,Premio INAIL,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651100,651100,QA Costi di Impianto e di Ampliamento,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651110,651110,QA Costituzione Società,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651120,651120,QA Modifica Statuto Sociale,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651130,651130,QA Avviamento impianti e Produzione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651140,651140,QA Trasformazione Società,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651150,651150,QA Spese Ristrutturaz. in Economia,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651200,651200,QA Ricerca Sviluppo e Pubblicità,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651210,651210,QA Costi di ricerca e sviluppo,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651220,651220,QA Costi di Pubblicità,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651300,651300,QA Costi di brevetto industriale e diritti su opere dell'ingegno,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651310,651310,QA Brevetti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651320,651320,QA Diritti su Opere dell'Ingegno,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651330,651330,QA Diritti su Programmi Software,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651400,651400,"QA Concessione licenze, marchi e simili",account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651410,651410,QA Concessioni,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651420,651420,QA Licenze,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651430,651430,QA Marchi di fabbrica,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651440,651440,QA Programmi Software e Licenze,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651500,651500,QA Costi di Avviamento,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651510,651510,QA Avviamento ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651600,651600,QA Immobilizzazioni imm.li in corso e acconti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651620,651620,QA Acconti a Fornitori su Immobilizzazioni,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651630,651630,QA Caparre su Immobilizzazioni,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651640,651640,QA Altre immobilizzazioni immateriali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651700,651700,QA Altre Immobilizzazioni ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651710,651710,QA Indennità Perdita Avviamento,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651720,651720,QA Costi Plur.li su Beni di Terzi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651730,651730,QA Altri costi  Pluriennali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651740,651740,QA Spese Manut.da Ammortiz.su Beni di Proprietà,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+651750,651750,QA Spese di Manutenzione su beni di Terzi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652100,652100,QA Terreni e Fabbricati,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652110,652110,QA Terreni senza Costruzioni,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652120,652120,QA Terreni ad Util.ne Industriale,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652130,652130,QA Terreni ad Util.ne Agricola,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652140,652140,QA Terreni da Costruzione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652150,652150,QA Altri terreni,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652160,652160,QA Fabbricati  ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652170,652170,QA Fabb.ti Indust.li e Infrastrutture,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652180,652180,QA Fabbricati Industriali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652200,652200,QA Impianti  e Macchinari,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652210,652210,QA Impianti generici vari,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652220,652220,QA Impianti Specifici,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652230,652230,QA Macchinari Operatori e Impianti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652240,652240,QA Impianti Generali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652300,652300,QA Attrezzature Industriali e Commerciali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652310,652310,QA Attrezzatura,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652320,652320,QA Attrezzature Varie e Minute ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652330,652330,QA Autovetture,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652340,652340,QA Automezzi,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652350,652350,QA Mezzi di Trasporto Interni,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652360,652360,QA Imballaggi durevoli da riutilizzare,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652370,652370,QA Macchine Ufficio Ordinarie,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652380,652380,QA Macchine Ufficio Elettroniche,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652382,652382,QA Telefono Cellulare,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652390,652390,QA Mobili e Arredi Uffcio,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652400,652400,QA Altri Beni,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652410,652410,QA Beni in Concessione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652420,652420,QA Beni Gratuitamente Devolvibili,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652430,652430,QA Altri Beni Materiali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652500,652500,QA Immoliz.ni Materiali in Corso e Acconti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652510,652510,QA Immobil. Materiali in Corso,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+652520,652520,QA Acconti a Fornitori su Acquisti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+661010,661010,Svalutazioni immobilizzazioni immateriali ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+661020,661020,Svalutazioni immobilizzazioni materiali ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+661030,661030,Svalutazione crediti ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+671010,671010,Variazioni materie prime,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+671020,671020,Variazioni materiale di consumo,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+681010,681010,Accantonamento per responsabilità civile ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+682010,682010,Accantonamento per spese future ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+682020,682020,Accantonamento per manutenzioni programmate ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691000,691000,Imposte e tasse di esercizio,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691100,691100,Tassa Conc. Governativa,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691200,691200,Tasse comunali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691210,691210,Tassa sui rifiuti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691220,691220,Tassa occupazione suolo pubblico,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691230,691230,Tass partecipazione a fiere,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691300,691300,Oneri fiscali diversi ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691320,691320,Registraz. Contratti di locazione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691350,691350,Tassa di circolazione,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691360,691360,Imposta di registro,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691400,691400,Imposte e tasse diverse,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691500,691500,Valori bollati,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691510,691510,Vidimazione libri sociali,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691600,691600,Contributi associazioni,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691610,691610,Commissioni su Buoni Pasto,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691700,691700,Diritto annuale CCIAA,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691710,691710,Costo diritti SIAE,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691720,691720,Abbonamento RAI,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+691900,691900,Multe e ammende,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+698010,698010,Perdite su crediti ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+698020,698020,Arrotondamenti passivi ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+698030,698030,Minusvalenze ordinarie diverse ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+698040,698040,Sopravvenienze passive ordinarie diverse ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+698050,698050,Insussistenze passive ordinarie diverse ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+699000,699000,Oneri vari ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+710151,710151,Proventi da partecipazione ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+720161,720161,Crediti iscritti nelle immobilizzazioni,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+720162,720162,Crediti da tit. iscritti nelle  immobiliz. che non costituiscono partecipaz.,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+720163,720163,Crediti da tit. iscritti  nell'attivo circolante che non costituiscono partecipaz.,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+720164,720164,Crediti da proventi finanziari diversi,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+730100,730100,Interessi e altri oneri finanziari da imprese controllate,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+730200,730200,Interessi e altri oneri finanziari da imprese collegate,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+730300,730300,Interessi e altri oneri finanziari da imprese controllanti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+730400,730400,Interessi e altri oneri finanziari da altre imprese,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+731000,731000,Interessi e oneri finanziari su finanz. Clienti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+731010,731010,Interessi passivi verso fornitori o altri,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+731100,731100,Interessi e oneri finanziari bancari,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+731110,731110,Interessi passivi su Mutui Ipotecari,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+731120,731120,Interessi passivi verso banche,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+731130,731130,Interessi passivi c/c bancari,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+731140,731140,Spese e commissioni bancarie,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+831000,831000,Rivalutazioni da partecipazioni,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+832000,832000,Rivalutazioni di immobilizzazioni finanziarie,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+833000,833000,Rivalutaz. da titoli in att. Circ. senza partecipaz.,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+841000,841000,Svalutazioni da partecipazioni,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+842000,842000,Svalutazioni di immobilizzazioni finanziarie,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+843000,843000,Svalutazioni da titoli in att. Circ. senza partecipaz.,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+851000,851000,Plusvalenze da alienazioni ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+851010,851010,Plusvalenze da alienazioni eserc. precedenti,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+851020,851020,Plusvalenze straordinarie ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+851030,851030,Plusvalenze da terreni e fabbricati,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+851040,851040,Plusvalenze da attrezzature,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+851050,851050,Plusvalenze da cessione titoli,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+851060,851060,Plusvalenze da partecipazioni,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+851100,851100,"Sopravvenuta insussistenza di oneri,spese e passiv.",account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+851110,851110,Insussistenze attive straordinarie ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+851150,851150,Incasso da credito considerato inesigibile,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+852000,852000,Indennità di risarcimento assicurativo,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+852040,852040,Sopravvenienze attive straordinarie ,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+852050,852050,Fatture emesse > da accertare,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+852060,852060,Contributi in conto capitale,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+852090,852090,Altre liberalità,account.data_account_type_current_income,TRUE,l10n_it_chart_template_fcoach66
+860211,860211,Minusvalenze da alienazioni eserc. Precedenti,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+860212,860212,Minusvalenze straordinarie ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+860213,860213,Sopravvenienze passive straordinarie ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+860214,860214,Insussistenze passive straordinarie ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+860215,860215,Imposte esercizi precedenti ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+870220,870220,Imposte dell'esercizio ,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+870230,870230,Risultato economico di esercizio,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+870240,870240,Risultato economico di esercizio,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+880250,880250,Altri accantonamenti da norme tributarie,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+880260,880260,Utile da esercizio precedente,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
+880270,880270,Perdita da esercizio precedente,account.data_account_type_current_expense,TRUE,l10n_it_chart_template_fcoach66
