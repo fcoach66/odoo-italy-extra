@@ -1,4 +1,4 @@
-id,code,name,user_type_current_id:id,reconcile,chart_template_id:id
+id,code,name,user_type_id:id,reconcile,chart_template_id:id
 101000,101000,"Crediti verso soci per versamenti ancora dovuti, parte richiamata",account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
 101001,101001,Crediti richiamati verso socio A?,account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
 102000,102000,"Crediti verso soci per versamenti ancora dovuti, parte da richiamare",account.data_account_type_current_asset,TRUE,l10n_it_chart_template_fcoach66
