@@ -232,20 +232,6 @@ id,code,name,user_type_id:id,reconcile,chart_template_id:id
 154330,154330,Crediti v/compagnie assicurative (+ 12 M),account.data_account_type_current_assets,TRUE,l10n_it_chart_template_fcoach66
 154400,154400,Crediti per depositi cauzionali ( +  12 M ),account.data_account_type_current_assets,TRUE,l10n_it_chart_template_fcoach66
 154450,154450,Obbligazionisti c/sottoscrizioni (+ 12 M),account.data_account_type_current_assets,TRUE,l10n_it_chart_template_fcoach66
-180010,180010,Denaro in Cassa,account.data_account_type_current_cash,TRUE,l10n_it_chart_template_fcoach66
-180020,180020,C/C Postali,account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
-180030,180030,Assegni,account.data_account_type_current_cash,TRUE,l10n_it_chart_template_fcoach66
-180040,180040,Valori bollati in cassa,account.data_account_type_current_cash,TRUE,l10n_it_chart_template_fcoach66
-180100,180100,Banche e c/c locali,account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
-180200,180200,Banche e c/c regionali,account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
-180203,180203,C.R.Fossano (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
-180204,180204,C.R.Savigliano (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
-180300,180300,Banche e c/c nazionali,account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
-180301,180301,Unicredit Banca (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
-180302,180302,Banca Intesa San Paolo (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
-180303,180303,Monte dei Paschi Siena (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
-180304,180304,BNL Paribas (attivo),account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
-180400,180400,Banche e c/c on-line,account.data_account_type_current_bank,TRUE,l10n_it_chart_template_fcoach66
 190110,190110,Ratei attivi,account.data_account_type_current_assets,TRUE,l10n_it_chart_template_fcoach66
 190120,190120,Risconti attivi,account.data_account_type_current_assets,TRUE,l10n_it_chart_template_fcoach66
 211010,211010,Capitale sociale,account.data_account_type_current_liabilities,TRUE,l10n_it_chart_template_fcoach66
@@ -372,7 +358,7 @@ id,code,name,user_type_id:id,reconcile,chart_template_id:id
 490010,490010,Stato patrimoniale iniziale,account.data_account_type_expenses,TRUE,l10n_it_chart_template_fcoach66
 490020,490020,Stato patrimoniale finale,account.data_account_type_expenses,TRUE,l10n_it_chart_template_fcoach66
 490030,490030,Stato patrimoniale (da risultato di esercizio),account.data_account_type_expenses,TRUE,l10n_it_chart_template_fcoach66
-510000,510000,Ricavi da merci e servizi,account.data_account_type_revenue ,TRUE,l10n_it_chart_template_fcoach66
+510000,510000,Ricavi da merci e servizi,account.data_account_type_revenue,TRUE,l10n_it_chart_template_fcoach66
 510100,510100,Merci c/vendita,account.data_account_type_other_income,TRUE,l10n_it_chart_template_fcoach66
 510200,510200,Ricavi da prestazioni di servizio,account.data_account_type_other_income,TRUE,l10n_it_chart_template_fcoach66
 510300,510300,Corrispettivi lordi da ventilare,account.data_account_type_other_income,TRUE,l10n_it_chart_template_fcoach66
