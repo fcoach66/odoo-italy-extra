@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-from odoo import models, fields
+from odoo import models, fields, api
 
 
 class SaleOrder(models.Model):
@@ -23,7 +23,7 @@ class SaleOrder(models.Model):
 		
 	}
 
-	
+	@api.multi
 	def set_additional_text(self, cr, uid, cond_id, field_name, partner_id):
 		if not cond_id:
 			return {'value': {field_name: ''}}
