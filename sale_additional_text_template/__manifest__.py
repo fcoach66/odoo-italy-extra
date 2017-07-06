@@ -4,7 +4,7 @@
 #
 {"name": "Sale Additional Text Templates",
  "summary": "Additional text on sale documents",
- "version": "8.0.1.0.0",
+ "version": "10.0.1.0.0",
  "depends": ["base","sale"],
  "author": "fcoach66",
  "data": ["additional_text_view.xml",
