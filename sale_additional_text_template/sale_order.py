@@ -7,13 +7,13 @@ class SaleOrder(models.Model):
 
 	_inherit = "sale.order"
 	_columns = {
-		'additional_text_template1_id': fields.many2one(
+		'additional_text_template1_id': fields.Many2one(
 			'sale.additional_text.template',
 			'Subject'),
-		'additional_text_template2_id': fields.many2one(
+		'additional_text_template2_id': fields.Many2one(
 			'sale.additional_text.template',
 			'Description'),
-		'additional_text_template3_id': fields.many2one(
+		'additional_text_template3_id': fields.Many2one(
 			'sale.additional_text.template',
 			'Limitation'),
 		
