@@ -1,12 +1,12 @@
 <odoo>
   <data>
-    <record model="ir.ui.view" id="sale_order_form_add_additional_text">
-      <field name="name">additional_text_template.sale.order.form</field>
+    <record id="sale_order_form_add_additional_text" model="ir.ui.view">
+      <field name="name">sale.order.form.additional_text_template</field>
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale.view_order_form"/>
       <field name="arch" type="xml">
-        <xpath expr="//notebook[last()]" position="inside">
-          <page string="Additional Text" name="additional_text">
+        <notebook position="inside">
+          <page string="Additional Text">
             <label string="The additional text will be displayed on the printed document. You can load a predefined template, write your own text or load a template and then modify it only for this document." colspan="2"/>
             <group>
               <field name="additional_text_template1_id" string="additional_text_template1_id" context="{'default_type': 'subject'}" domain="[('type','=','subject')]" on_change="set_additional_text_1(additional_text_template1_id, partner_id)"/>
@@ -21,7 +21,7 @@
               <field name="additional_text_3" nolabel="1" colspan="2"/>
             </group>
           </page>
-        </xpath>
+        </notebook>
       </field>
     </record>
   </data>
