@@ -9,7 +9,7 @@
  "author": "fcoach66",
  "data": ["views/additional_text_view.xml",
 #			"views/sale_order_view.xml",
-#			'security/ir.model.access.csv',
+			'security/ir.model.access.csv',
           ],
  "category": "Sale",
  "installable": True,
