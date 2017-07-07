@@ -9,12 +9,15 @@
           <page string="Additional Text" name="additional_text">
             <label string="The additional text will be displayed on the printed document. You can load a predefined template, write your own text or load a template and then modify it only for this document." colspan="2"/>
             <group>
+              <field name="additional_text_template1_id" string="additional_text_template1_id" context="{'default_type': 'subject'}" domain="[('type','=','subject')]" on_change="set_additional_text_1(additional_text_template1_id, partner_id)"/>
               <field name="additional_text_1" nolabel="1" colspan="2"/>
             </group>
             <group>
+              <field name="additional_text_template2_id" string="additional_text_template2_id" context="{'default_type': 'description'}" domain="[('type','=','description')]" on_change="set_additional_text_2(additional_text_template2_id, partner_id)"/>
               <field name="additional_text_2" nolabel="1" colspan="2"/>
             </group>
             <group>
+              <field name="additional_text_template3_id" string="additional_text_template3_id" context="{'default_type': 'limitation'}" domain="[('type','=','limitation')]" on_change="set_additional_text_3(additional_text_template3_id, partner_id)"/>
               <field name="additional_text_3" nolabel="1" colspan="2"/>
             </group>
           </page>
