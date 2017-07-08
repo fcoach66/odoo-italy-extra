@@ -18,7 +18,7 @@ class SaleOrder(models.Model):
 		if not cond_id:
 			return {'value': {field_name: ''}}
 		cond_obj = self.env['sale.additional_text.template']
-		text = cond_obj.get_value(cr, uid, cond_id, partner_id)
+		text = cond_obj.get_value(uid, cond_id, partner_id)
 		return {'value': {field_name: text}}
 	
 	@api.multi
