@@ -14,13 +14,6 @@ class SaleOrder(models.Model):
         additional_text_3 = fields.Text('Limitation')
 
 
-        def set_additional_text(self, cond_id, field_name, partner_id):
-                if not cond_id:
-                        return {'value': {field_name: ''}}
-                cond_obj = self.env['sale.additional_text.template']
-                text = cond_obj.get_value(cond_id, partner_id)
-                return {'value': {field_name: text}}
-        
 		@api.onchange('additional_text_template1_id')
         def _set_additional_text_1(self):
 		    additional_text = self.additional_text_template1_id
