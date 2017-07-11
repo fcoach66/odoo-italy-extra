@@ -29,6 +29,6 @@ class SaleOrder(models.Model):
 
     @api.onchange('additional_text_template3_id')
     def _set_additional_text_3(self):
-        additional_text = self.additiona3_text_template1_id
+        additional_text = self.additional_text_template3_id
         if additional_text:
             self.additional_text_3 = additional_text.get_value(self.partner_id.id)
