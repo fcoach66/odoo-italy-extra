@@ -10,12 +10,7 @@ class SaleAdditionalTextTemplate(models.Model):
     _description = "Sale Additional Text template"
 
     name = fields.Char('Additional text name', required=True)
-    type = fields.Selection([('subject', 'Subject'),
-                                 ('description', 'Description'),('limitation', 'Limitation')],
-                                'Type',
-                                required=True,
-                                default='subject',
-                                help="Type of additional text")
+    type = fields.Selection([('subject', 'Subject'), ('description', 'Description'), ('limitation', 'Limitation')], 'Type', required=True, default='subject', help="Type of additional text")
     text = fields.Text('Text', translate=True, required=True)
 
     @api.multi

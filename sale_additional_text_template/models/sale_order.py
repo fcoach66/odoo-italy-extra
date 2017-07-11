@@ -20,12 +20,23 @@ class SaleOrder(models.Model):
                 cond_obj = self.env['sale.additional_text.template']
                 text = cond_obj.get_value(cond_id, partner_id)
                 return {'value': {field_name: text}}
+        
+		@api.onchange('additional_text_template1_id')
+        def _set_additional_text_1(self):
+		    additional_text = self.additional_text_template1_id
+			if additional_text:
+			    self.additional_text_1 = additional_text.get_value(self.partner_id.id)
 
-        def set_additional_text_1(self, so_id, cond_id, partner_id):
-                return self.set_additional_text(cond_id, 'additional_text_1', partner_id)
+		@api.onchange('additional_text_template2_id')
+        def _set_additional_text_2(self):
+		    additional_text = self.additional_text_template2_id
+			if additional_text:
+			    self.additional_text_2 = additional_text.get_value(self.partner_id.id)
 
-        def set_additional_text_2(self, so_id, cond_id, partner_id):
-                return self.set_additional_text(cond_id, 'additional_text_2', partner_id)
+		@api.onchange('additional_text_template3_id')
+        def _set_additional_text_3(self):
+		    additional_text = self.additiona3_text_template1_id
+			if additional_text:
+			    self.additional_text_3 = additional_text.get_value(self.partner_id.id)
+				
 
-        def set_additional_text_3(self, so_id, cond_id, partner_id):
-                return self.set_additional_text(cond_id, 'additional_text_3', partner_id)
