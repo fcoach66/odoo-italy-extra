@@ -5,20 +5,23 @@
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale.view_order_form"/>
       <field name="arch" type="xml">
-        <notebook position="inside">
+        <xpath expr="/form/sheet/notebook/page[3]" position="after">
           <page string="Additional Text">
             <label string="The additional text will be displayed on the printed document. You can load a predefined template, write your own text or load a template and then modify it only for this document." colspan="2"/>
-            <group>
+            <group string="Subject">
+              <field name="additional_text_template1_id" string="Subject" context="{'default_type': 'subject'}" domain="[('type','=','subject')]"/>
               <field name="additional_text_1" nolabel="1" colspan="2"/>
             </group>
-            <group>
+            <group string="Description">
+              <field name="additional_text_template2_id" string="Description" context="{'default_type': 'description'}" domain="[('type','=','description')]"/>
               <field name="additional_text_2" nolabel="1" colspan="2"/>
             </group>
-            <group>
+            <group string="Limitation">
+              <field name="additional_text_template3_id" string="Limitation" context="{'default_type': 'limitation'}" domain="[('type','=','limitation')]"/>
               <field name="additional_text_3" nolabel="1" colspan="2"/>
             </group>
           </page>
-        </notebook>
+        </xpath>
       </field>
     </record>
   </data>
