@@ -4,7 +4,7 @@
         <record id="action_aeroo_report_it_expense_note" model="ir.actions.report.xml">
             <field name="name">Nota Spese Aeroo</field>
             <field name="type">ir.actions.report.xml</field>
-            <field name="model">hr.expense</field>
+            <field name="model">hr.expense.expense</field>
             <field name="sequence" eval="7"/>            
             <field name="report_name">hr.report_expense_aeroo</field>
             <field name="report_type">aeroo</field>
@@ -23,7 +23,7 @@
 		<record id="action_aeroo_report_it_expense_note_pdf" model="ir.actions.report.xml">
             <field name="name">Nota Spese Aeroo PDF</field>
             <field name="type">ir.actions.report.xml</field>
-            <field name="model">hr.expense</field>
+            <field name="model">hr.expense.expense</field>
             <field name="sequence" eval="7"/>            
             <field name="report_name">hr.report_expense_aeroo_pdf</field>
             <field name="report_type">aeroo</field>
