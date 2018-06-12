@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <record id="action_aeroo_report_it_sale_order" model="ir.actions.report.xml">
+        <record id="action_aeroo_report_it_expense_note" model="ir.actions.report.xml">
             <field name="name">Nota Spese Aeroo</field>
             <field name="type">ir.actions.report.xml</field>
             <field name="model">hr.expense</field>
@@ -20,7 +20,7 @@
             <field name="download_filename">${(object.name or '').replace('/','_')}.odt</field>
         </record>
 		
-		<record id="action_aeroo_report_it_sale_order_pdf" model="ir.actions.report.xml">
+		<record id="action_aeroo_report_it_expense_note_pdf" model="ir.actions.report.xml">
             <field name="name">Nota Spese Aeroo PDF</field>
             <field name="type">ir.actions.report.xml</field>
             <field name="model">hr.expense</field>
