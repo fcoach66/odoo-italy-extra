@@ -55,14 +55,16 @@ The parser proved a serie of fields an functions to use in the odt:
     'images': [
     ],
     'depends': [
-        'report',
+        'base',
+		'report_aeroo',
     ],
     'data': [
-        'views/company_view.xml',
-        'views/report_view.xml',
-        'security/security.xml',
-        'security/ir.model.access.csv', #TODO borrar este parche de reglas, es por un error que me estaba dando al querer imprimir ocn users distintos de admin
-    ],
+       'views/company_view.xml',
+        'views/ir_actions_report_views.xml',
+        'views/report_configuration_default_views.xml',
+        'views/report_configuration_line_views.xml',
+        'security/report_extended_security.xml',
+        'security/ir.model.access.csv',    ],
     'demo': [
     ],
     'test': [
