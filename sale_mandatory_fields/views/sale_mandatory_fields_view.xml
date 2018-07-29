@@ -5,7 +5,7 @@
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale.view_order_form"/>
       <field name="arch" type="xml">
-              <field name="payment_term" position="attributes">
+              <field name="payment_term_id" position="attributes">
                   <attribute name="required">True</attribute>
               </field>
       </field>
