@@ -9,12 +9,12 @@ class SaleOrder(models.Model):
 	additional_text_3 = fields.Text('Limitation')
 
 	
-	#def set_additional_text(self, cr, uid, cond_id, field_name, partner_id):
-	#	if not cond_id:
-	#		return {'value': {field_name: ''}}
-	#	cond_obj = self.pool['sale.additional_text.template']
-	#	text = cond_obj.get_value(cr, uid, cond_id, partner_id)
-	#	return {'value': {field_name: text}}
+	def set_additional_text(self, cr, uid, cond_id, field_name, partner_id):
+		if not cond_id:
+			return {'value': {field_name: ''}}
+		cond_obj = self.pool['sale.additional_text.template']
+		text = cond_obj.get_value(cr, uid, cond_id, partner_id)
+		return {'value': {field_name: Text}}
 
 	def set_additional_text_1(self, cr, uid, so_id, cond_id, partner_id):
 		return self.set_additional_text(cr, uid, cond_id, 'additional_text_1', partner_id)
