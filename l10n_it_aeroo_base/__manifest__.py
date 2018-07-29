@@ -18,7 +18,7 @@ Base Module For Italy Like Aeroo Reports
         'l10n_it_report_extended',
     ],
     'data': [
-        'views/report_configuration_defaults_data.xml',
+        'report_configuration_defaults_data.xml',
     ],
     'demo': [
     ],
