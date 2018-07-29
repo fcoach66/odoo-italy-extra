@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<openerp>
+<odoo>
   <data>
     <record model="ir.ui.view" id="view_sale_additional_text_template_search">
       <field name="name">sale.additional_text.template.search</field>
@@ -53,7 +53,7 @@
     <menuitem name="Additional Text Templates"
       id="menu_sale_additional_text_template"
       action="sale_additional_text_template.action_sale_additional_text_template"
-      parent="base.menu_base_config"/>
+      parent="sale.menu_sales_config"/>
   </data>
   
-</openerp>
+</odoo>
