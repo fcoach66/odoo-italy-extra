@@ -2,20 +2,15 @@
 #
 #
 #
-from openerp import models, fields, api
+from odoo import fields, models, api
 
 
 class SaleAdditionalTextTemplate(models.Model):
     _name = "sale.additional_text.template"
     _description = "Sale Additional Text template"
-
+	@api.multi
     name = fields.Char('Additional text name', required=True)
-    type = fields.Selection([('subject', 'Subject'),
-                                 ('description', 'Description'),('limitation', 'Limitation')],
-                                'Type',
-                                required=True,
-                                default='subject',
-                                help="Type of additional text")
+    type = fields.Selection([('subject', 'Subject'),('description', 'Description'),('limitation', 'Limitation')],'Type',required=True,default='subject',help="Type of additional text")
     text = fields.Text('Text', translate=True, required=True)
 
     @api.multi
