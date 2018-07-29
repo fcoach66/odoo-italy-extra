@@ -16,9 +16,9 @@ class SaleOrder(models.Model):
 			'sale.additional_text.template',
 			'Limitation'),
 		
-		'additional_text_1': fields.text('Subject'),
-		'additional_text_2': fields.text('Description'),
-		'additional_text_3': fields.text('Limitation'),
+		'additional_text_1': fields.Text('Subject'),
+		'additional_text_2': fields.Text('Description'),
+		'additional_text_3': fields.Text('Limitation'),
 		
 	}
 
