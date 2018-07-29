@@ -5,7 +5,7 @@
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale.view_order_form"/>
       <field name="arch" type="xml">
-        <xpath expr="//page[@string='Order Lines']" position="after">
+        <notebook position="inside">
           <page string="Additional Text" name="additional_text">
             <label string="The additional text will be displayed on the printed document. You can load a predefined template, write your own text or load a template and then modify it only for this document." colspan="2"/>
             <group string="Subject">
@@ -33,7 +33,7 @@
               <field name="additional_text_3" nolabel="1" colspan="2"/>
             </group>
           </page>
-        </xpath>
+        </notebook>
       </field>
     </record>
   </data>
