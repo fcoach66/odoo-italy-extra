@@ -1,4 +1,4 @@
-<openerp>
+<odoo>
   <data>
     <record model="ir.ui.view" id="sale_mandatory_fields.mandatory_payment_term">
       <field name="name">sale.order.form.mandatory_payment_term</field>
@@ -25,4 +25,4 @@
     </record>
   </data>
 
-</openerp>
+</odoo>
