@@ -1,19 +1,12 @@
-# -*- coding: utf-8 -*-
 from odoo import fields, models, api
-
-
 class SaleOrder(models.Model):
-
 	_inherit = "sale.order"
-	@api.multi
-	#_columns = {
 	additional_text_template1_id = fields.Many2one('sale.additional_text.template', string='Subject')
 	additional_text_template2_id = fields.Many2one('sale.additional_text.template', string='Description')
 	additional_text_template3_id = fields.Many2one('sale.additional_text.template', string='Limitation')
 	additional_text_1 = fields.Text('Subject')
 	additional_text_2 = fields.Text('Description')
 	additional_text_3 = fields.Text('Limitation')
-	#}
 
 	
 	#def set_additional_text(self, cr, uid, cond_id, field_name, partner_id):
