@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from openerp import models, fields
+from odoo import models, fields
 
 
-class SaleOrder(model.Model):
+class SaleOrder(models.Model):
 
 	_inherit = "sale.order"
 	_columns = {
