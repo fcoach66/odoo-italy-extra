@@ -1,3 +1,8 @@
 # -*- coding: utf-8 -*-
-from . import additional_text
-from . import sale_order
+##############################################################################
+# For copyright and license notices, see __openerp__.py file in module root
+# directory
+##############################################################################
+from . import models
+
+
