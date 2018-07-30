@@ -13,7 +13,7 @@ class SaleOrder(models.Model):
 		if not cond_id:
 			return {'value': {field_name: ''}}
 		cond_obj = self.pool['sale.additional_text.template']
-		text = cond_obj.get_value(cr, uid, cond_id, partner_id)
+		Text = cond_obj.get_value(cr, uid, cond_id, partner_id)
 		return {'value': {field_name: Text}}
 
 	def set_additional_text_1(self, cr, uid, so_id, cond_id, partner_id):
