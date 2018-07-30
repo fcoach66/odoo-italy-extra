@@ -41,13 +41,13 @@
 			<field name="print_report_name">(object.state in ['sale','done'] and 'Ordine di Vendita %s' or 'Preventivo %s') % object.name</field>
 		</record>
 		
-
+<!--
 		<function
 			eval="([ref('action_aeroo_report_ar_sale_order')])"
 			id="update_lines_ar_receipt"
 			model="ir.actions.report"
 			name="update_lines_that_apply"/>		
-		
+-->	
 
     </data>
 </openerp>
