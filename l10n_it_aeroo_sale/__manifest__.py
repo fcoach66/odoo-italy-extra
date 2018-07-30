@@ -13,7 +13,6 @@ Italian Sale Order / Quotation Aeroo Report
     'images': [
     ],
     'depends': [
-		'l10n_it_report_extended_sale',
         'l10n_it_aeroo_base',
 		'website_quote',
 		'l10n_it_fiscalcode',
