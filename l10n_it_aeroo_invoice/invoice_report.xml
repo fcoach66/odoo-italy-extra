@@ -26,7 +26,7 @@
 			<field name="account_invoice_split_invoice" eval="False"/>
 			<field name="account_invoice_lines_to_split">20</field>
 			<field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-			<field name="print_report_name">(object.state in ['proforma', 'proforma2'] and 'PROFORMA' or (object.document_type_id.report_name or 'Comprobante')) + " " + (object.document_number or '')</field>
+			<field name="print_report_name">(object.state in ['proforma', 'proforma2'] and 'PROFORMA' or (object.document_type_id.report_name or 'Fattura')) + " " + (object.document_number or '')</field>
 		</record>
 
 		<record id="action_aeroo_report_it_invoice_odt" context="{'no_key_lines':True}" model="ir.actions.report">
@@ -45,11 +45,10 @@
 			<field name="account_invoice_split_invoice" eval="False"/>
 			<field name="account_invoice_lines_to_split">20</field>
 			<field name="out_format" ref="report_aeroo.report_mimetypes_odt_odt"/>
-			<field name="print_report_name">(object.state in ['proforma', 'proforma2'] and 'PROFORMA' or (object.document_type_id.report_name or 'Comprobante')) + " " + (object.document_number or '')</field>
+			<field name="print_report_name">(object.state in ['proforma', 'proforma2'] and 'PROFORMA' or (object.document_type_id.report_name or 'Fattura')) + " " + (object.document_number or '')</field>
 		</record>
 		
 
-		    <!-- Iniciamos los key values porque la factura manual no toma los valores por defecto-->
 		<record model="report.configuration.line" id="invoice_force_code">
 			<field name="report_id" ref="action_aeroo_report_it_invoice_pdf"/>
 			<field name="name">force_code</field>
@@ -109,7 +108,8 @@
 			<field name="value_boolean" eval="True"/>
 		</record>
 
-	    <!-- Iniciamos los key values porque la factura manual no toma los valores por defecto-->
+
+
 		<record model="report.configuration.line" id="invoice_force_code">
 			<field name="report_id" ref="action_aeroo_report_it_invoice_odt"/>
 			<field name="name">force_code</field>
