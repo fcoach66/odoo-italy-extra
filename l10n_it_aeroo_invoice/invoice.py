@@ -27,6 +27,7 @@ class account_invoice(models.Model):
     _inherit = ['account.invoice']
     _description = "Invoice"
 
+    @api.multi
     def invoice_print_aeroo_pdf(self):
         """ Print the invoice and mark it as sent, so that we can see more
             easily the next step of the workflow
