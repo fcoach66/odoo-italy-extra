@@ -27,14 +27,22 @@ class account_invoice(models.Model):
     _inherit = ['account.invoice']
     _description = "Invoice"
 
-    @api.multi
     def invoice_print_aeroo_pdf(self):
         """ Print the invoice and mark it as sent, so that we can see more
             easily the next step of the workflow
         """
-        assert len(self) == 1, 'This option should only be used for a single id at a time.'
+        self.ensure_one()
         self.sent = True
-        return self.env['report'].get_action(self, 'account.aeroo_report_it_invoice_pdf')
+        return self.env.ref('account.aeroo_report_it_invoice_pdf').report_action(self)
+    
+#    @api.multi
+#    def invoice_print_aeroo_pdf(self):
+#        """ Print the invoice and mark it as sent, so that we can see more
+#            easily the next step of the workflow
+#        """
+#        assert len(self) == 1, 'This option should only be used for a single id at a time.'
+#        self.sent = True
+#        return self.env['report'].get_action(self, 'account.aeroo_report_it_invoice_pdf')
 
 #    @api.multi
 #    def action_invoice_sent(self):
