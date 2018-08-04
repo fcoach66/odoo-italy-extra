@@ -35,6 +35,10 @@ class account_invoice(models.Model):
         self.ensure_one()
         self.sent = True
         return self.env.ref('l10n_it_aeroo_invoice.action_aeroo_report_it_invoice_pdf').report_action(self)
+
+    @api.multi
+    def invoice_print_aeroo_odt(self):
+        return self.env.ref('l10n_it_aeroo_invoice.action_aeroo_report_it_invoice_odt').report_action(self)
     
 #    @api.multi
 #    def invoice_print_aeroo_pdf(self):

@@ -186,7 +186,12 @@
 					 position="attributes">
 					 <attribute name="name">invoice_print_aeroo_pdf</attribute>
 					 <attribute name="string">Stampa fattura PDF</attribute>
-				</xpath>				
+				</xpath>
+				<xpath expr="//button[@name='132']"
+					 position="before">
+					<button name="invoice_print_aeroo_odt" string="Stampa fattura ODT" type="object" attrs="{'invisible':['|',('sent','=',True), ('state', 'not in', ('open','paid'))]}" class="oe_highlight" groups="base.group_user"/>
+					<button name="invoice_print_aeroo_odt" string="Stampa fattura ODT" type="object" attrs="{'invisible':['|',('sent','=',False), ('state', 'not in', ('open','paid'))]}" groups="base.group_user"/>
+				</xpath>
 				<xpath expr="//button[@name='action_invoice_sent']"
 					 position="attributes">
 					 <attribute name="name">action_invoice_sent</attribute>
