@@ -16,6 +16,8 @@ Italian Invoice Aeroo Report
 	    	'report_extended_account',
 		'l10n_it_aeroo_base',
 		'l10n_it_fiscalcode',
+        'l10n_it_rea',
+        'l10n_it_pec',
 	],
     'data': [
         'invoice_report.xml',
