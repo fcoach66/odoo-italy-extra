@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
 		    <!-- disable default report multi action -->
 		<record id="sale.action_report_saleorder" model="ir.actions.report">
@@ -40,6 +40,41 @@
 			<field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
 			<field name="print_report_name">(object.state in ['sale','done'] and 'Ordine di Vendita %s' or 'Preventivo %s') % object.name</field>
 		</record>
+
+
+		<record id="view_sale_form_aeroo_print" model="ir.ui.view">
+			<field name="name">sale.order.form.aeroo.print</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+
+			<field name="arch" type="xml">
+				<xpath expr="//button[@name='print_quotation']"
+					 position="attributes">
+					 <attribute name="name">print_quotation_aeroo_pdf</attribute>
+					 <attribute name="string">Stampa PDF</attribute>
+				</xpath>
+				<xpath expr="//button[@name='print_quotation']"
+					 position="attributes">
+					 <attribute name="name">print_quotation_aeroo_pdf</attribute>
+					 <attribute name="string">Stampa PDF</attribute>
+				</xpath>
+				<xpath expr="//button[@name='action_quotation_send']"
+					 position="before">
+					<button name="print_quotation_aeroo_odt" string="Stampa ODT" type="object" states="draft" class="btn-primary o_sale_print"/>
+					<button name="print_quotation_aeroo_odt" string="Stampa ODT" type="object" states="sent,sale" class="o_sale_print"/>
+				</xpath>
+				<xpath expr="//button[@name='action_quotation_send']"
+					 position="attributes">
+					 <attribute name="name">action_quotation_send</attribute>
+				</xpath>				
+				<xpath expr="//button[@name='action_quotation_send']"
+					 position="attributes">
+					 <attribute name="name">action_quotation_send</attribute>
+				</xpath>				
+			</field>
+        	</record>
+
+
 		
 <!--
 		<function
@@ -50,4 +85,4 @@
 -->	
 
     </data>
-</openerp>
+</odoo>
