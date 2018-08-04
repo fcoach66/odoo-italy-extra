@@ -22,7 +22,7 @@ class sale_order(models.Model):
         return self.env.ref('l10n_it_aeroo_sale.action_aeroo_report_it_sale_order_pdf').report_action(self)
 
     @api.multi
-    def print_quotation_aeroo_pdf(self):
+    def print_quotation_aeroo_odt(self):
         return self.env.ref('l10n_it_aeroo_sale.action_aeroo_report_it_sale_order_odt').report_action(self)
 
 
