@@ -6,7 +6,7 @@
             <field name="type">ir.actions.report.xml</field>
             <field name="model">stock.picking.package.preparation</field>
             <field name="sequence" eval="7"/>            
-            <field name="report_name">stock.report_ddt_aeroo</field>
+            <field name="report_name">aeroo_report_it_ddt</field>
             <field name="report_type">aeroo</field>
             <field name="in_format">oo-odt</field>
             <field name="parser_loc">l10n_it_aeroo_base/parser.py</field>
@@ -17,7 +17,6 @@
             <field name="background_image" type="base64" file="l10n_it_aeroo_ddt/ddt.png"/>
             <field name="use_background_image" eval="False"/>
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-			<field name="download_filename">${(object.ddt_number or '').replace('/','_')}.pdf</field>
         </record>
 
         <record id="view_ddt_form_aeroo_print" model="ir.ui.view">
