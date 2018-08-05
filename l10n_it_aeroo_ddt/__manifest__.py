@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Italian Ddt Aeroo Report',
-    'version': '1.2',
+    'version': '11.0.1.0',
     'category': 'Localization/Italy',
     'sequence': 14,
     'summary': '',
@@ -15,7 +15,6 @@ Italian Ddt Aeroo Report
     'depends': [
         'l10n_it_aeroo_base',
 		'l10n_it_ddt',
-        'report_custom_filename',
 	],
     'data': [
 		'ddt_report.xml',

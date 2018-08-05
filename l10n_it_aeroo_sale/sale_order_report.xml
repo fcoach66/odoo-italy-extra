@@ -51,17 +51,20 @@
 				<xpath expr="//button[@name='print_quotation']"
 					 position="attributes">
 					 <attribute name="name">print_quotation_aeroo_pdf</attribute>
-					 <attribute name="string">Stampa PDF</attribute>
+					 <attribute name="string">Stampa preventivo PDF</attribute>
 				</xpath>
 				<xpath expr="//button[@name='print_quotation']"
 					 position="attributes">
 					 <attribute name="name">print_quotation_aeroo_pdf</attribute>
-					 <attribute name="string">Stampa PDF</attribute>
+					 <attribute name="string">Stampa ordine PDF</attribute>
+				</xpath>
+				<xpath expr="//button[@name='action_confirm']"
+					 position="before">
+					<button name="print_quotation_aeroo_odt" string="Stampa preventivo ODT" type="object" states="draft" class="btn-primary o_sale_print"/>
 				</xpath>
 				<xpath expr="//button[@name='action_quotation_send']"
 					 position="before">
-					<button name="print_quotation_aeroo_odt" string="Stampa ODT" type="object" states="draft" class="btn-primary o_sale_print"/>
-					<button name="print_quotation_aeroo_odt" string="Stampa ODT" type="object" states="sent,sale" class="o_sale_print"/>
+					<button name="print_quotation_aeroo_odt" string="Stampa ordine ODT" type="object" states="sent,sale" class="o_sale_print"/>
 				</xpath>
 				<xpath expr="//button[@name='action_quotation_send']"
 					 position="attributes">

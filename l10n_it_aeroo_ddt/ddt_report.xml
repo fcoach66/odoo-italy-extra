@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data noupdate="1">
         <record id="action_aeroo_report_it_ddt" model="ir.actions.report.xml">
             <field name="name">DdT Aeroo</field>
@@ -34,4 +34,4 @@
     	
 
     </data>
-</openerp>
+</odoo>
