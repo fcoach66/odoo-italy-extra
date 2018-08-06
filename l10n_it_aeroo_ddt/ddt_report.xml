@@ -16,6 +16,15 @@
             <field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
         </record>
 
+
+	<record model="report.configuration.line" id="ddt_print_header">
+		<field name="report_id" ref="action_aeroo_report_it_ddt"/>
+		<field name="name">print_header</field>
+		<field name="value_type">boolean</field>
+		<field name="value_boolean" eval="True"/>
+	</record>
+
+
         <record id="view_ddt_form_aeroo_print" model="ir.ui.view">
 			<field name="name">stock.picking.package.preparation.aeroo.print</field>
 			<field name="model">stock.picking.package.preparation</field>
