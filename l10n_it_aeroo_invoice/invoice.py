@@ -28,13 +28,13 @@ class account_invoice(models.Model):
     _description = "Invoice"
 
     @api.multi
-    def invoice_print(self):
+    def invoice_print_pdf(self):
         """ Print the invoice and mark it as sent, so that we can see more
             easily the next step of the workflow
         """
         assert len(self) == 1, 'This option should only be used for a single id at a time.'
         self.sent = True
-        return self.env['report'].get_action(self, 'account.report_invoice_aeroo')
+        return self.env['report'].get_action(self, 'account.report_invoice_aeroo_pdf')
 
     @api.multi
     def action_invoice_sent(self):
