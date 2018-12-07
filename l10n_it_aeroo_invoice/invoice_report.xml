@@ -49,11 +49,11 @@
 			<field name="arch" type="xml">
 				<xpath expr="//button[@name='invoice_print']"
 					 position="attributes">
-					 <attribute name="name">invoice_print</attribute>
+					 <attribute name="name">invoice_print_pdf</attribute>
 				</xpath>
 				<xpath expr="//button[@name='invoice_print']"
 					 position="attributes">
-					 <attribute name="name">invoice_print</attribute>
+					 <attribute name="name">invoice_print_pdf</attribute>
 				</xpath>
 				<xpath expr="//button[@name='action_invoice_sent']"
 					 position="attributes">
