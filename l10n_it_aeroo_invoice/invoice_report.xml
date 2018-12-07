@@ -66,15 +66,5 @@
 			</field>
         </record>
 
-		<report
-            id="account_invoices"
-            model="account.invoice"
-            string="Fatture"
-            report_type="qweb-pdf"
-            name="account.report_invoice"
-            file="account.report_invoice"
-            menu="False"
-        />
-
 	</data>
 </openerp>
