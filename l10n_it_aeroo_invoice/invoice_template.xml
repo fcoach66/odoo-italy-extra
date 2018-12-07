@@ -77,7 +77,7 @@
             <field name="partner_to">${object.partner_id.id}</field>
             <field name="model_id" ref="account.model_account_invoice"/>
             <field name="auto_delete" eval="True"/>
-            <field name="report_template" ref="action_aeroo_report_it_invoice"/>
+            <field name="report_template" ref="action_aeroo_report_it_invoice_pdf"/>
             <field name="report_name">Invoice_${(object.number or '').replace('/','_')}_${object.state == 'draft' and 'draft' or ''}</field>
             <field name="lang">${object.partner_id.lang}</field>
             <field name="body_html"><![CDATA[
