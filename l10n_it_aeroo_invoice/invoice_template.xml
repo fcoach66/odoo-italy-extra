@@ -8,7 +8,7 @@
            <field name="partner_to">${object.partner_id.id}</field>
            <field name="model_id" ref="account.model_account_invoice"/>
            <field name="auto_delete" eval="True"/>
-           <field name="report_template" ref="action_aeroo_report_it_invoice"/>
+           <field name="report_template" ref="action_aeroo_report_it_invoice_pdf"/>
            <field name="report_name">Invoice_${(object.number or '').replace('/','_')}_${object.state == 'draft' and 'draft' or ''}</field>
            <field name="lang">${object.partner_id.lang}</field>
            <field name="body_html"><![CDATA[
@@ -17,7 +17,7 @@
     <p>Spett.le ${object.partner_id.name},</p>
 
     <p>in allegato alla presente comunicazione trova la sua fattura.</p>
-    
+
     <p style="border-left: 1px solid #8e0000; margin-left: 30px;">
        &nbsp;&nbsp;<strong>INFORMAZIONI PRINCIPALI</strong><br />
        &nbsp;&nbsp;Numero fattura: <strong>${object.number}</strong><br />
@@ -29,7 +29,7 @@
        % if object.user_id:
        &nbsp;&nbsp;Ns. contatto di riferimento: <a href="mailto:${object.user_id.email or ''}?subject=Fattura%20${object.number}">${object.user_id.name}</a>
        % endif
-    </p>  
+    </p>
     <br/>
     <p>Per qualsiasi richiesta e/o informazione non esiti a contattarci.</p>
     <p>Grazie per avere scelto ${object.company_id.name or 'us'}!</p>
@@ -86,7 +86,7 @@
     <p>Spett.le ${object.partner_id.name},</p>
 
     <p>in allegato alla presente comunicazione trova la sua fattura.</p>
-    
+
     <p style="border-left: 1px solid #8e0000; margin-left: 30px;">
        &nbsp;&nbsp;<strong>INFORMAZIONI PRINCIPALI</strong><br />
        &nbsp;&nbsp;Fattura numero: <strong>${object.number}</strong><br />
@@ -98,7 +98,7 @@
        % if object.user_id:
        &nbsp;&nbsp;Ns. contatto di riferimento: <a href="mailto:${object.user_id.email or ''}?subject=Invoice%20${object.number}">${object.user_id.name}</a>
        % endif
-    </p>  
+    </p>
 
     <% set signup_url = object.get_signup_url() %>
     % if signup_url:
@@ -108,7 +108,7 @@
         <a style="display:block; width: 150px; height:20px; margin-left: 120px; color: #DDD; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; text-align: center; text-decoration: none !important; line-height: 1; padding: 5px 0px 0px 0px; background-color: #8E0000; border-radius: 5px 5px; background-repeat: repeat no-repeat;"
            href="${signup_url}">Visualizza Fattura</a>
     % endif
-    
+
     <br/>
     <p>Per qualsiasi richiesta e/o informazione non esiti a contattarci.</p>
     <p>Grazie per avere scelto ${object.company_id.name or 'us'}!</p>
@@ -148,5 +148,5 @@
 </div>
             ]]></field>
         </record>
-    </data>   
+    </data>
 </openerp>
