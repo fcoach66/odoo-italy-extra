@@ -1,0 +1,30 @@
+<!--
+<openerp>
+  <data>
+    <record model="ir.ui.view" id="sale_mandatory_fields.mandatory_payment_term">
+      <field name="name">sale.order.form.mandatory_payment_term</field>
+      <field name="model">sale.order</field>
+      <field name="inherit_id" ref="sale.view_order_form"/>
+      <field name="arch" type="xml">
+              <field name="payment_term" position="attributes">
+                  <attribute name="required">True</attribute>
+              </field>
+      </field>
+    </record>
+  </data>
+
+  <data>
+    <record model="ir.ui.view" id="sale_mandatory_fields.mandatory_validity_date">
+      <field name="name">sale.order.form.mandatory_validity_date</field>
+      <field name="model">sale.order</field>
+      <field name="inherit_id" ref="website_quote.sale_order_form_quote"/>
+      <field name="arch" type="xml">
+              <field name="validity_date" position="attributes">
+                  <attribute name="required">True</attribute>
+              </field>
+      </field>
+    </record>
+  </data>
+
+</openerp>
+-->
