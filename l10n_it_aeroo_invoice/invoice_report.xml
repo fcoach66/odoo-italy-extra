@@ -41,6 +41,7 @@
 			<field name="download_filename">Invoice_${(object.number or '').replace('/','_')}${object.state == 'draft' and '_draft' or '' +'.odt'}</field>
         </record>
 
+<!--
 		<record id="view_invoice_form_aeroo_print" model="ir.ui.view">
 			<field name="name">account.invoice.form.aeroo.print</field>
 			<field name="model">account.invoice</field>
@@ -65,6 +66,7 @@
 				</xpath>
 			</field>
         </record>
-
+-->
+		
 	</data>
 </openerp>
