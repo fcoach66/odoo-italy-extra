@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-    <data>
+    <data noupdate="1">
         <record id="sale.email_template_edi_sale_aeroo" model="email.template">
 			<field name="name">Sales Order Aeroo - Send by Email</field>
             <field name="email_from">${(object.user_id.email or '')|safe}</field>
