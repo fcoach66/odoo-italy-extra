@@ -24,7 +24,7 @@ Base Module For Italy Like Aeroo Reports
     ],
     'test': [
     ],
-    'installable': True,
+    'installable': False,
     'auto_install': False,
     'application': False,
 }

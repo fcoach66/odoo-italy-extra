@@ -23,7 +23,7 @@ Italian Ddt Aeroo Report
     ],
     'test': [
     ],
-    'installable': True,
+    'installable': False,
     'auto_install': False,
     'application': False,
 }
