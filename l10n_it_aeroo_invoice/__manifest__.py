@@ -13,7 +13,6 @@ Italian Invoice Aeroo Report
     'images': [
     ],
     'depends': [
-	    	'report_extended_account',
 		'l10n_it_aeroo_base',
 		'l10n_it_fiscalcode',
         'l10n_it_rea',
