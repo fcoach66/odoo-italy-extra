@@ -5,7 +5,7 @@
 {"name": "Sale Mandatory Fields",
  "summary": "Sale Order change mandatory fields",
  "version": "12.0.1.0.0",
- "depends": ["base","sale","website_quote"],
+ "depends": ["base","sale","sale_quotation_builder"],
  "author": "fcoach66",
  "data": ["views/sale_mandatory_fields_view.xml",
           ],
