@@ -28,7 +28,7 @@ Italian Sale Order / Quotation Aeroo Report
     ],
     'test': [
     ],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'application': False,
 }
