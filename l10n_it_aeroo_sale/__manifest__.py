@@ -14,7 +14,7 @@ Italian Sale Order / Quotation Aeroo Report
     ],
     'depends': [
         'l10n_it_aeroo_base',
-		'website_quote',
+		'sale_quotation_builder',
 		'l10n_it_fiscalcode',
 		'sale_additional_text_template',
         'sale_mandatory_fields',
