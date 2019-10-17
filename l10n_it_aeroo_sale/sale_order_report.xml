@@ -48,32 +48,24 @@
 			<field name="inherit_id" ref="sale.view_order_form"/>
 
 			<field name="arch" type="xml">
-				<xpath expr="//button[@name='print_quotation']"
+				<xpath expr="//button[@name='print_quotation'][1]"
 					 position="attributes">
 					 <attribute name="name">print_quotation_aeroo_pdf</attribute>
 					 <attribute name="string">Stampa preventivo PDF</attribute>
 				</xpath>
-				<xpath expr="//button[@name='print_quotation']"
+				<xpath expr="//button[@name='print_quotation'][2]"
 					 position="attributes">
 					 <attribute name="name">print_quotation_aeroo_pdf</attribute>
 					 <attribute name="string">Stampa ordine PDF</attribute>
 				</xpath>
-				<xpath expr="//button[@name='action_confirm']"
+				<xpath expr="//button[@name='action_confirm'][1]"
 					 position="before">
 					<button name="print_quotation_aeroo_odt" string="Stampa preventivo ODT" type="object" states="draft" class="btn-primary o_sale_print"/>
 				</xpath>
-				<xpath expr="//button[@name='action_quotation_send']"
+				<xpath expr="//button[@name='action_quotation_send'][1]"
 					 position="before">
 					<button name="print_quotation_aeroo_odt" string="Stampa ordine ODT" type="object" states="sent,sale" class="o_sale_print"/>
 				</xpath>
-				<xpath expr="//button[@name='action_quotation_send']"
-					 position="attributes">
-					 <attribute name="name">action_quotation_send</attribute>
-				</xpath>				
-				<xpath expr="//button[@name='action_quotation_send']"
-					 position="attributes">
-					 <attribute name="name">action_quotation_send</attribute>
-				</xpath>				
 			</field>
         	</record>
 
