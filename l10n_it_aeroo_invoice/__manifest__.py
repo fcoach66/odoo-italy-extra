@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Italian Invoice Aeroo Report',
-    'version': '1.0',
+    'version': '12.0.1.0',
     'category': 'Localization/Italy',
     'sequence': 14,
     'summary': '',

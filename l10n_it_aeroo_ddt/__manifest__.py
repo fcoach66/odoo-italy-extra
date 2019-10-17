@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Italian Ddt Aeroo Report',
-    'version': '11.0.1.0',
+    'version': '12.0.1.0',
     'category': 'Localization/Italy',
     'sequence': 14,
     'summary': '',
@@ -23,7 +23,7 @@ Italian Ddt Aeroo Report
     ],
     'test': [
     ],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'application': False,
 }
