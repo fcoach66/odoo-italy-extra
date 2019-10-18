@@ -13,21 +13,20 @@ Italian Invoice Aeroo Report
     'images': [
     ],
     'depends': [
-	    	'report_extended_account',
 		'l10n_it_aeroo_base',
 		'l10n_it_fiscalcode',
         'l10n_it_rea',
         'l10n_it_pec',
 	],
     'data': [
-        'invoice_report.xml',
-        'report_configuration_defaults_data.xml',
+        'report/invoice_report.xml',
+        'data/report_configuration_defaults_data.xml',
     ],
     'demo': [
     ],
     'test': [
     ],
-    'installable': False,
+    'installable': True,
     'auto_install': False,
     'application': False,
 }
