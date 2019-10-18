@@ -26,7 +26,7 @@
 			<field name="account_invoice_split_invoice" eval="False"/>
 			<field name="account_invoice_lines_to_split">20</field>
 			<field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-			<field name="print_report_name">(object.document_number or '')</field>
+			<field name="print_report_name">(object.number or '')</field>
 		</record>
 
 		<record id="action_aeroo_report_it_invoice_odt" context="{'no_key_lines':True}" model="ir.actions.report">
@@ -45,7 +45,7 @@
 			<field name="account_invoice_split_invoice" eval="False"/>
 			<field name="account_invoice_lines_to_split">20</field>
 			<field name="out_format" ref="report_aeroo.report_mimetypes_odt_odt"/>
-			<field name="print_report_name">(object.document_number or '')</field>
+			<field name="print_report_name">(object.number or '')</field>
 		</record>
 		
 <!--
