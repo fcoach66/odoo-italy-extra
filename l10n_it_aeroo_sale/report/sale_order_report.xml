@@ -60,11 +60,7 @@
 				</xpath>
 				<xpath expr="//button[@name='print_quotation_aeroo_pdf']"
 					 position="after">
-					<button name="print_quotation_aeroo_odt" string="Stampa preventivo ODT" type="object" states="draft" class="btn-primary o_sale_print"/>
-				</xpath>
-				<xpath expr="//button[@name='print_quotation_aeroo_pdf']"
-					 position="after">
-					<button name="print_quotation_aeroo_odt" string="Stampa preventivo ODT" type="object" states="sent,sale,done" class="btn-primary o_sale_print"/>
+					<button name="print_quotation_aeroo_odt" string="Stampa preventivo ODT" type="object" states="draft,sent" class="btn-primary o_sale_print"/>
 				</xpath>
 <!--
 				<xpath expr="//button[@name='action_confirm'][1]"
