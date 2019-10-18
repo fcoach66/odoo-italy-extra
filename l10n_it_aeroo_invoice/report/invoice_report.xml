@@ -177,12 +177,12 @@
 			<field name="inherit_id" ref="account.invoice_form"/>
 
 			<field name="arch" type="xml">
-				<xpath expr="//button[@name='invoice_print']"
+				<xpath expr="//button[@name='action_invoice_sent']"
 					 position="attributes">
 					 <attribute name="name">invoice_print_aeroo_pdf</attribute>
 					 <attribute name="string">Stampa fattura PDF</attribute>
 				</xpath>
-				<xpath expr="//button[@name='invoice_print']"
+				<xpath expr="//button[@name='action_invoice_sent']"
 					 position="attributes">
 					 <attribute name="name">invoice_print_aeroo_pdf</attribute>
 					 <attribute name="string">Stampa fattura PDF</attribute>
