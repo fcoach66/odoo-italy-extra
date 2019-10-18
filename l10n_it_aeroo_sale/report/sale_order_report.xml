@@ -48,7 +48,12 @@
 			<field name="inherit_id" ref="sale.view_order_form"/>
 
 			<field name="arch" type="xml">
-				<xpath expr="//button[@name='print_quotation']"
+				<xpath expr="//button[@name='print_quotation'][1]"
+					 position="attributes">
+					 <attribute name="name">print_quotation_aeroo_pdf</attribute>
+					 <attribute name="string">Stampa preventivo PDF</attribute>
+				</xpath>
+				<xpath expr="//button[@name='print_quotation'][2]"
 					 position="attributes">
 					 <attribute name="name">print_quotation_aeroo_pdf</attribute>
 					 <attribute name="string">Stampa preventivo PDF</attribute>
