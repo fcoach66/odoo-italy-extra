@@ -1,89 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-		    <!-- disable default report multi action -->
-		<record id="sale.action_report_saleorder" model="ir.actions.report">
-			<field name="binding_model_id" eval="False"/>
+		<record id="action_aeroo_report_it_sale_order_odt" model="ir.actions.report">
+			<field name="name">Preventivo / Ordine di Vendita Aeroo PDF</field>
+			<field name="model">sale.order</field>
+			<field name="report_name">aeroo_report_it_sale_order_pdf</field>
+			<field name="report_type">aeroo</field>
+			<field name="in_format">odt</field>
+			<field name="aeroo_out_format_id" ref="report_aeroo.aeroo_mimetype_pdf_odt"/>
+	        <field name="aeroo_template_source">file</field>
+			<field name="aeroo_lang_eval">o.partner_id.lang</field>
+			<field name="aeroo_country_eval">o.partner_id.country_id</field>
+			<field name="aeroo_template_path">l10n_it_aeroo_sale/report/sale_order.odt</field>
+			<field name="print_report_name">${'Ordine di vendita' if o.state in ['sale','done'] else 'Preventivo'} - ${o.name}</field>
+			<field name="attachment">${'Ordine di vendita' if o.state in ['sale','done'] else 'Preventivo'} - ${o.name}</field>
 		</record>
-
-		
 		<record id="action_aeroo_report_it_sale_order_odt" model="ir.actions.report">
 			<field name="name">Preventivo / Ordine di Vendita Aeroo ODT</field>
 			<field name="model">sale.order</field>
-			<field name="sequence" eval="7"/>
 			<field name="report_name">aeroo_report_it_sale_order_odt</field>
 			<field name="report_type">aeroo</field>
-			<field name="in_format">oo-odt</field>
-			<field name="report_file">l10n_it_aeroo_sale/report/sale_order.odt</field>
-			<field name="tml_source">file</field>
-			<field name="print_logo">company_logo</field> <!-- Or 'company_logo' or ''  -->
-			<field name="background_image" type="base64" file="l10n_it_aeroo_sale/report/sale_order.png"/>
-			<field name="process_sep" eval="True"/>
-			<field name="use_background_image" eval="False"/>
-			<field name="out_format" ref="report_aeroo.report_mimetypes_odt_odt"/>
-			<field name="print_report_name">(object.state in ['sale','done'] and 'Ordine di Vendita %s' or 'Preventivo %s') % object.name</field>
+			<field name="in_format">odt</field>
+			<field name="aeroo_out_format_id" ref="report_aeroo.aeroo_mimetype_odt_odt"/>
+	        <field name="aeroo_template_source">file</field>
+			<field name="aeroo_lang_eval">o.partner_id.lang</field>
+			<field name="aeroo_country_eval">o.partner_id.country_id</field>
+			<field name="aeroo_template_path">l10n_it_aeroo_sale/report/sale_order.odt</field>
+			<field name="print_report_name">${'Ordine di vendita' if o.state in ['sale','done'] else 'Preventivo'} - ${o.name}</field>
+			<field name="attachment">${'Ordine di vendita' if o.state in ['sale','done'] else 'Preventivo'} - ${o.name}</field>
 		</record>
-
-		<record id="action_aeroo_report_it_sale_order_pdf" model="ir.actions.report">
-			<field name="name">Preventivo / Ordine di Vendita Aeroo PDF</field>
-			<field name="model">sale.order</field>
-			<field name="sequence" eval="7"/>
-			<field name="report_name">aeroo_report_it_sale_order_pdf</field>
-			<field name="report_type">aeroo</field>
-			<field name="in_format">oo-odt</field>
-			<field name="report_file">l10n_it_aeroo_sale/report/sale_order.odt</field>
-			<field name="tml_source">file</field>
-			<field name="print_logo">company_logo</field> <!-- Or 'company_logo' or ''  -->
-			<field name="background_image" type="base64" file="l10n_it_aeroo_sale/report/sale_order.png"/>
-			<field name="process_sep" eval="True"/>
-			<field name="use_background_image" eval="False"/>
-			<field name="out_format" ref="report_aeroo.report_mimetypes_pdf_odt"/>
-			<field name="print_report_name">(object.state in ['sale','done'] and 'Ordine di Vendita %s' or 'Preventivo %s') % object.name</field>
-		</record>
-
-
-		<record id="view_sale_form_aeroo_print" model="ir.ui.view">
-			<field name="name">sale.order.form.aeroo.print</field>
-			<field name="model">sale.order</field>
-			<field name="inherit_id" ref="sale.view_order_form"/>
-
-			<field name="arch" type="xml">
-				<xpath expr="//button[@name='print_quotation']"
-					 position="attributes">
-					 <attribute name="name">print_quotation_aeroo_pdf</attribute>
-					 <attribute name="string">Stampa preventivo PDF</attribute>
-				</xpath>
-				<xpath expr="//button[@name='print_quotation']"
-					 position="attributes">
-					 <attribute name="name">print_quotation_aeroo_pdf</attribute>
-					 <attribute name="string">Stampa preventivo PDF</attribute>
-				</xpath>
-				<xpath expr="//button[@name='print_quotation_aeroo_pdf']"
-					 position="after">
-					<button name="print_quotation_aeroo_odt" string="Stampa preventivo ODT" type="object" states="draft,sent" class="btn-primary o_sale_print"/>
-				</xpath>
-<!--
-				<xpath expr="//button[@name='action_confirm'][1]"
-					 position="before">
-					<button name="print_quotation_aeroo_odt" string="Stampa preventivo ODT" type="object" states="draft" class="btn-primary o_sale_print"/>
-				</xpath>
-				<xpath expr="//button[@name='action_quotation_send'][1]"
-					 position="before">
-					<button name="print_quotation_aeroo_odt" string="Stampa ordine ODT" type="object" states="sent,sale" class="o_sale_print"/>
-				</xpath>
--->	
-			</field>
-        	</record>
-
-
-		
-<!--
-		<function
-			eval="([ref('action_aeroo_report_ar_sale_order')])"
-			id="update_lines_ar_receipt"
-			model="ir.actions.report"
-			name="update_lines_that_apply"/>		
--->	
-
     </data>
 </odoo>
