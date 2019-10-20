@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-		<record id="action_aeroo_report_it_sale_order_odt" model="ir.actions.report">
+		<record id="action_aeroo_report_it_sale_order_pdf" model="ir.actions.report">
 			<field name="name">Preventivo / Ordine di Vendita Aeroo PDF</field>
 			<field name="model">sale.order</field>
 			<field name="report_name">aeroo_report_it_sale_order_pdf</field>
