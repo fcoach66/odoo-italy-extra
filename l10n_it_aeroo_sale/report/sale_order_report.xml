@@ -6,7 +6,7 @@
 			<field name="model">sale.order</field>
 			<field name="report_name">aeroo_report_it_sale_order_pdf</field>
 			<field name="report_type">aeroo</field>
-			<field name="in_format">odt</field>
+			<field name="aeroo_in_format">odt</field>
 			<field name="aeroo_out_format_id" ref="report_aeroo.aeroo_mimetype_pdf_odt"/>
 	        <field name="aeroo_template_source">file</field>
 			<field name="aeroo_lang_eval">o.partner_id.lang</field>
@@ -20,7 +20,7 @@
 			<field name="model">sale.order</field>
 			<field name="report_name">aeroo_report_it_sale_order_odt</field>
 			<field name="report_type">aeroo</field>
-			<field name="in_format">odt</field>
+			<field name="aeroo_in_format">odt</field>
 			<field name="aeroo_out_format_id" ref="report_aeroo.aeroo_mimetype_odt_odt"/>
 	        <field name="aeroo_template_source">file</field>
 			<field name="aeroo_lang_eval">o.partner_id.lang</field>
