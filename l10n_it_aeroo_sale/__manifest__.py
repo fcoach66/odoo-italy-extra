@@ -13,7 +13,6 @@ Italian Sale Order / Quotation Aeroo Report
     'images': [
     ],
     'depends': [
-        'l10n_it_aeroo_base',
 		'sale_quotation_builder',
 		'l10n_it_fiscalcode',
 		'sale_additional_text_template',
@@ -21,9 +20,7 @@ Italian Sale Order / Quotation Aeroo Report
 		'sale_ux',
 	],
     'data': [
-        'data/report_configuration_defaults_data.xml',
         'report/sale_order_report.xml',
-        'report/sale_order_template.xml',
     ],
     'demo': [
     ],
