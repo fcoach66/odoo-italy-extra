@@ -2,8 +2,7 @@
 {
     'name': 'Italian Sale Order Aeroo Report',
     'version': '12.0.1.0',
-    'category': 'Localization/Italy',
-    'sequence': 14,
+    'category': 'Generic Modules/Aeroo Reports',
     'summary': '',
     'description': """
 Italian Sale Order / Quotation Aeroo Report
@@ -19,7 +18,6 @@ Italian Sale Order / Quotation Aeroo Report
 		'sale_additional_text_template',
         'sale_mandatory_fields',
 		'sale_ux',
-		'
 	],
     'data': [
         'report/sale_order_report.xml',
