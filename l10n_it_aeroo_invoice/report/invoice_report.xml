@@ -13,6 +13,7 @@
 			<field name="aeroo_lang_eval">o.partner_id.lang</field>
 			<field name="aeroo_country_eval">o.partner_id.country_id</field>
 			<field name="aeroo_template_path">l10n_it_aeroo_invoice/report/invoice.odt</field>
+			<field name="attachment" eval="${'Fattura' if o.type == 'out_invoice' else 'NotaCredito'} - ${o.number}"/>
 			<field name="attachment_use" eval="True"/>
 		</record>
 		<record id="action_aeroo_report_it_invoice_odt" model="ir.actions.report">
@@ -27,6 +28,7 @@
 			<field name="aeroo_lang_eval">o.partner_id.lang</field>
 			<field name="aeroo_country_eval">o.partner_id.country_id</field>
 			<field name="aeroo_template_path">l10n_it_aeroo_invoice/report/invoice.odt</field>
+			<field name="attachment" eval="${'Fattura' if o.type == 'out_invoice' else 'NotaCredito'} - ${o.number}"/>
 			<field name="attachment_use" eval="True"/>
 		</record>
 	</data>
