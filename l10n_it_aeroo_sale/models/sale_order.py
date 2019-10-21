@@ -8,7 +8,7 @@ class SaleOrderWithAerooReport(models.Model):
 
     _inherit = 'sale.order'
 
-    def sale_order_print(self):
+    def print_quotation(self):
         """Print the sale order using the aeroo invoice template if it is defined.
 
         If the aeroo sale order report is not setup, fallback to the qweb template.
