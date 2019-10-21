@@ -12,13 +12,13 @@ AEROO_SALE_ORDER_REPORT_REF = 'l10n_it_aeroo_invoice.aeroo_it_sale_order_report_
 class PortalAccountWithAerooSaleOrderReport(PortalAccount):
 
     @http.route(['/my/orders/<int:order_id>'], type='http', auth="public", website=True)
-    def portal_my_sale_order_detail(
+    def portal_my_orders(
         self, order_id, access_token=None, report_type=None, download=False, **kw
     ):
         template = request.env.ref(AEROO_SALE_ORDER_REPORT_REF, raise_if_not_found=False)
 
         if not template or report_type != 'pdf':
-            return super().portal_my_sale_order_detail(
+            return super().portal_my_orders(
                 order_id, access_token=access_token, report_type=report_type,
                 download=download, **kw)
 
