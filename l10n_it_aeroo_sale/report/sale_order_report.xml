@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-		<record id="action_aeroo_report_it_sale_order_pdf" model="ir.actions.report">
+		<record id="aeroo_it_sale_order_report_pdf" model="ir.actions.report">
 			<field name="name">Preventivo / Ordine di Vendita Aeroo PDF</field>
 			<field name="model">sale.order</field>
 			<field name="report_name">aeroo_report_it_sale_order_pdf</field>
@@ -15,7 +15,7 @@
 			<field name="print_report_name">${'Ordine di vendita' if o.state in ['sale','done'] else 'Preventivo'} - ${o.name}</field>
 			<field name="attachment">${'Ordine di vendita' if o.state in ['sale','done'] else 'Preventivo'} - ${o.name}</field>
 		</record>
-		<record id="action_aeroo_report_it_sale_order_odt" model="ir.actions.report">
+		<record id="aeroo_it_sale_order_report_odt" model="ir.actions.report">
 			<field name="name">Preventivo / Ordine di Vendita Aeroo ODT</field>
 			<field name="model">sale.order</field>
 			<field name="report_name">aeroo_report_it_sale_order_odt</field>

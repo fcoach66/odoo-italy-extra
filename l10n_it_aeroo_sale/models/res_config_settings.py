@@ -16,7 +16,7 @@ class ResConfigSettingsWithAerooSaleOrderTemplate(models.TransientModel):
     def get_values(self):
         res = super().get_values()
         template = self.env.ref(
-            'l10n_it_aeroo_sale.aeroo_invoice_report', raise_if_not_found=False)
+            'l10n_it_aeroo_sale.aeroo_it_sale_order_report_pdf', raise_if_not_found=False)
         res['aeroo_sale_order_template_id'] = template.id if template else False
         return res
 
@@ -31,7 +31,7 @@ class ResConfigSettingsWithAerooSaleOrderTemplate(models.TransientModel):
     def _update_aeroo_sale_order_template(self):
         ref = self.env['ir.model.data'].search([
             ('module', '=', 'l10n_it_aeroo_sale'),
-            ('name', '=', 'aeroo_invoice_report'),
+            ('name', '=', 'aeroo_it_sale_order_report_pdf'),
         ], limit=1)
 
         if ref:
@@ -39,7 +39,7 @@ class ResConfigSettingsWithAerooSaleOrderTemplate(models.TransientModel):
         else:
             self.env['ir.model.data'].create({
                 'module': 'l10n_it_aeroo_sale',
-                'name': 'aeroo_invoice_report',
+                'name': 'aeroo_it_sale_order_report_pdf',
                 'model': 'ir.actions.report',
                 'res_id': self.aeroo_sale_order_template_id.id,
                 'noupdate': True,
@@ -48,5 +48,5 @@ class ResConfigSettingsWithAerooSaleOrderTemplate(models.TransientModel):
     def _empty_aeroo_sale_order_template(self):
         self.env['ir.model.data'].search([
             ('module', '=', 'l10n_it_aeroo_sale'),
-            ('name', '=', 'aeroo_invoice_report'),
+            ('name', '=', 'aeroo_it_sale_order_report_pdf'),
         ]).unlink()

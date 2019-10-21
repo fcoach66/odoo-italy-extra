@@ -13,7 +13,7 @@ class SaleOrderWithAerooReport(models.Model):
 
         If the aeroo sale order report is not setup, fallback to the qweb template.
         """
-        report = self.env.ref('l10n_it_aeroo_sale.aeroo_sale_order_report', raise_if_not_found=False)
+        report = self.env.ref('l10n_it_aeroo_sale.aeroo_it_sale_order_report_pdf', raise_if_not_found=False)
         if report:
             return report.report_action(self)
         else:
