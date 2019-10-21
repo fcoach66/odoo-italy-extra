@@ -6,7 +6,7 @@ from odoo.addons.account.controllers.portal import PortalAccount
 from odoo.exceptions import AccessError, MissingError
 from odoo.http import request
 
-AEROO_SALE_ORDER_REPORT_REF = 'l10n_it_aeroo_invoice.aeroo_it_sale_order_report_pdf'
+AEROO_SALE_ORDER_REPORT_REF = 'l10n_it_aeroo_sale.aeroo_it_sale_order_report_pdf'
 
 
 class PortalAccountWithAerooSaleOrderReport(PortalAccount):
