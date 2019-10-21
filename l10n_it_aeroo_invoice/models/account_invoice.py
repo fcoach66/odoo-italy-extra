@@ -8,7 +8,7 @@ class InvoiceWithAerooReport(models.Model):
 
     _inherit = 'account.invoice'
 
-    def invoice_print(self):
+    def action_invoice_sent(self):
         """Print the invoice using the aeroo invoice template if it is defined.
 
         If the aeroo invoice report is not setup, fallback to the qweb template.
@@ -17,4 +17,4 @@ class InvoiceWithAerooReport(models.Model):
         if report:
             return report.report_action(self)
         else:
-            return super().invoice_print()
+            return super().action_invoice_sent()
