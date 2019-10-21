@@ -13,7 +13,7 @@ class InvoiceWithAerooReport(models.Model):
 
         If the aeroo invoice report is not setup, fallback to the qweb template.
         """
-        report = self.env.ref('report_aeroo_invoice.aeroo_invoice_report', raise_if_not_found=False)
+        report = self.env.ref('l10n_it_aeroo_invoice.aeroo_it_invoice_report_pdf', raise_if_not_found=False)
         if report:
             return report.report_action(self)
         else:

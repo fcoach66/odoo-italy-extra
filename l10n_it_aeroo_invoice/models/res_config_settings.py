@@ -16,7 +16,7 @@ class ResConfigSettingsWithAerooInvoiceTemplate(models.TransientModel):
     def get_values(self):
         res = super().get_values()
         template = self.env.ref(
-            'report_aeroo_invoice.aeroo_invoice_report', raise_if_not_found=False)
+            'l10n_it_aeroo_invoice.aeroo_it_invoice_report_pdf', raise_if_not_found=False)
         res['aeroo_invoice_template_id'] = template.id if template else False
         return res
 
@@ -30,16 +30,16 @@ class ResConfigSettingsWithAerooInvoiceTemplate(models.TransientModel):
 
     def _update_aeroo_invoice_template(self):
         ref = self.env['ir.model.data'].search([
-            ('module', '=', 'report_aeroo_invoice'),
-            ('name', '=', 'aeroo_invoice_report'),
+            ('module', '=', 'l10n_it_aeroo_invoice'),
+            ('name', '=', 'aeroo_it_invoice_report_pdf'),
         ], limit=1)
 
         if ref:
             ref.res_id = self.aeroo_invoice_template_id.id
         else:
             self.env['ir.model.data'].create({
-                'module': 'report_aeroo_invoice',
-                'name': 'aeroo_invoice_report',
+                'module': 'l10n_it_aeroo_invoice',
+                'name': 'aeroo_it_invoice_report_pdf',
                 'model': 'ir.actions.report',
                 'res_id': self.aeroo_invoice_template_id.id,
                 'noupdate': True,
@@ -47,6 +47,6 @@ class ResConfigSettingsWithAerooInvoiceTemplate(models.TransientModel):
 
     def _empty_aeroo_invoice_template(self):
         self.env['ir.model.data'].search([
-            ('module', '=', 'report_aeroo_invoice'),
-            ('name', '=', 'aeroo_invoice_report'),
+            ('module', '=', 'l10n_it_aeroo_invoice'),
+            ('name', '=', 'aeroo_it_invoice_report_pdf'),
         ]).unlink()

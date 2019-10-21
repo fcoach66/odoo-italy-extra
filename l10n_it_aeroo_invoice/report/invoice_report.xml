@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
-		<record id="action_aeroo_report_it_invoice_pdf" model="ir.actions.report">
+		<record id="aeroo_it_invoice_report_pdf" model="ir.actions.report">
 		    <field name="name">Fattura Aeroo PDF</field>
 			<field name="type">ir.actions.report</field>
         	<field name="model">account.invoice</field>
@@ -16,7 +16,7 @@
 			<field name="attachment">${'Fattura' if o.type == 'out_invoice' else 'NotaCredito'} - ${o.number}</field>
 			<field name="attachment_use" eval="True"/>
 		</record>
-		<record id="action_aeroo_report_it_invoice_odt" model="ir.actions.report">
+		<record id="aeroo_it_invoice_report_odt" model="ir.actions.report">
 		    <field name="name">Fattura Aeroo ODT</field>
 			<field name="type">ir.actions.report</field>
         	<field name="model">account.invoice</field>

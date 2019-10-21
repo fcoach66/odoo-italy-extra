@@ -6,7 +6,7 @@ from odoo.addons.account.controllers.portal import PortalAccount
 from odoo.exceptions import AccessError, MissingError
 from odoo.http import request
 
-AEROO_INVOICE_REPORT_REF = 'report_aeroo_invoice.aeroo_invoice_report'
+AEROO_INVOICE_REPORT_REF = 'l10n_it_aeroo_invoice.aeroo_it_invoice_report_pdf'
 
 
 class PortalAccountWithAerooInvoiceReport(PortalAccount):
