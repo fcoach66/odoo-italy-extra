@@ -13,7 +13,7 @@ class PortalAccountWithAerooSaleOrderReport(PortalAccount):
 
     @http.route(['/my/orders/<int:order_id>'], type='http', auth="public", website=True)
     def portal_my_sale_order_detail(
-        self, sale_id, access_token=None, report_type=None, download=False, **kw
+        self, order_id, access_token=None, report_type=None, download=False, **kw
     ):
         template = request.env.ref(AEROO_SALE_ORDER_REPORT_REF, raise_if_not_found=False)
 
