@@ -17,6 +17,7 @@ Italian Ddt Aeroo Report
 	],
     'data': [
 		'report/ddt_report.xml',
+        'views/res_config_settings.xml',
     ],
     'demo': [
     ],
