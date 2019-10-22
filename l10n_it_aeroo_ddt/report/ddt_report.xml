@@ -12,6 +12,7 @@
 	        <field name="aeroo_template_source">file</field>
 			<field name="aeroo_lang_eval">o.partner_id.lang</field>
 			<field name="aeroo_country_eval">o.partner_id.country_id</field>
+            <field name="aeroo_currency_eval"></field>
 			<field name="aeroo_template_path">l10n_it_aeroo_ddt/report/ddt.odt</field>
         </record>
 
