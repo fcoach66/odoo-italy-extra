@@ -2,8 +2,7 @@
 {
     'name': 'Italian Ddt Aeroo Report',
     'version': '12.0.1.0',
-    'category': 'Localization/Italy',
-    'sequence': 14,
+    'category': 'Generic Modules/Aeroo Reports',
     'summary': '',
     'description': """
 Italian Ddt Aeroo Report
@@ -13,11 +12,11 @@ Italian Ddt Aeroo Report
     'images': [
     ],
     'depends': [
-        'l10n_it_aeroo_base',
+        'report_aeroo',
 		'l10n_it_ddt',
 	],
     'data': [
-		'ddt_report.xml',
+		'report/ddt_report.xml',
     ],
     'demo': [
     ],

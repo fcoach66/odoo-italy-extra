@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="aeroo_it_ddt_report_pdf" model="ir.actions.report">
+            <field name="name">DdT Aeroo</field>
+            <field name="model">stock.picking.package.preparation</field>
+            <field name="report_name">aeroo_report_it_ddt_pdf</field>
+            <field name="report_type">aeroo</field>
+            <field name="aeroo_in_format">odt</field>
+   			<field name="aeroo_out_format_id" ref="report_aeroo.aeroo_mimetype_pdf_odt"/>
+	        <field name="aeroo_template_source">file</field>
+			<field name="aeroo_lang_eval">o.partner_id.lang</field>
+			<field name="aeroo_country_eval">o.partner_id.country_id</field>
+			<field name="aeroo_template_path">l10n_it_aeroo_ddt/report/ddt.odt</field>
+        </record>
+
+    </data>
+</odoo>
