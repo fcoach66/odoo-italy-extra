@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-30 14:16+0000\n"
-"PO-Revision-Date: 2016-06-30 14:16+0000\n"
+"POT-Creation-Date: 2019-10-23 21:02+0000\n"
+"PO-Revision-Date: 2019-10-23 21:02+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,63 +16,85 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: sale_additional_text_template
-#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
+#: model_terms:ir.ui.view,arch_db:sale_additional_text_template.sale_order_form_add_additional_text
 msgid "Additional Text"
 msgstr "Testi aggiuntivi"
 
 #. module: sale_additional_text_template
 #: model:ir.actions.act_window,name:sale_additional_text_template.action_sale_additional_text_template
 #: model:ir.ui.menu,name:sale_additional_text_template.menu_sale_additional_text_template
-#: view:sale.additional_text.template:sale_additional_text_template.view_sale_additional_text_template_form
-#: view:sale.additional_text.template:sale_additional_text_template.view_sale_additional_text_template_search
-#: view:sale.additional_text.template:sale_additional_text_template.view_sale_additional_text_template_tree
+#: model_terms:ir.ui.view,arch_db:sale_additional_text_template.view_sale_additional_text_template_form
+#: model_terms:ir.ui.view,arch_db:sale_additional_text_template.view_sale_additional_text_template_search
+#: model_terms:ir.ui.view,arch_db:sale_additional_text_template.view_sale_additional_text_template_tree
 msgid "Additional Text Templates"
 msgstr "Modelli testi aggiuntivi"
 
 #. module: sale_additional_text_template
-#: field:sale.additional_text.template,name:0
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__name
 msgid "Additional text name"
 msgstr "Nome testo aggiuntivo"
 
 #. module: sale_additional_text_template
-#: field:sale.additional_text.template,create_uid:0
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__create_uid
 msgid "Created by"
 msgstr "Creato da"
 
 #. module: sale_additional_text_template
-#: field:sale.additional_text.template,create_date:0
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__create_date
 msgid "Created on"
 msgstr "Creato il"
 
 #. module: sale_additional_text_template
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_2
+#: model_terms:ir.ui.view,arch_db:sale_additional_text_template.sale_order_form_add_additional_text
 #: selection:sale.additional_text.template,type:0
-#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
 msgid "Description"
 msgstr "Descrizione"
 
 #. module: sale_additional_text_template
-#: field:sale.additional_text.template,id:0
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_template2_id
+msgid "Description Template"
+msgstr "Descrizione Modello"
+
+#. module: sale_additional_text_template
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__display_name
+msgid "Display Name"
+msgstr "Visualizza Nome"
+
+#. module: sale_additional_text_template
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__id
 msgid "ID"
 msgstr "ID"
 
 #. module: sale_additional_text_template
-#: field:sale.additional_text.template,write_uid:0
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template____last_update
+msgid "Last Modified on"
+msgstr "Data di ultima modifica"
+
+#. module: sale_additional_text_template
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Ultima modifica da"
 
 #. module: sale_additional_text_template
-#: field:sale.additional_text.template,write_date:0
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__write_date
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Ultima modifica il"
 
 #. module: sale_additional_text_template
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_3
+#: model_terms:ir.ui.view,arch_db:sale_additional_text_template.sale_order_form_add_additional_text
 #: selection:sale.additional_text.template,type:0
-#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
 msgid "Limitation"
 msgstr "Limitazioni e note aggiuntive"
 
 #. module: sale_additional_text_template
-#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_template3_id
+msgid "Limitation Template"
+msgstr "Modello Limitazione"
+
+#. module: sale_additional_text_template
+#: model_terms:ir.ui.view,arch_db:sale_additional_text_template.sale_order_form_add_additional_text
 msgid "Load a template"
 msgstr "Carica un modello"
 
@@ -83,32 +105,33 @@ msgstr "Modelli di testi aggiuntivi Vendite"
 
 #. module: sale_additional_text_template
 #: model:ir.model,name:sale_additional_text_template.model_sale_order
-msgid "Sales Order"
-msgstr "Ordine di vendita"
+msgid "Sale Order"
+msgstr "Ordine di Vendita"
 
 #. module: sale_additional_text_template
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_1
+#: model_terms:ir.ui.view,arch_db:sale_additional_text_template.sale_order_form_add_additional_text
 #: selection:sale.additional_text.template,type:0
-#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
 msgid "Subject"
 msgstr "Oggetto"
 
 #. module: sale_additional_text_template
-#: field:sale.additional_text.template,text:0
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_template1_id
+msgid "Subject Templae"
+msgstr "Modello Oggetto"
+
+#. module: sale_additional_text_template
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__text
 msgid "Text"
 msgstr "Testo"
 
 #. module: sale_additional_text_template
-#: view:sale.order:sale_additional_text_template.sale_order_form_add_additional_text
-msgid "The additional text will be displayed on the printed document. You can load a predefined template, write your own text or load a template and then modify it only for this document."
-msgstr "I testi aggiuntivi saranno visualizzati sul documento stampato. Puoi caricare un modello predefinito, scrivere un testo personalizzato oppure caricare un modello e quindi modificarlo solo per questo documento."
-
-#. module: sale_additional_text_template
-#: field:sale.additional_text.template,type:0
+#: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__type
 msgid "Type"
 msgstr "Tipo"
 
 #. module: sale_additional_text_template
-#: help:sale.additional_text.template,type:0
+#: model:ir.model.fields,help:sale_additional_text_template.field_sale_additional_text_template__type
 msgid "Type of additional text"
 msgstr "Tipo di testo aggiuntivo"
 
