@@ -1,0 +1,37 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* hr_hourlywages
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+ec\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-29 06:56+0000\n"
+"PO-Revision-Date: 2021-01-29 06:56+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_hourlywages
+#: model_terms:ir.ui.view,arch_db:hr_hourlywages.hr_contract_form_inherit
+msgid "<span>/ Hour</span>"
+msgstr "<span>/ Ora</span>"
+
+#. module: hr_hourlywages
+#: model:ir.model,name:hr_hourlywages.model_hr_contract
+msgid "Employee Contract"
+msgstr "Contratto dipendente"
+
+#. module: hr_hourlywages
+#: model:ir.model.fields,help:hr_hourlywages.field_hr_contract__hourlywage
+msgid "Employee's Hourly wage."
+msgstr "Paga oraria del dipendente"
+
+#. module: hr_hourlywages
+#: model:ir.model.fields,field_description:hr_hourlywages.field_hr_contract__hourlywage
+msgid "Hourly Wage"
+msgstr "Paga oraria"
+
