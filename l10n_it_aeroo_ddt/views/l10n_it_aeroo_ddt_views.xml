@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="print_aeroo_ddt_stock_picking_package_preparation_form" model="ir.ui.view">
+            <field name="name">print.aeroo.ddt.stock.picking.package.preparation.form</field>
+            <field name="model">stock.picking.package.preparation</field>
+            <field name="inherit_id"
+                ref="l10n_it_ddt.ddt_stock_picking_package_preparation_form"/>
+            <field name="arch" type="xml">
+              <xpath expr="/form/header/button[@name='action_send_ddt_mail']" position="before">
+                <button name="action_print_ddt_aeroo_pdf" type="object" string="Print" attrs="{'invisible':[('state','in', 'draft')]}"/>
+              </xpath>
+              <xpath expr="/form/header/button[@name='action_print_ddt_aeroo_pdf']" position="after">
+                <button name="action_print_ddt_aeroo_odt" type="object" string="ODT" attrs="{'invisible':[('state','in', 'draft')]}"/>
+              </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

@@ -3,12 +3,26 @@
     <data noupdate="1">
 
         <record id="aeroo_it_ddt_report_pdf" model="ir.actions.report">
-            <field name="name">DdT Aeroo</field>
+            <field name="name">DdT Aeroo PDF</field>
             <field name="model">stock.picking.package.preparation</field>
             <field name="report_name">aeroo_report_it_ddt_pdf</field>
             <field name="report_type">aeroo</field>
             <field name="aeroo_in_format">odt</field>
    			<field name="aeroo_out_format_id" ref="report_aeroo.aeroo_mimetype_pdf_odt"/>
+	        <field name="aeroo_template_source">file</field>
+			<field name="aeroo_lang_eval">o.partner_id.lang</field>
+			<field name="aeroo_country_eval">o.partner_id.country_id</field>
+            <field name="aeroo_currency_eval">o.company_id.partner_id.currency_id</field>
+			<field name="aeroo_template_path">l10n_it_aeroo_ddt/report/ddt.odt</field>
+        </record>
+
+        <record id="aeroo_it_ddt_report_odt" model="ir.actions.report">
+            <field name="name">DdT Aeroo ODT</field>
+            <field name="model">stock.picking.package.preparation</field>
+            <field name="report_name">aeroo_report_it_ddt_odt</field>
+            <field name="report_type">aeroo</field>
+            <field name="aeroo_in_format">odt</field>
+   			<field name="aeroo_out_format_id" ref="report_aeroo.aeroo_mimetype_odt_odt"/>
 	        <field name="aeroo_template_source">file</field>
 			<field name="aeroo_lang_eval">o.partner_id.lang</field>
 			<field name="aeroo_country_eval">o.partner_id.country_id</field>
