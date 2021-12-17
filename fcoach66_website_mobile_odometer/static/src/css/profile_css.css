@@ -1,0 +1,12 @@
+/* ADD NEW ODOMETER */
+
+#odometer_body{
+	padding: 10px 0;
+	.breadcrumb{
+		padding:0 30px;
+	}
+  .odometer_center{
+    float: none !important;
+    margin: 0 auto;
+  }
+}

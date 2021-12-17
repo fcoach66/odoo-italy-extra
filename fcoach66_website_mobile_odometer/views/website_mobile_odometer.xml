@@ -1,0 +1,17 @@
+<odoo>
+
+ <template id="fcoach66_odometer_assets" inherit_id="web.assets_frontend" name="Odometer Frontend Assets">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/css" href="/fcoach66_website_mobile_odometer/static/src/css/profile_css.css"/>
+            <script src="/fcoach66_website_mobile_odometer/static/js/odometer.js"/>
+        </xpath>
+    </template>
+
+    <template id="my_account_odometer" name="Link to Odometer Insert" inherit_id="portal.frontend_layout">
+        <xpath expr="//a[@id='o_logout']" position="before">
+            <a href="/my/add_new_odometer" role="menuitem" class="dropdown-item">Odometer Value Add</a>
+        </xpath>
+    </template>
+    
+</odoo>
+

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="fcoach66_new_odometer_form" name="Add New Odometer Form">
+		
+		<t t-call="website.layout">
+			<div id="odometer_body">
+				<div class="row">
+					<div class="container odometer_breadcrumb">
+					    <ol class="breadcrumb mb0">
+					        <li class="breadcrumb-item">
+					            <a href="/my/odometer" > My odometer</a>
+					        </li>
+					        <li class="breadcrumb-item active">
+					        	<span> New odometer</span>
+					        </li>
+					    </ol>
+					</div>
+				</div>
+
+				<div id="wrap"  class="container">
+		            <h1 class="text-center">
+		                New odometer
+		            </h1>
+
+		            <hr/>
+		            
+		            <form action="/my/new_odometer_submit" method="post" id="new_odometer_form">
+						<input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" />
+						<div class="row">
+							<div class="col-md-12 oe_cart">
+								<div class="row">
+									<div class="col-md-12 odometer_center new_odometer">
+										<div t-if="error_message" class="alert alert-danger">
+											<t t-foreach="error_message" t-as="err">
+												<t t-esc="err" />
+												<br/>
+											</t>
+										</div>
+
+										<div t-attf-class="form-group #{error and 'name' in error and 'has-error' or ''} col-lg-6 pull-left">
+											
+											 <label class="control-label" for="vehicle">Veicolo</label>
+                                            <t t-set="vehicle_ids" t-value="website.get_vehicle_details()"/>
+                                            <select class="form-control" name="vehicle" required="required">
+                                            	<option value="">select...</option>
+                                                <t t-foreach="vehicle_ids" t-as="vehicle">
+                                                    <option t-att-value="vehicle.id" t-att-selected="'selected' if vehicle.id else null">
+                                                        <t t-esc="vehicle.name" />
+                                                    </option>
+                                                </t>
+                                            </select>
+
+										</div>
+
+										<div t-attf-class="form-group #{error and 'name' in error and 'has-error' or ''} col-lg-6 pull-left">
+											
+											<label class="control-label" for="name">Date</label>
+											<input type="date" name="date" class="form-control" required="required"/>
+
+										</div>
+
+										<div t-attf-class="form-group #{error and 'name' in error and 'has-error' or ''} col-lg-6 pull-left">
+											
+											<label class="control-label" for="name">Chilometers</label>
+											<input type="text" name="chilometers" class="form-control" required="required"/>
+
+										</div>
+
+										<div t-attf-class="form-group #{error and 'name' in error and 'has-error' or ''} col-lg-6 pull-left">
+											
+										</div>
+
+										<div t-attf-class="form-group #{error and 'name' in error and 'has-error' or ''} col-lg-6 pull-left">
+
+										</div>
+
+										<div class="form-group  col-lg-12 pull-left">
+											<button type="submit" class="btn btn-default btn-primary mb32 a-submit">
+												Save
+											</button>
+										</div>
+
+									</div>
+											
+								</div>
+
+							</div>
+						</div>
+					</form>
+		        </div>
+			</div>
+		</t>
+
+	</template>
+
+	<template id="odometer_added" name="Odometer Add successfully">
+		
+		<t t-call="website.layout">
+			<div id="wrap">
+				<div class="oe_structure" />
+				<div class="container">
+					<h1 class="text-center">Thank you!</h1>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="alert alert-success">
+								Your Odometer Added Successfully.
+								<button type="button" class="close" data-dismiss="alert">&amp;times;
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="oe_structure" />
+			</div>
+		</t>
+
+	</template>
+
+	<template id="odometer_failed" name="Odometer Failed">
+		
+		<t t-call="website.layout">
+			<div id="wrap">
+				<div class="oe_structure" />
+				<div class="container">
+					<h1 class="text-center">Sorry there is something wrong.</h1>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="alert alert-success">
+								please try again.
+								<button type="button" class="close" data-dismiss="alert">&amp;times;
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="oe_structure" />
+			</div>
+		</t>
+
+	</template>
+
+</odoo>
