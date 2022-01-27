@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_amount_untaxed_on_tree_view" model="ir.ui.view">
+        <field name="name">sale.order.amount_untaxed.on_tree</field>
+        <field name="model">sale.order</field>
+        <field name="priority" eval="99"/>
+        <field name="inherit_id" ref="sale.view_order_tree"/>
+        <field name="arch" type="xml">
+            <field name="amount_total" position="before">
+                <field name="amount_untaxed"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="view_invoiced_amount_on_tree_view" model="ir.ui.view">
+        <field name="name">sale.order.invoiced_amount.on_tree</field>
+        <field name="model">sale.order</field>
+        <field name="priority" eval="99"/>
+        <field name="inherit_id" ref="sale.view_order_tree"/>
+        <field name="arch" type="xml">
+            <field name="amount_total" position="after">
+                <field name="invoiced_amount_tree" widget='monetary' options="{'currency_field': 'currency_id'}" readonly="True"/>
+            </field>
+        </field>
+    </record>
+</odoo>
