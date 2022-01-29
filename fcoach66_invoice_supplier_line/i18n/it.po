@@ -1,0 +1,68 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* fcoach66_invoice_supplier_line
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+ec\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-29 08:08+0000\n"
+"PO-Revision-Date: 2022-01-29 08:08+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fcoach66_invoice_supplier_line
+#: model:ir.model.fields,field_description:fcoach66_invoice_supplier_line.field_account_invoice_line__checked
+msgid "Checked"
+msgstr "Controllato"
+
+#. module: fcoach66_invoice_supplier_line
+#: model_terms:ir.ui.view,arch_db:fcoach66_invoice_supplier_line.invoice_supplier_form
+msgid "Edit lines"
+msgstr "Modifica linee"
+
+#. module: fcoach66_invoice_supplier_line
+#: model:ir.model,name:fcoach66_invoice_supplier_line.model_account_invoice
+msgid "Invoice"
+msgstr "Fattura"
+
+#. module: fcoach66_invoice_supplier_line
+#: model:ir.model,name:fcoach66_invoice_supplier_line.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Riga fattura"
+
+#. module: fcoach66_invoice_supplier_line
+#: model:ir.actions.act_window,name:fcoach66_invoice_supplier_line.action_invoice_supplier_line
+msgid "Invoice Supplier Lines"
+msgstr "Righe Fattura Fornitore"
+
+#. module: fcoach66_invoice_supplier_line
+#: selection:account.invoice.line,checked:0
+msgid "NOT OK"
+msgstr ""
+
+#. module: fcoach66_invoice_supplier_line
+#: model_terms:ir.ui.view,arch_db:fcoach66_invoice_supplier_line.view_invoice_supplier_line_search
+msgid "Not OK"
+msgstr ""
+
+#. module: fcoach66_invoice_supplier_line
+#: selection:account.invoice.line,checked:0
+#: model_terms:ir.ui.view,arch_db:fcoach66_invoice_supplier_line.view_invoice_supplier_line_search
+msgid "OK"
+msgstr ""
+
+#. module: fcoach66_invoice_supplier_line
+#: model_terms:ir.ui.view,arch_db:fcoach66_invoice_supplier_line.view_invoice_supplier_line_tree
+msgid "Price"
+msgstr "Prezzo"
+
+#. module: fcoach66_invoice_supplier_line
+#: model_terms:ir.ui.view,arch_db:fcoach66_invoice_supplier_line.view_invoice_supplier_line_search
+msgid "Search"
+msgstr "Ricerca"
+
