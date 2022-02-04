@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <report
+        id="report_account_analytic_line_xls"
+        model="account.analytic.line"
+        string="Excel Export Timesheet"
+        report_type="xlsx"
+        name="fcoach66_report_xlsx.report_account_analytic_line_xls"
+        file="report_account_analytic_line_xls"
+        attachment_use="False"
+    />
+
+</odoo>
