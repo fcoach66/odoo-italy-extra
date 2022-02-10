@@ -21,6 +21,12 @@ class AccountInvoiceSupplierLine(models.Model):
     def set_checked(self, value):
         self.write({"checked": value})
 
+    @api.onchange('product_id')
+    def _method_name(self):
+        if not self.uom_id:
+            self.uom_id = self.product_id.uom_id.id
+
+
 #    @api.multi
 #    def compute_taxes(self):
 #        invoices = self.env["account.invoice"]
