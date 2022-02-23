@@ -1,0 +1,14 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="res_users_form_add_signature_text">
+      <field name="name">signature_text.res.users.form</field>
+      <field name="model">res.users</field>
+      <field name="inherit_id" ref="base.view_users_form"/>
+      <field name="arch" type="xml">
+        <field name="signature" position="after">
+          <field name="signature_text"/>
+        </field>
+      </field>
+    </record>
+  </data>
+</odoo>
