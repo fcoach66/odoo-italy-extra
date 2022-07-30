@@ -37,7 +37,7 @@ class AddOdometer(http.Controller):
 
             odometer_obj = odometer_obj.sudo().create({
                 'date':date,
-                'driver_id': request.env.user.partner_id.id,
+#                'driver_id': request.env.user.partner_id.id,
                 'vehicle_id': vehicle_obj.id,
                 'value': float(chilometers_replace),
             })
