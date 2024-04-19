@@ -16,4 +16,6 @@
         'hr_contract',
         'hr_payroll',
     ],
+    "auto_install": False,
+    "installable": False,
 }

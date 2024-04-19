@@ -28,7 +28,7 @@ Italian Invoice Aeroo Report
     'test': [
     ],
     'license': 'LGPL-3',
-    'installable': True,
+    'installable': False,
     'auto_install': False,
     'application': False,
 }

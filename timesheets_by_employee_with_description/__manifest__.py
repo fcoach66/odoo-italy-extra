@@ -34,7 +34,7 @@
             ],
     'images': ['static/description/banner.png'],
     'license': 'LGPL-3',
-    'installable': True,
+    'installable': False,
     'auto_install': False,
     'application': False,
 }

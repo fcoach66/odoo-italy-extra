@@ -12,7 +12,7 @@
     'data': [
         'views/hr_timesheet_view.xml',
     ],
-    'installable': True,
+    'installable': False,
     'application': False,
     'auto_install': False,
     'license': 'LGPL-3',

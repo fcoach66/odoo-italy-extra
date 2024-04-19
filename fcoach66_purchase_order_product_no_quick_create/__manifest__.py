@@ -10,5 +10,5 @@
  "data": ["views/purchase_order_view.xml",
           ],
  "category": "Purchase",
- "installable": True,
+ "installable": False,
  "active": False, }

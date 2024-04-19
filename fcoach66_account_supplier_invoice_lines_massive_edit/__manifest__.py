@@ -16,4 +16,7 @@
         'wizards/invoice_lines_edit_views.xml',
         'views/account_invoice_views.xml',
     ],
+    'installable': False,
+    'application': False,
+    'auto_install': False,
 }

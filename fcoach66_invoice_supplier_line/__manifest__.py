@@ -13,6 +13,9 @@
         'account_analytic_default',
 	],
     "data": ["views/account_invoice_view.xml"],
-    "installable": True,
+    "installable": False,
     "development_status": "stable",
+    'installable': False,
+    'application': False,
+    'auto_install': False,
 }

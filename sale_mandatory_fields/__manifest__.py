@@ -10,5 +10,5 @@
  "data": ["views/sale_mandatory_fields_view.xml",
           ],
  "category": "Sale",
- "installable": True,
+ "installable": False,
  "active": False, }
