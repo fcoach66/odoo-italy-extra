@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Italian Invoice Aeroo Report',
-    'version': '13.0.1.0',
+    'version': '14.0.1.0',
     'category': 'Generic Modules/Aeroo Reports',
     'summary': '',
     'description': """

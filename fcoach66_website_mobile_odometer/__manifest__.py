@@ -2,7 +2,7 @@
 
 {
     "name" : "Mobile Vehicle Odometer Line Insert",
-    "version" : "13.0.1.0",
+    "version" : "14.0.1.0",
     "category" : "Website",
     "depends" : ['base','website','portal','fleet','fleet_vehicle_history_date_end'],
     "author": "fcoach66",

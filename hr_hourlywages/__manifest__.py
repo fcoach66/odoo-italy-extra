@@ -3,7 +3,7 @@
 {
     'name': 'Hourly Wages',
     'description': 'Pay Hourly Salary using Hourly wage field on the contact.',
-    'version': '13.0.1.0',
+    'version': '14.0.1.0',
     'website': 'https://github.com/fcoach66/odoo-italy-extra',
     'author': 'fcoach66',
     'license': 'AGPL-3',

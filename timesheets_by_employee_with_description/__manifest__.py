@@ -18,7 +18,7 @@
 ##############################################################################
 {
     'name': 'Timesheet with Description PDF Report',
-    'version': '13.0.1.0.0',
+    'version': '14.0.1.0.0',
     "category": "Generic Modules/Human Resources",
     'sequence': 29,
     'summary': 'Timesheet with Description PDF Report of Employees',

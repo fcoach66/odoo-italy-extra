@@ -5,7 +5,7 @@
     'name': 'Account Invoice Supplier Lines Massive Edit',
     'category': 'Account',
     'summary': 'Wizard for edit faster invoice supplier lines',
-    'version': '13.0.1.0.0',
+    'version': '14.0.1.0.0',
     'description': '',
     'author': 'fcoach66',
     'license': 'AGPL-3',
