@@ -42,7 +42,6 @@
       <field name="name">Additional Text Templates</field>
       <field name="type">ir.actions.act_window</field>
       <field name="res_model">sale.additional_text.template</field>
-      <field name="view_type">form</field>
       <field name="view_mode">tree,form</field>
       <field name="view_id" ref="view_sale_additional_text_template_tree"/>
     </record>
