@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* sale_additional_text_template
+#	* fcoach66_sale_additional_text_template
 #
 msgid ""
 msgstr ""
@@ -15,122 +15,122 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model_terms:ir.ui.view,arch_db:sale_additional_text_template.sale_order_form_add_additional_text
 msgid "Additional Text"
 msgstr "Testi aggiuntivi"
 
-#. module: sale_additional_text_template
-#: model:ir.actions.act_window,name:sale_additional_text_template.action_sale_additional_text_template
-#: model:ir.ui.menu,name:sale_additional_text_template.menu_sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.actions.act_window,name:fcoach66_sale_additional_text_template.action_sale_additional_text_template
+#: model:ir.ui.menu,name:fcoach66_sale_additional_text_template.menu_sale_additional_text_template
 #: model_terms:ir.ui.view,arch_db:sale_additional_text_template.view_sale_additional_text_template_form
 #: model_terms:ir.ui.view,arch_db:sale_additional_text_template.view_sale_additional_text_template_search
 #: model_terms:ir.ui.view,arch_db:sale_additional_text_template.view_sale_additional_text_template_tree
 msgid "Additional Text Templates"
 msgstr "Modelli testi aggiuntivi"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__name
 msgid "Additional text name"
 msgstr "Nome testo aggiuntivo"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__create_uid
 msgid "Created by"
 msgstr "Creato da"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__create_date
 msgid "Created on"
 msgstr "Creato il"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_2
 #: model_terms:ir.ui.view,arch_db:sale_additional_text_template.sale_order_form_add_additional_text
 #: selection:sale.additional_text.template,type:0
 msgid "Description"
 msgstr "Descrizione"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_template2_id
 msgid "Description Template"
 msgstr "Descrizione Modello"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__display_name
 msgid "Display Name"
 msgstr "Visualizza Nome"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__id
 msgid "ID"
 msgstr "ID"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template____last_update
 msgid "Last Modified on"
 msgstr "Data di ultima modifica"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__write_uid
 msgid "Last Updated by"
 msgstr "Ultima modifica da"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__write_date
 msgid "Last Updated on"
 msgstr "Ultima modifica il"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_3
 #: model_terms:ir.ui.view,arch_db:sale_additional_text_template.sale_order_form_add_additional_text
 #: selection:sale.additional_text.template,type:0
 msgid "Limitation"
 msgstr "Limitazioni e note aggiuntive"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_template3_id
 msgid "Limitation Template"
 msgstr "Modello Limitazione"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model_terms:ir.ui.view,arch_db:sale_additional_text_template.sale_order_form_add_additional_text
 msgid "Load a template"
 msgstr "Carica un modello"
 
-#. module: sale_additional_text_template
-#: model:ir.model,name:sale_additional_text_template.model_sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model,name:fcoach66_sale_additional_text_template.model_sale_additional_text_template
 msgid "Sale Additional Text template"
 msgstr "Modelli di testi aggiuntivi Vendite"
 
-#. module: sale_additional_text_template
-#: model:ir.model,name:sale_additional_text_template.model_sale_order
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model,name:fcoach66_sale_additional_text_template.model_sale_order
 msgid "Sale Order"
 msgstr "Ordine di Vendita"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_1
 #: model_terms:ir.ui.view,arch_db:sale_additional_text_template.sale_order_form_add_additional_text
 #: selection:sale.additional_text.template,type:0
 msgid "Subject"
 msgstr "Oggetto"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_order__additional_text_template1_id
 msgid "Subject Templae"
 msgstr "Modello Oggetto"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__text
 msgid "Text"
 msgstr "Testo"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,field_description:sale_additional_text_template.field_sale_additional_text_template__type
 msgid "Type"
 msgstr "Tipo"
 
-#. module: sale_additional_text_template
+#. module: fcoach66_sale_additional_text_template
 #: model:ir.model.fields,help:sale_additional_text_template.field_sale_additional_text_template__type
 msgid "Type of additional text"
 msgstr "Tipo di testo aggiuntivo"
