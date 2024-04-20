@@ -12,5 +12,5 @@
 			'security/ir.model.access.csv',
           ],
  "category": "Sale",
- "installable": False,
+ "installable": True,
  "active": False, }
