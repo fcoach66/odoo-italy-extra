@@ -30,17 +30,17 @@ msgid "Additional Text Templates"
 msgstr "Additional Text Templates"
 
 #. module: fcoach66_sale_additional_text_template
-#: field:sale.additional_text.template,name:0
+#: field:fcoach66_sale_additional_text_template.additional_text.template,name:0
 msgid "Additional text name"
 msgstr "Additional text name"
 
 #. module: fcoach66_sale_additional_text_template
-#: field:sale.additional_text.template,create_uid:0
+#: field:fcoach66_sale_additional_text_template.additional_text.template,create_uid:0
 msgid "Created by"
 msgstr "Created by"
 
 #. module: fcoach66_sale_additional_text_template
-#: field:sale.additional_text.template,create_date:0
+#: field:fcoach66_sale_additional_text_template.additional_text.template,create_date:0
 msgid "Created on"
 msgstr "Created on"
 
@@ -51,17 +51,17 @@ msgid "Description"
 msgstr "Description"
 
 #. module: fcoach66_sale_additional_text_template
-#: field:sale.additional_text.template,id:0
+#: field:fcoach66_sale_additional_text_template.additional_text.template,id:0
 msgid "ID"
 msgstr "ID"
 
 #. module: fcoach66_sale_additional_text_template
-#: field:sale.additional_text.template,write_uid:0
+#: field:fcoach66_sale_additional_text_template.additional_text.template,write_uid:0
 msgid "Last Updated by"
 msgstr "Last Updated by"
 
 #. module: fcoach66_sale_additional_text_template
-#: field:sale.additional_text.template,write_date:0
+#: field:fcoach66_sale_additional_text_template.additional_text.template,write_date:0
 msgid "Last Updated on"
 msgstr "Last Updated on"
 
@@ -93,7 +93,7 @@ msgid "Subject"
 msgstr "Subject"
 
 #. module: fcoach66_sale_additional_text_template
-#: field:sale.additional_text.template,text:0
+#: field:fcoach66_sale_additional_text_template.additional_text.template,text:0
 msgid "Text"
 msgstr "Text"
 
@@ -103,7 +103,7 @@ msgid "The additional text will be displayed on the printed document. You can lo
 msgstr "The additional text will be displayed on the printed document. You can load a predefined template, write your own text or load a template and then modify it only for this document."
 
 #. module: fcoach66_sale_additional_text_template
-#: field:sale.additional_text.template,type:0
+#: field:fcoach66_sale_additional_text_template.additional_text.template,type:0
 msgid "Type"
 msgstr "Type"
 
