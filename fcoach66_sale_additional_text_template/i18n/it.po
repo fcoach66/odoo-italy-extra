@@ -1,0 +1,137 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* fcoach66_sale_additional_text_template
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-23 21:02+0000\n"
+"PO-Revision-Date: 2024-04-21 14:16+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fcoach66_sale_additional_text_template
+#: model_terms:ir.ui.view,arch_db:fcoach66_sale_additional_text_template.sale_order_form_add_additional_text
+msgid "Additional Text"
+msgstr "Testi aggiuntivi"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.actions.act_window,name:fcoach66_sale_additional_text_template.action_sale_additional_text_template
+#: model:ir.ui.menu,name:fcoach66_sale_additional_text_template.menu_sale_additional_text_template
+#: model_terms:ir.ui.view,arch_db:fcoach66_sale_additional_text_template.view_sale_additional_text_template_form
+#: model_terms:ir.ui.view,arch_db:fcoach66_sale_additional_text_template.view_sale_additional_text_template_search
+#: model_terms:ir.ui.view,arch_db:fcoach66_sale_additional_text_template.view_sale_additional_text_template_tree
+msgid "Additional Text Templates"
+msgstr "Modelli testi aggiuntivi"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_additional_text_template__name
+msgid "Additional text name"
+msgstr "Nome testo aggiuntivo"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_additional_text_template__create_uid
+msgid "Created by"
+msgstr "Creato da"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_additional_text_template__create_date
+msgid "Created on"
+msgstr "Creato il"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_order__additional_text_2
+#: model_terms:ir.ui.view,arch_db:fcoach66_sale_additional_text_template.sale_order_form_add_additional_text
+#: selection:sale.additional_text.template,type:0
+msgid "Description"
+msgstr "Descrizione"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_order__additional_text_template2_id
+msgid "Description Template"
+msgstr "Descrizione Modello"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_additional_text_template__display_name
+msgid "Display Name"
+msgstr "Visualizza Nome"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_additional_text_template__id
+msgid "ID"
+msgstr "ID"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_additional_text_template____last_update
+msgid "Last Modified on"
+msgstr "Data di ultima modifica"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_additional_text_template__write_uid
+msgid "Last Updated by"
+msgstr "Ultima modifica da"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_additional_text_template__write_date
+msgid "Last Updated on"
+msgstr "Ultima modifica il"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_order__additional_text_3
+#: model_terms:ir.ui.view,arch_db:fcoach66_sale_additional_text_template.sale_order_form_add_additional_text
+#: selection:sale.additional_text.template,type:0
+msgid "Limitation"
+msgstr "Limitazioni e note aggiuntive"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_order__additional_text_template3_id
+msgid "Limitation Template"
+msgstr "Modello Limitazione"
+
+#. module: fcoach66_sale_additional_text_template
+#: model_terms:ir.ui.view,arch_db:fcoach66_sale_additional_text_template.sale_order_form_add_additional_text
+msgid "Load a template"
+msgstr "Carica un modello"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model,name:fcoach66_sale_additional_text_template.model_sale_additional_text_template
+msgid "Sale Additional Text template"
+msgstr "Modelli di testi aggiuntivi Vendite"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model,name:fcoach66_sale_additional_text_template.model_sale_order
+msgid "Sale Order"
+msgstr "Ordine di Vendita"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_order__additional_text_1
+#: model_terms:ir.ui.view,arch_db:fcoach66_sale_additional_text_template.sale_order_form_add_additional_text
+#: selection:sale.additional_text.template,type:0
+msgid "Subject"
+msgstr "Oggetto"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_order__additional_text_template1_id
+msgid "Subject Templae"
+msgstr "Modello Oggetto"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_additional_text_template__text
+msgid "Text"
+msgstr "Testo"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,field_description:fcoach66_sale_additional_text_template.field_sale_additional_text_template__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: fcoach66_sale_additional_text_template
+#: model:ir.model.fields,help:fcoach66_sale_additional_text_template.field_sale_additional_text_template__type
+msgid "Type of additional text"
+msgstr "Tipo di testo aggiuntivo"
+

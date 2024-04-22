@@ -4,7 +4,7 @@
 #
 {"name": "Sale Additional Text Templates",
  "summary": "Additional text on sale documents",
- "version": "12.0.1.0.0",
+ "version": "13.0.1.0.0",
  "depends": ["base","sale"],
  "author": "fcoach66",
  "data": ["views/additional_text_view.xml",
@@ -12,5 +12,5 @@
 			'security/ir.model.access.csv',
           ],
  "category": "Sale",
- "installable": False,
+ "installable": True,
  "active": False, }

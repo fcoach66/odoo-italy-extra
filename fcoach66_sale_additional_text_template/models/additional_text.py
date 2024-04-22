@@ -6,7 +6,6 @@ class SaleAdditionalTextTemplate(models.Model):
     type = fields.Selection([('subject', 'Subject'),('description', 'Description'),('limitation', 'Limitation')],'Type',required=True,default='subject',help="Type of additional text")
     text = fields.Text('Text', translate=True, required=True)
 
-    @api.multi
     def get_value(self, partner_id=False):
         self.ensure_one()
         lang = None
