@@ -1,10 +1,10 @@
 {"name": "Res Users Signature Text",
  "summary": "Res Users Signature Text",
- "version": "12.0.1.0.0",
+ "version": "13.0.1.0.0",
  "depends": ["base"],
  "author": "fcoach66",
  "data": ["views/res_users_view.xml",
           ],
  "category": "Base",
- "installable": False,
+ "installable": True,
  "active": False, }
