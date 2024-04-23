@@ -10,5 +10,5 @@
  "data": ["views/sale_order_view.xml",
           ],
  "category": "Sale",
- "installable": False,
+ "installable": True,
  "active": False, }
