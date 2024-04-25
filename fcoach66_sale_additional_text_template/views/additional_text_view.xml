@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
   <data>
-    <record model="ir.ui.view" id="view_sale_additional_text_template_search">
+    <record model="ir.ui.view" id="fcoach66_sale_additional_text_template.view_sale_additional_text_template_search">
       <field name="name">sale.additional_text.template.search</field>
       <field name="model">sale.additional_text.template</field>
       <field name="arch" type="xml">
@@ -12,7 +12,7 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="view_sale_additional_text_template_form">
+    <record model="ir.ui.view" id="fcoach66_sale_additional_text_template.view_sale_additional_text_template_form">
       <field name="name">sale.additional_text.template.form</field>
       <field name="model">sale.additional_text.template</field>
       <field name="arch" type="xml">
@@ -26,7 +26,7 @@
       </field>
     </record>
 
-    <record model="ir.ui.view" id="view_sale_additional_text_template_tree">
+    <record model="ir.ui.view" id="fcoach66_sale_additional_text_template.view_sale_additional_text_template_tree">
       <field name="name">sale.additional_text.template.list</field>
       <field name="model">sale.additional_text.template</field>
       <field name="priority" eval="6"/>
@@ -38,7 +38,7 @@
       </field>
     </record>
 
-    <record model="ir.actions.act_window" id="action_sale_additional_text_template">
+    <record model="ir.actions.act_window" id="fcoach66_sale_additional_text_template.action_sale_additional_text_template">
       <field name="name">Additional Text Templates</field>
       <field name="type">ir.actions.act_window</field>
       <field name="res_model">sale.additional_text.template</field>
@@ -50,7 +50,7 @@
   
   <data noupdate="0">
     <menuitem name="Additional Text Templates"
-      id="menu_sale_additional_text_template"
+      id="fcoach66_sale_additional_text_template.menu_sale_additional_text_template"
       action="fcoach66_sale_additional_text_template.action_sale_additional_text_template"
       parent="sale.menu_sale_config"/>
   </data>
