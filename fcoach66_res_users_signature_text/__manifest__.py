@@ -6,5 +6,5 @@
  "data": ["views/res_users_view.xml",
           ],
  "category": "Base",
- "installable": False,
+ "installable": True,
  "active": False, }

@@ -15,7 +15,7 @@
     "data": ["views/account_invoice_view.xml"],
     "installable": False,
     "development_status": "stable",
-    'installable': False,
+    'installable': True,
     'application': False,
     'auto_install': False,
 }
