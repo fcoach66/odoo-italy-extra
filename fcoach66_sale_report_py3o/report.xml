@@ -10,7 +10,7 @@
 <record id="sale.action_report_saleorder" model="ir.actions.report">
     <field name="report_type">py3o</field>
     <field name="py3o_filetype">odt</field>
-    <field name="module">sale_report_py3o</field>
+    <field name="module">fcoach66_sale_report_py3o</field>
     <field name="py3o_template_fallback">fcoach66_sale_order.odt</field>
     <!--
     <field name="py3o_server_id" ref="local_py3o_server"/>
@@ -22,7 +22,7 @@
 <record id="sale.action_report_pro_forma_invoice" model="ir.actions.report">
     <field name="report_type">py3o</field>
     <field name="py3o_filetype">odt</field>
-    <field name="module">sale_report_py3o</field>
+    <field name="module">fcoach66_sale_report_py3o</field>
     <field name="py3o_template_fallback">fcoach66_sale_order.odt</field>
     <!--
     <field name="py3o_server_id" ref="local_py3o_server"/>
