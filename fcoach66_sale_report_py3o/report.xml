@@ -1,35 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-<!--
-<record id="local_py3o_server" model="py3o.server">
-    <field name="url">http://localhost:8765/form</field>
-</record>
--->
-
-<record id="sale.action_report_saleorder" model="ir.actions.report">
+<record id="fcoach66_sale_report_py3o.action_report_saleorder_odt" model="ir.actions.report">
+	<field name="name">Preventivo / Ordine di Vendita py3o ODT</field>
+    <field name="model">sale.order</field>
+    <field name="report_name">fcoach66_sale_report_py3o.action_report_saleorder_odt</field>
     <field name="report_type">py3o</field>
     <field name="py3o_filetype">odt</field>
     <field name="module">fcoach66_sale_report_py3o</field>
     <field name="py3o_template_fallback">fcoach66_sale_order.odt</field>
-    <!--
-    <field name="py3o_server_id" ref="local_py3o_server"/>
-    <field name="py3o_filetype">pdf</field>
-    <field name="print_report_name">object.name + '-' + object.date_order.strftime('%Y-%m-%d') + '-' + object.commercial_partner_id.name.replace(' ', '_') + '.pdf'</field>
-    -->
+    <field name="print_report_name">(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or 'Order - %s' % (object.name)</field>
+    <field name="binding_model_id" ref="sale.model_sale_order"/>
+    <field name="binding_type">report</field>
 </record>
 
-<record id="sale.action_report_pro_forma_invoice" model="ir.actions.report">
+<record id="fcoach66_sale_report_py3o.action_report_saleorder_pdf" model="ir.actions.report">
+	<field name="name">Preventivo / Ordine di Vendita py3o PDF</field>
+    <field name="model">sale.order</field>
+    <field name="report_name">fcoach66_sale_report_py3o.action_report_saleorder_pdf</field>
     <field name="report_type">py3o</field>
-    <field name="py3o_filetype">odt</field>
+    <field name="py3o_filetype">pdf</field>
     <field name="module">fcoach66_sale_report_py3o</field>
     <field name="py3o_template_fallback">fcoach66_sale_order.odt</field>
-    <!--
-    <field name="py3o_server_id" ref="local_py3o_server"/>
-    <field name="py3o_filetype">pdf</field>
-    <field name="print_report_name">'Proforma-' + object.name + '-' + object.commercial_partner_id.name.replace(' ', '_') + '.pdf'</field>
-    -->
+    <field name="print_report_name">(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or 'Order - %s' % (object.name)</field>
+    <field name="binding_model_id" ref="sale.model_sale_order"/>
+    <field name="binding_type">report</field>
 </record>
-
 
 </odoo>
