@@ -20,6 +20,9 @@ This module adds py3o sale reports.
         'sale_usability',  # for layout
         'account_payment_sale',
         ],
-    'data': ['report.xml'],
+    'data': [
+    'report/report.xml',
+    'data/mail_data.xml',
+    ],
     'installable': True,
 }

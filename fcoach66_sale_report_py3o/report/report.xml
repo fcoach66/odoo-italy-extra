@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+<record id="view_order_form" model="ir.ui.view">
+    <field name="name">Sale Order</field>
+    <field name="model">sale.order</field>
+    <field name="inherit_id" ref="sale.view_order_form" />
+    <field name="arch" type="xml">
+
+		<xpath expr="//button[@name='print_quotation'][@states='draft']"
+            position="attributes">
+                <attribute name="name">print_quotation_py3o_pdf</attribute>
+		</xpath>
+
+		<xpath expr="//button[@name='print_quotation'][@states='sent,sale,done']"
+            position="attributes">
+                <attribute name="name">print_quotation_py3o_pdf</attribute>
+		</xpath>
+
+
+		<xpath expr="//button[@name='action_quotation_send'][@states='draft']"
+            position="attributes">
+                <attribute name="name">action_quotation_send_py3o_pdf</attribute>
+		</xpath>
+
+		<xpath expr="//button[@name='action_quotation_send'][@states='sent,sale,done']"
+            position="attributes">
+                <attribute name="name">action_quotation_send_py3o_pdf</attribute>
+		</xpath>
+
+		<xpath expr="//button[@name='action_quotation_send'][@context]"
+            position="attributes">
+                <attribute name="name">action_quotation_send_py3o_pdf</attribute>
+		</xpath>
+
+		<xpath expr="//button[@name='action_quotation_send'][@context]"
+            position="attributes">
+                <attribute name="name">action_quotation_send_py3o_pdf</attribute>
+		</xpath>
+
+
+    </field>
+</record>
+
+
+
+
+
+
+
+
+<record id="fcoach66_sale_report_py3o.action_report_saleorder_py3o_odt" model="ir.actions.report">
+	<field name="name">Quotation / Order py3o ODT</field>
+    <field name="model">sale.order</field>
+    <field name="report_name">fcoach66_sale_report_py3o.action_report_saleorder_py3o_odt</field>
+    <field name="report_type">py3o</field>
+    <field name="py3o_filetype">odt</field>
+    <field name="module">fcoach66_sale_report_py3o</field>
+    <field name="py3o_template_fallback">report/fcoach66_sale_order.odt</field>
+    <field name="print_report_name">(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or 'Order - %s' % (object.name)</field>
+    <field name="binding_model_id" ref="sale.model_sale_order"/>
+    <field name="binding_type">report</field>
+</record>
+
+<record id="fcoach66_sale_report_py3o.action_report_saleorder_py3o_pdf" model="ir.actions.report">
+	<field name="name">Quotation / Order py3o PDF</field>
+    <field name="model">sale.order</field>
+    <field name="report_name">fcoach66_sale_report_py3o.action_report_saleorder_py3o_pdf</field>
+    <field name="report_type">py3o</field>
+    <field name="py3o_filetype">pdf</field>
+    <field name="module">fcoach66_sale_report_py3o</field>
+    <field name="py3o_template_fallback">report/fcoach66_sale_order.odt</field>
+    <field name="print_report_name">(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or 'Order - %s' % (object.name)</field>
+    <field name="binding_model_id" ref="sale.model_sale_order"/>
+    <field name="binding_type">report</field>
+</record>
+
+<record id="fcoach66_sale_report_py3o.action_report_pro_forma_invoice_py3o_pdf" model="ir.actions.report">
+	<field name="name">Pro-Forma Invoice py3o PDF</field>
+    <field name="model">sale.order</field>
+    <field name="report_name">fcoach66_sale_report_py3o.action_report_pro_forma_invoice_py3o_pdf</field>
+    <field name="report_type">py3o</field>
+    <field name="py3o_filetype">pdf</field>
+    <field name="module">fcoach66_sale_report_py3o</field>
+    <field name="py3o_template_fallback">fcoach66_sale_order.odt</field>
+</record>
+
+
+
+
+
+
+</odoo>
